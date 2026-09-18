@@ -8,15 +8,75 @@
   "generated_at": "2026-09-18T00:50:24+00:00",
   "episode_count": 10,
   "episodes": [
-    {"episode":697,"date":"2026-09-16","title":"2026-09-16-股癌-EP697-逐字稿","source":"vocus","source_url":"https://vocus.cc/article/6aaa7820fd89780001be1fda"},
-    {"episode":696,"date":"2026-09-12","title":"2026-09-12-股癌-EP696-逐字稿","source":"vocus","source_url":"https://vocus.cc/article/6aa5166cfd89780001b7afcc"},
-    {"episode":695,"date":"2026-09-09","title":"2026-09-09-股癌-EP695-逐字稿","source":"vocus","source_url":"https://vocus.cc/article/6aa1f075fd89780001f09770"},
-    {"episode":694,"date":"2026-09-05","title":"2026-09-05-股癌-EP694-逐字稿","source":"vocus","source_url":"https://vocus.cc/article/6a9ca385fd89780001df73a4"},
-    {"episode":693,"date":"2026-09-02","title":"2026-09-02-股癌-EP693-逐字稿","source":"vocus","source_url":"https://vocus.cc/article/6a98036ffd89780001e414c3"},
-    {"episode":692,"date":"2026-08-29","title":"2026-08-29-股癌-EP692-逐字稿","source":"vocus","source_url":"https://vocus.cc/article/6a92a9b8fd89780001f590c5"},
-    {"episode":691,"date":"2026-08-26","title":"2026-08-26-股癌-EP691-逐字稿","source":"vocus","source_url":"https://vocus.cc/article/6a8eba89fd897800012d195b"},
-    {"episode":690,"date":"2026-08-22","title":"2026-08-22-股癌-EP690-逐字稿","source":"vocus","source_url":"https://vocus.cc/article/6a89663afd897800014b82f6"},
-    {"episode":689,"date":"2026-08-19","title":"2026-08-19-股癌-EP689-逐字稿","source":"vocus","source_url":"https://vocus.cc/article/6a85a7c5fd89780001736a97"},
-    {"episode":688,"date":"2026-08-15","title":"2026-08-15-股癌-EP688-逐字稿","source":"vocus","source_url":"https://vocus.cc/article/6a806cdbfd8978000138520e"}
+    {
+      "episode": 697,
+      "date": "2026-09-16",
+      "title": "2026-09-16-股癌-EP697-逐字稿",
+      "source": "vocus",
+      "source_url": "https://vocus.cc/article/6aaa7820fd89780001be1fda"
+    },
+    {
+      "episode": 696,
+      "date": "2026-09-12",
+      "title": "2026-09-12-股癌-EP696-逐字稿",
+      "source": "vocus",
+      "source_url": "https://vocus.cc/article/6aa5166cfd89780001b7afcc"
+    },
+    {
+      "episode": 695,
+      "date": "2026-09-09",
+      "title": "2026-09-09-股癌-EP695-逐字稿",
+      "source": "vocus",
+      "source_url": "https://vocus.cc/article/6aa1f075fd89780001f09770"
+    },
+    {
+      "episode": 694,
+      "date": "2026-09-05",
+      "title": "2026-09-05-股癌-EP694-逐字稿",
+      "source": "vocus",
+      "source_url": "https://vocus.cc/article/6a9ca385fd89780001df73a4"
+    },
+    {
+      "episode": 693,
+      "date": "2026-09-02",
+      "title": "2026-09-02-股癌-EP693-逐字稿",
+      "source": "vocus",
+      "source_url": "https://vocus.cc/article/6a98036ffd89780001e414c3"
+    },
+    {
+      "episode": 692,
+      "date": "2026-08-29",
+      "title": "2026-08-29-股癌-EP692-逐字稿",
+      "source": "vocus",
+      "source_url": "https://vocus.cc/article/6a92a9b8fd89780001f590c5"
+    },
+    {
+      "episode": 691,
+      "date": "2026-08-26",
+      "title": "2026-08-26-股癌-EP691-逐字稿",
+      "source": "vocus",
+      "source_url": "https://vocus.cc/article/6a8eba89fd897800012d195b"
+    },
+    {
+      "episode": 690,
+      "date": "2026-08-22",
+      "title": "2026-08-22-股癌-EP690-逐字稿",
+      "source": "vocus",
+      "source_url": "https://vocus.cc/article/6a89663afd897800014b82f6"
+    },
+    {
+      "episode": 689,
+      "date": "2026-08-19",
+      "title": "2026-08-19-股癌-EP689-逐字稿",
+      "source": "vocus",
+      "source_url": "https://vocus.cc/article/6a85a7c5fd89780001736a97"
+    },
+    {
+      "episode": 688,
+      "date": "2026-08-15",
+      "title": "2026-08-15-股癌-EP688-逐字稿",
+      "source": "vocus",
+      "source_url": "https://vocus.cc/article/6a806cdbfd8978000138520e"
+    }
   ]
 }

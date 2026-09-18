@@ -45,6 +45,7 @@ function renderEpisode(item) {
 
 async function loadEpisodes() {
   try {
+    // web/ is one directory below the repository root.
     const response = await fetch('data/passive/gooaye/episodes.json', { cache: 'no-store' });
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
     const data = await response.json();
@@ -59,7 +60,7 @@ async function loadEpisodes() {
   } catch (error) {
     count.textContent = 'Data unavailable';
     errorBox.classList.remove('hidden');
-    errorBox.textContent = `無法載入 episodes.json：${error.message}`;
+    errorBox.textContent = `無法載入 episodes.json：${error.message}。請透過 HTTP server / deployed site 開啟 web UI，不要直接使用 file://。`;
   }
 }
 
