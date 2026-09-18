@@ -5,8 +5,8 @@
     "platform": "vocus",
     "room_url": "https://vocus.cc/salon/6908b98efd89780001cb1d32/room/6908c04d5ed52e53fa5821e4"
   },
-  "generated_at": "2026-09-18T00:50:24+00:00",
-  "episode_count": 10,
+  "generated_at": "2026-09-18T06:23:45+00:00",
+  "episode_count": 20,
   "episodes": [
     {
       "episode": 697,
@@ -77,6 +77,76 @@
       "title": "2026-08-15-股癌-EP688-逐字稿",
       "source": "vocus",
       "source_url": "https://vocus.cc/article/6a806cdbfd8978000138520e"
+    },
+    {
+      "episode": 687,
+      "date": "2026-08-12",
+      "title": "2026-08-12-股癌-EP687-逐字稿",
+      "source": "vocus",
+      "source_url": "https://vocus.cc/article/6a7c5ff9fd897800014d30ae"
+    },
+    {
+      "episode": 686,
+      "date": "2026-08-08",
+      "title": "2026-08-08-股癌-EP686-逐字稿",
+      "source": "vocus",
+      "source_url": "https://vocus.cc/article/6a76e2bdfd897800015a4bb7"
+    },
+    {
+      "episode": 685,
+      "date": "2026-08-05",
+      "title": "2026-08-05-股癌-EP685-逐字稿",
+      "source": "vocus",
+      "source_url": "https://vocus.cc/article/6a7323d1fd89780001712d13"
+    },
+    {
+      "episode": 684,
+      "date": "2026-08-01",
+      "title": "2026-08-01-股癌-EP684-逐字稿",
+      "source": "vocus",
+      "source_url": "https://vocus.cc/article/6a6dd484fd8978000190b151"
+    },
+    {
+      "episode": 683,
+      "date": "2026-07-29",
+      "title": "2026-07-29-股癌-EP683-逐字稿",
+      "source": "vocus",
+      "source_url": "https://vocus.cc/article/6a69d808fd89780001588980"
+    },
+    {
+      "episode": 682,
+      "date": "2026-07-25",
+      "title": "2026-07-25-股癌-EP682-逐字稿",
+      "source": "vocus",
+      "source_url": "https://vocus.cc/article/6a648a0afd897800011cc50c"
+    },
+    {
+      "episode": 681,
+      "date": "2026-07-22",
+      "title": "2026-07-22-股癌-EP681-逐字稿",
+      "source": "vocus",
+      "source_url": "https://vocus.cc/article/6a60abd3fd89780001b20739"
+    },
+    {
+      "episode": 680,
+      "date": "2026-07-18",
+      "title": "2026-07-18-股癌-EP680-逐字稿",
+      "source": "vocus",
+      "source_url": "https://vocus.cc/article/6a5bcfd1fd89780001fbde34"
+    },
+    {
+      "episode": 679,
+      "date": "2026-07-15",
+      "title": "2026-07-15-股癌-EP679-逐字稿",
+      "source": "vocus",
+      "source_url": "https://vocus.cc/article/6a5bc396fd89780001fa0376"
+    },
+    {
+      "episode": 678,
+      "date": "2026-07-11",
+      "title": "2026-07-11-股癌-EP678-逐字稿",
+      "source": "vocus",
+      "source_url": "https://vocus.cc/article/6a5bc36cfd89780001f9fd00"
     }
   ]
 }
