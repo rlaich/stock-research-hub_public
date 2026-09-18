@@ -1,0 +1,60 @@
+:root {
+  color-scheme: light;
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  color: #172033;
+  background: #f5f7fb;
+}
+
+* { box-sizing: border-box; }
+body { margin: 0; background: #f5f7fb; }
+button, a { font: inherit; }
+
+.app-shell { min-height: 100vh; display: grid; grid-template-columns: 250px 1fr; }
+.sidebar {
+  position: sticky; top: 0; height: 100vh; padding: 28px 18px;
+  background: #111827; color: #e5e7eb; display: flex; flex-direction: column;
+}
+.brand { font-weight: 750; font-size: 18px; padding: 0 10px 26px; }
+nav { display: grid; gap: 6px; }
+.nav-section, .nav-child {
+  border: 0; border-radius: 9px; background: transparent; color: #cbd5e1;
+  text-align: left; padding: 11px 12px; cursor: pointer;
+}
+.nav-section { font-weight: 700; }
+.nav-child { margin-left: 12px; font-size: 14px; }
+.nav-section:hover, .nav-child:hover, .nav-section.active, .nav-child.active { background: #1f2937; color: white; }
+.sidebar-note { margin-top: auto; color: #6b7280; font-size: 12px; padding: 10px; }
+
+.content { padding: 54px clamp(28px, 5vw, 76px); max-width: 1180px; width: 100%; }
+.eyebrow { text-transform: uppercase; letter-spacing: .08em; font-size: 12px; font-weight: 800; color: #64748b; }
+.page-heading { display: flex; gap: 24px; justify-content: space-between; align-items: end; margin: 8px 0 26px; }
+h1 { margin: 0 0 8px; font-size: clamp(30px, 4vw, 44px); letter-spacing: -.035em; }
+p { color: #64748b; line-height: 1.65; margin: 0; }
+.source-link { color: #334155; text-decoration: none; white-space: nowrap; border: 1px solid #d7dde7; background: white; padding: 10px 13px; border-radius: 9px; }
+.status-row { display: flex; align-items: center; gap: 12px; margin-bottom: 16px; }
+.status-chip { background: #e8eef8; color: #334155; border-radius: 999px; padding: 6px 10px; font-size: 13px; font-weight: 700; }
+.muted { color: #94a3b8; font-size: 13px; }
+.episode-list { display: grid; gap: 10px; }
+.episode-card { background: white; border: 1px solid #e3e8f0; border-radius: 12px; padding: 18px 20px; display: grid; grid-template-columns: 92px 1fr auto; gap: 18px; align-items: center; }
+.episode-number { font-size: 18px; font-weight: 800; color: #1e293b; }
+.episode-title { font-weight: 650; margin-bottom: 5px; }
+.episode-date { font-size: 13px; color: #94a3b8; }
+.episode-link { color: #334155; text-decoration: none; font-size: 14px; font-weight: 700; }
+.episode-link:hover, .source-link:hover { text-decoration: underline; }
+.empty-state { max-width: 680px; padding-top: 40px; }
+.error-box { padding: 16px; background: #fff; border: 1px solid #e3e8f0; border-radius: 12px; color: #7f1d1d; }
+.hidden { display: none !important; }
+
+@media (max-width: 720px) {
+  .app-shell { grid-template-columns: 1fr; }
+  .sidebar { position: static; height: auto; padding: 16px; }
+  .brand { padding-bottom: 12px; }
+  nav { grid-template-columns: 1fr 1fr; }
+  .nav-child { display: none; }
+  .sidebar-note { display: none; }
+  .content { padding: 30px 18px; }
+  .page-heading { display: grid; align-items: start; }
+  .source-link { width: fit-content; }
+  .episode-card { grid-template-columns: 72px 1fr; }
+  .episode-link { grid-column: 2; }
+}
