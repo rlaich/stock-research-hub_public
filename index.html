@@ -15,7 +15,7 @@
         <button class="nav-child active" data-view="passive">Gooaye 股癌</button>
         <button class="nav-section" data-view="active">Active Info</button>
       </nav>
-      <div class="sidebar-note">Private research dashboard · v0.1</div>
+      <div class="sidebar-note">Private research dashboard · v0.2</div>
     </aside>
 
     <main class="content">
@@ -24,17 +24,36 @@
         <div class="page-heading">
           <div>
             <h1>Gooaye 股癌</h1>
-            <p>固定來源的節目資訊收集。此頁目前顯示 Vocus「股癌逐字稿」episode metadata。</p>
+            <p>固定來源的節目資訊收集。此頁顯示 Vocus「股癌逐字稿」episode metadata；歷史資料由 Collector 持續累積。</p>
           </div>
           <a class="source-link" href="https://vocus.cc/salon/6908b98efd89780001cb1d32/room/6908c04d5ed52e53fa5821e4" target="_blank" rel="noreferrer">開啟資料來源 ↗</a>
         </div>
 
         <div class="status-row">
           <span id="episode-count" class="status-chip">Loading…</span>
+          <span id="visible-count" class="muted"></span>
           <span id="generated-at" class="muted"></span>
         </div>
 
+        <div class="history-toolbar" aria-label="Episode history controls">
+          <label class="search-field">
+            <span class="sr-only">搜尋集數或標題</span>
+            <input id="episode-search" type="search" placeholder="搜尋 EP697、標題或日期" autocomplete="off">
+          </label>
+          <label>
+            <span class="sr-only">年份</span>
+            <select id="year-filter" aria-label="年份">
+              <option value="all">全部年份</option>
+            </select>
+          </label>
+          <button id="reset-filter" class="secondary-button" type="button">清除篩選</button>
+        </div>
+
         <div id="episode-list" class="episode-list" aria-live="polite"></div>
+        <div class="load-more-row">
+          <button id="load-more" class="load-more hidden" type="button">載入更多</button>
+        </div>
+        <div id="empty-results" class="empty-results hidden">沒有符合條件的 Episode。</div>
         <div id="error-box" class="error-box hidden"></div>
       </section>
 
