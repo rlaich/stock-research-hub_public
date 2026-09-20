@@ -1,0 +1,160 @@
+{
+  "schema_version": 1,
+  "episode": {
+    "number": 698,
+    "date": "2026-09-19",
+    "title": "2026-09-19-股癌-EP698-逐字稿"
+  },
+  "source": {
+    "platform": "vocus",
+    "url": "https://vocus.cc/article/6aae7373fd89780001779804",
+    "content_stored": false
+  },
+  "analysis": {
+    "summary": "本集投資主軸集中在 AI 供應鏈成本、降規傳聞與交易週期。主持人認為 AMD／NVIDIA 終端價格上行不應只歸因於晶圓代工，記憶體與其他零組件漲價也是重要因素；對 CCL、HBM 堆疊與 power rack 的降規討論，則傾向視為供應受限與成本壓力下的階段性替代方案，而非長期材料升級趨勢反轉。節目同時提醒近期盤面缺乏連續性，短線 rumor 可能造成劇烈價格反應，但不宜直接外推為長期產業需求消失。另有東京電玩展的遊戲投資／發行觀察與 Take-Two 等遊戲公司經驗。以上為節目觀點整理，非獨立驗證的市場事實或交易指令。",
+    "relevance": "high"
+  },
+  "entities": [
+    {
+      "name": "TSMC",
+      "ticker": "2330.TW",
+      "market": "TW",
+      "entity_type": "company",
+      "mention_context": "約 11:53–17:23：主持人討論市場傳聞中的晶圓代工漲價與 AMD 成本轉嫁，並認為晶圓代工漲價只是整體零組件成本上升的一部分。",
+      "stance": "positive",
+      "confidence": 0.97
+    },
+    {
+      "name": "AMD",
+      "ticker": "AMD",
+      "market": "US",
+      "entity_type": "company",
+      "mention_context": "約 11:53–17:23：節目以 AMD 可能面臨晶圓代工成本上升為例，延伸討論 CPU／GPU、記憶體及其他 components 的價格傳導。",
+      "stance": "mixed",
+      "confidence": 0.98
+    },
+    {
+      "name": "NVIDIA",
+      "ticker": "NVDA",
+      "market": "US",
+      "entity_type": "company",
+      "mention_context": "約 14:54–17:23：主持人指出 GPU 與 GDDR 等可能以組合方式供應下游 AIC，認為即使沒有正式調整 MSRP，成本仍可能反映到終端價格。",
+      "stance": "positive",
+      "confidence": 0.98
+    },
+    {
+      "name": "AI 伺服器供應鏈",
+      "ticker": null,
+      "market": "OTHER",
+      "entity_type": "industry",
+      "mention_context": "約 19:52–30:54：節目討論記憶體、CCL、CPO、PCIe Gen6、CXL、power rack 與 AI server roadmap 的供應瓶頸及替代方案。",
+      "stance": "positive",
+      "confidence": 0.99
+    },
+    {
+      "name": "CCL／高速板材",
+      "ticker": null,
+      "market": "OTHER",
+      "entity_type": "industry",
+      "mention_context": "約 19:52–27:19：主持人回應 CCL 降規傳聞，認為 CPO 可縮短部分高速走線，但 CPU-GPU、NIC、CXL 等連結仍需要高規格材料，因此不認同全面退回低階材料的簡化敘事。",
+      "stance": "mixed",
+      "confidence": 0.99
+    },
+    {
+      "name": "HBM／記憶體",
+      "ticker": null,
+      "market": "OTHER",
+      "entity_type": "industry",
+      "mention_context": "約 14:54–25:27：節目認為目前價格壓力的重要來源之一是記憶體短缺；降低 HBM 堆疊層數被討論為提高良率與供應的可能方案，但容量需求可能轉移到更多顆記憶體或外部 DRAM／storage。",
+      "stance": "positive",
+      "confidence": 0.98
+    },
+    {
+      "name": "Take-Two Interactive",
+      "ticker": "TTWO",
+      "market": "US",
+      "entity_type": "company",
+      "mention_context": "約 47:23–52:26：QA 談 GTA 系列與事件交易時，主持人提到自己過去交易 Take-Two 有獲利，但未形成當期公司基本面判斷。",
+      "stance": "neutral",
+      "confidence": 0.97
+    },
+    {
+      "name": "遊戲開發與發行產業",
+      "ticker": null,
+      "market": "OTHER",
+      "entity_type": "industry",
+      "mention_context": "約 05:25–11:53：東京電玩展觀察顯示部分 indie 團隊的痛點在優質發行、行銷、法務與資金；主持人所屬投資團隊也在評估台灣以外的海外團隊。",
+      "stance": "positive",
+      "confidence": 0.97
+    }
+  ],
+  "topics": [
+    {
+      "topic": "AI 供應鏈成本與價格傳導",
+      "summary": "主持人認為 GPU／CPU 終端價格變化是晶圓代工、記憶體、被動元件、板材等多重成本共同作用，MSRP 未必能即時反映實際市場價格。"
+    },
+    {
+      "topic": "AI 硬體降規與替代方案",
+      "summary": "HBM 降低堆疊、CCL 降規與 power rack 延後等討論，被解讀為供應短缺與成本壓力下的 roadmap 調整，不代表所有高規格需求永久消失。"
+    },
+    {
+      "topic": "CCL、CPO 與高速互連",
+      "summary": "CPO 可消除部分長距高速電氣走線，但 PCIe Gen6、NIC、CXL 等板上互連仍對材料性能有要求，因此全面低規格化的敘事過度簡化。"
+    },
+    {
+      "topic": "盤面缺乏連續性與 rumor trading",
+      "summary": "主持人描述近期強勢股追價後快速失去動能的情況，提醒短線產業 rumor 可造成大幅波動，交易週期不同會導致完全不同的處理方式。"
+    },
+    {
+      "topic": "遊戲產業投資與發行",
+      "summary": "東京電玩展觀察聚焦 indie studio 的資金、發行、行銷與法務需求，以及投資團隊從台灣向亞洲、歐美拓展 deal sourcing 的可能性。"
+    },
+    {
+      "topic": "非投資 QA",
+      "summary": "後段包含長照倫理、遠距關係、家庭與人生階段、遊戲文化等話題；除遊戲公司交易經驗外，不將生活觀點轉換為投資訊號。"
+    }
+  ],
+  "market_observations": [
+    {
+      "observation": "主持人引用市場傳聞討論 TSMC 對 AMD 的晶圓代工價格調整，但節目本身未獨立驗證漲幅或適用產品範圍。",
+      "time_sensitivity": "months",
+      "evidence_type": "source_statement"
+    },
+    {
+      "observation": "主持人認為目前 GPU／相關硬體漲價的主要壓力不只來自晶圓代工，記憶體及其他零組件亦是重要成本來源。",
+      "time_sensitivity": "months",
+      "evidence_type": "source_statement"
+    },
+    {
+      "observation": "HBM 降低堆疊層數可能改善良率與供應，但若容量需求不變，需求可能轉移至更多記憶體顆數、DRAM 或 storage，形成其他供應鏈瓶頸。",
+      "time_sensitivity": "months",
+      "evidence_type": "derived_interpretation"
+    },
+    {
+      "observation": "CPO 降低部分高速板材需求不等於整張 AI server board 都可降至低規格；其他高速互連仍可能支撐材料升級需求。",
+      "time_sensitivity": "structural",
+      "evidence_type": "derived_interpretation"
+    },
+    {
+      "observation": "主持人將 CCL、記憶體與 power rack 的降規消息偏向視為短中期供應／成本調整，而不是 AI 基礎設施長期規格升級終止。",
+      "time_sensitivity": "months",
+      "evidence_type": "source_statement"
+    },
+    {
+      "observation": "近期盤面即使大盤接近高位，部分動能策略仍可能因個股缺乏連續性而承受損失；這是節目中的市場觀察，未提供量化績效資料。",
+      "time_sensitivity": "days",
+      "evidence_type": "source_statement"
+    },
+    {
+      "observation": "東京電玩展接觸的 indie 團隊反映發行、行銷與法務能力需求，可能為遊戲投資／發行平台創造服務與投資機會，但節目沒有揭露具體交易。",
+      "time_sensitivity": "months",
+      "evidence_type": "derived_interpretation"
+    }
+  ],
+  "analysis_meta": {
+    "generated_at": "2026-09-20T11:07:18Z",
+    "generator": "ChatGPT Scheduled Task / P1.7-4A / new-episode full-transcript analysis",
+    "source_scope": "full_transcript",
+    "review_status": "unreviewed"
+  }
+}
