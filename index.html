@@ -55,6 +55,46 @@
         </div>
         <div id="empty-results" class="empty-results hidden">沒有符合條件的 Episode。</div>
         <div id="error-box" class="error-box hidden"></div>
+
+        <section id="analysis-detail" class="analysis-detail hidden" aria-live="polite">
+          <div class="analysis-detail-header">
+            <button id="analysis-back" class="secondary-button" type="button">← 返回 Episode</button>
+            <a id="analysis-source-link" class="source-link" target="_blank" rel="noreferrer">開啟逐字稿 ↗</a>
+          </div>
+          <div class="eyebrow">Passive Info / Gooaye Analysis</div>
+          <div class="analysis-title-row">
+            <div>
+              <h2 id="analysis-title"></h2>
+              <div id="analysis-date" class="muted"></div>
+            </div>
+            <span id="analysis-relevance" class="status-chip"></span>
+          </div>
+
+          <section class="analysis-section">
+            <h3>Summary</h3>
+            <p id="analysis-summary" class="analysis-summary"></p>
+          </section>
+
+          <section class="analysis-section">
+            <h3>Entities</h3>
+            <div id="analysis-entities" class="analysis-grid"></div>
+          </section>
+
+          <section class="analysis-section">
+            <h3>Topics</h3>
+            <div id="analysis-topics" class="analysis-grid"></div>
+          </section>
+
+          <section class="analysis-section">
+            <h3>Market Observations</h3>
+            <div id="analysis-observations" class="analysis-stack"></div>
+          </section>
+
+          <section class="analysis-section analysis-meta-section">
+            <h3>Analysis Metadata</h3>
+            <div id="analysis-meta" class="analysis-meta"></div>
+          </section>
+        </section>
       </section>
 
       <section id="active-view" class="hidden empty-state">
