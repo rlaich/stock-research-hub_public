@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "analysis_count": 4,
+  "episodes": [
+    {
+      "episode": 698,
+      "date": "2026-09-19",
+      "title": "2026-09-19-股癌-EP698-逐字稿",
+      "path": "data/analysis/gooaye/EP698.json",
+      "relevance": "high",
+      "source_scope": "full_transcript",
+      "review_status": "unreviewed",
+      "generated_at": "2026-09-20T11:07:18Z"
+    },
+    {
+      "episode": 697,
+      "date": "2026-09-16",
+      "title": "2026-09-16-股癌-EP697-逐字稿",
+      "path": "data/analysis/gooaye/EP697.json",
+      "relevance": "high",
+      "source_scope": "full_transcript",
+      "review_status": "unreviewed",
+      "generated_at": "2026-09-18T14:36:35.094Z"
+    },
+    {
+      "episode": 696,
+      "date": "2026-09-12",
+      "title": "2026-09-12-股癌-EP696-逐字稿",
+      "path": "data/analysis/gooaye/EP696.json",
+      "relevance": "high",
+      "source_scope": "full_transcript",
+      "review_status": "unreviewed",
+      "generated_at": "2026-09-18T14:18:52.544Z"
+    },
+    {
+      "episode": 695,
+      "date": "2026-09-09",
+      "title": "2026-09-09-股癌-EP695-逐字稿",
+      "path": "data/analysis/gooaye/EP695.json",
+      "relevance": "high",
+      "source_scope": "full_transcript",
+      "review_status": "unreviewed",
+      "generated_at": "2026-09-19T11:40:05Z"
+    }
+  ]
+}
