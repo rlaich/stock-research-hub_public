@@ -1,0 +1,151 @@
+{
+  "schema_version": 1,
+  "episode": {
+    "number": 693,
+    "date": "2026-09-02",
+    "title": "2026-09-02-股癌-EP693-逐字稿"
+  },
+  "source": {
+    "platform": "vocus",
+    "url": "https://vocus.cc/article/6a98036ffd89780001e414c3",
+    "content_stored": false
+  },
+  "analysis": {
+    "summary": "本集投資主軸聚焦聯發科獲 NVIDIA 與 Google 等策略夥伴參與可轉債、NVIDIA 從 GPU 擴張到 XPU 周邊平台與 NV-HBM 的策略，以及 AI ASIC 市場中 MediaTek、Broadcom、NVIDIA 等業者的競合。主持人認為 AI 基礎設施總市場仍可能擴大，因此 XPU 市占提升不必然等同 NVIDIA 絕對營收下降；同時提醒市場會對新技術替代敘事產生劇烈短期波動。後段亦談到加碼與部位管理，強調不同市場、估值型態與交易模型需採不同風控方式。以上為節目觀點整理，非獨立驗證的市場事實或交易建議。",
+    "relevance": "high"
+  },
+  "entities": [
+    {
+      "name": "MediaTek",
+      "ticker": "2454",
+      "market": "TW",
+      "entity_type": "company",
+      "mention_context": "約 11:15–24:52：主持人討論聯發科可轉債、NVIDIA 與 Google 的策略參與、客製 XPU、N1X、NV-Fusion 與 NV-HBM 等合作可能性，整體視為聯發科 AI ASIC 能力與合作層級提升的訊號。",
+      "stance": "positive",
+      "confidence": 0.99
+    },
+    {
+      "name": "NVIDIA",
+      "ticker": "NVDA",
+      "market": "US",
+      "entity_type": "company",
+      "mention_context": "約 11:15–27:06：主持人將 NVIDIA 的策略描述為從 GPU 擴張到 CPU、DPU、Ethernet、rack、NV-Fusion 與 NV-HBM 等整體平台，即使客戶採自研 XPU 仍爭取周邊價值。",
+      "stance": "positive",
+      "confidence": 0.99
+    },
+    {
+      "name": "Google",
+      "ticker": "GOOGL",
+      "market": "US",
+      "entity_type": "company",
+      "mention_context": "約 11:15–19:39：被描述為聯發科客戶及可轉債策略參與者，並以 TPU、ICI 與 OCS 說明 Google 自有 XPU 與互連生態；主持人認為 Google 與 NVIDIA 對聯發科的參與較可能是兩個獨立合作關係。",
+      "stance": "positive",
+      "confidence": 0.97
+    },
+    {
+      "name": "Broadcom",
+      "ticker": "AVGO",
+      "market": "US",
+      "entity_type": "company",
+      "mention_context": "約 22:37–27:06：主持人將 Broadcom 視為 AI ASIC 與互連領域的重要既有強者，認為 MediaTek、NVIDIA 等新合作會形成競爭壓力，但不代表 Broadcom 的實際營收或能力已受損。",
+      "stance": "mixed",
+      "confidence": 0.98
+    },
+    {
+      "name": "TSMC",
+      "ticker": "2330",
+      "market": "TW",
+      "entity_type": "company",
+      "mention_context": "約 19:39–22:37：討論 NV-HBM base die 與 HBM4 供應鏈時，主持人認為台積電可能承接更多 base die 或客製設計製造價值。",
+      "stance": "positive",
+      "confidence": 0.94
+    },
+    {
+      "name": "AI ASIC／XPU 與互連供應鏈",
+      "ticker": null,
+      "market": "OTHER",
+      "entity_type": "industry",
+      "mention_context": "約 11:15–27:06：節目核心產業討論涵蓋客製 XPU、GPU、NVLink、ICI、OCS、Ethernet、NV-Fusion、HBM 與 ASIC 設計服務的競合與市場擴張。",
+      "stance": "positive",
+      "confidence": 0.99
+    },
+    {
+      "name": "HBM",
+      "ticker": null,
+      "market": "OTHER",
+      "entity_type": "industry",
+      "mention_context": "約 19:39–27:06：主持人討論 NV-HBM、HBM4 base die 與後續可能的堆疊規格變化，認為規格調整會影響供應鏈價值分配與短期市場情緒。",
+      "stance": "mixed",
+      "confidence": 0.96
+    }
+  ],
+  "topics": [
+    {
+      "topic": "MediaTek 可轉債與策略夥伴",
+      "summary": "主持人把 NVIDIA 與 Google 等參與聯發科可轉債視為策略合作與對未來 XPU 發展的選擇權，而非單純以票息為目的的財務投資。"
+    },
+    {
+      "topic": "NVIDIA 平台化與 XPU 共存",
+      "summary": "節目認為 NVIDIA 正從單一 GPU 供應商延伸至 CPU、DPU、網通、rack 與 NV-Fusion 等整體解決方案，使自研 XPU 客戶仍可能採用 NVIDIA 的其他元件。"
+    },
+    {
+      "topic": "NV-HBM 與記憶體價值鏈",
+      "summary": "NV-HBM 被視為 NVIDIA 嘗試透過客製記憶體介面與 base die 設計取得更多價值的方向；實際採用率、客戶與供應鏈影響仍需後續驗證。"
+    },
+    {
+      "topic": "Broadcom 與 ASIC 競爭",
+      "summary": "市場新增的 XPU/ASIC 合作被視為對 Broadcom 的競爭挑戰，但主持人強調競爭敘事不應直接推導為既有業者營收必然下降。"
+    },
+    {
+      "topic": "AI TAM 擴張與市占解讀",
+      "summary": "主持人認為 AI 市場仍在早期擴張階段，因此 ASIC/XPU 出貨增加與 NVIDIA 持續成長可能同時成立，不能只用市占率變化判斷絕對營收。"
+    },
+    {
+      "topic": "部位加碼與風控",
+      "summary": "後段 QA 討論不同交易模型的加碼方式；主持人表示美股較常設定單一部位上限以控制財報跳空風險，台股則更重視流動性與退出能力。"
+    }
+  ],
+  "market_observations": [
+    {
+      "observation": "主持人認為 NVIDIA 與 Google 參與聯發科可轉債更接近深化策略合作與取得未來 XPU 上行選擇權，而非單純追求債券收益。",
+      "time_sensitivity": "months",
+      "evidence_type": "source_statement"
+    },
+    {
+      "observation": "節目將 NVIDIA 的策略解讀為平台化：即使 hyperscaler 或其他客戶發展自有 XPU，NVIDIA 仍可透過 CPU、DPU、Ethernet、rack 與互連等元件參與價值鏈。",
+      "time_sensitivity": "structural",
+      "evidence_type": "derived_interpretation"
+    },
+    {
+      "observation": "NV-HBM 若取得實際採用，可能改變 HBM base die 與控制器相關價值分配；主持人明確表示仍需等待更多驗證。",
+      "time_sensitivity": "months",
+      "evidence_type": "source_statement"
+    },
+    {
+      "observation": "主持人認為 Broadcom 面臨更多 ASIC 與互連競爭，但新競爭者出現並不等於 Broadcom 的既有營收或設計能力已被取代。",
+      "time_sensitivity": "months",
+      "evidence_type": "source_statement"
+    },
+    {
+      "observation": "AI 基礎設施 TAM 若持續擴張，XPU/ASIC 市占增加與 GPU 業者絕對營收成長可能並存，因此只觀察市占率可能低估市場擴張效果。",
+      "time_sensitivity": "structural",
+      "evidence_type": "derived_interpretation"
+    },
+    {
+      "observation": "主持人提醒市場常對技術替代或降規敘事先做劇烈價格反應，即使後續基本面未如最悲觀情境發展，短期仍可能形成顯著波動。",
+      "time_sensitivity": "weeks",
+      "evidence_type": "source_statement"
+    },
+    {
+      "observation": "在部位管理上，主持人表示美股會因財報後單日大幅跳空風險而設定較明確的單一部位上限；台股則較重視部位流動性與能否快速退出。",
+      "time_sensitivity": "structural",
+      "evidence_type": "source_statement"
+    }
+  ],
+  "analysis_meta": {
+    "generated_at": "2026-09-22T11:35:28Z",
+    "generator": "ChatGPT scheduled P1.7-4A",
+    "source_scope": "full_transcript",
+    "review_status": "unreviewed"
+  }
+}
