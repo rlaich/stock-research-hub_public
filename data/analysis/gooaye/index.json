@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "analysis_count": 6,
+  "analysis_count": 7,
   "episodes": [
     {
       "episode": 698,
@@ -61,6 +61,16 @@
       "source_scope": "full_transcript",
       "review_status": "unreviewed",
       "generated_at": "2026-09-22T11:35:28Z"
+    },
+    {
+      "episode": 692,
+      "date": "2026-08-29",
+      "title": "2026-08-29-股癌-EP692-逐字稿",
+      "path": "data/analysis/gooaye/EP692.json",
+      "relevance": "high",
+      "source_scope": "full_transcript",
+      "review_status": "unreviewed",
+      "generated_at": "2026-09-23T11:55:54Z"
     }
   ]
 }

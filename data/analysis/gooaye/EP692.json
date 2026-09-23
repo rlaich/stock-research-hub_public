@@ -1,0 +1,137 @@
+{
+  "schema_version": 1,
+  "episode": {
+    "number": 692,
+    "date": "2026-08-29",
+    "title": "2026-08-29-股癌-EP692-逐字稿"
+  },
+  "source": {
+    "platform": "vocus",
+    "url": "https://vocus.cc/article/6a92a9b8fd89780001f590c5",
+    "content_stored": false
+  },
+  "analysis": {
+    "summary": "本集市場主軸聚焦 Anthropic 與 Salesforce 的企業 AI 合作、Marvell 對 XPU 與光互連需求的展望，以及 NVIDIA 面對客製 XPU/ASIC 競爭時的供應鏈與平台優勢。主持人認為 AI 基礎設施需求仍在擴張，客製 ASIC 市占增加不必然等同 GPU 絕對需求下降；反而光通、載板、先進封裝與伺服器組裝等供應鏈瓶頸可能成為競爭與投資觀察重點。後段 QA 延伸到工作與家庭取捨、財富自由及醫療制度等個人觀點。以上為節目觀點整理，非獨立驗證的市場事實或交易建議。",
+    "relevance": "high"
+  },
+  "entities": [
+    {
+      "name": "NVIDIA",
+      "ticker": "NVDA",
+      "market": "US",
+      "entity_type": "company",
+      "mention_context": "約 19:59–29:25：主持人討論 NVIDIA 面對 OpenAI Orion 與其他 custom XPU 的競爭，並強調 Blackwell 迭代、CPU/connectivity、供應鏈採購能力及 GPU 通用性的競爭優勢。",
+      "stance": "positive",
+      "confidence": 0.99
+    },
+    {
+      "name": "Salesforce",
+      "ticker": "CRM",
+      "market": "US",
+      "entity_type": "company",
+      "mention_context": "約 12:22–18:14：主持人討論 Salesforce 與 Anthropic 的企業 AI 合作，認為 Salesforce 掌握企業資料、流程 know-how 與客戶信任，可能在 AI 應用與行動層維持重要價值。",
+      "stance": "positive",
+      "confidence": 0.98
+    },
+    {
+      "name": "Anthropic",
+      "ticker": null,
+      "market": "US",
+      "entity_type": "company",
+      "mention_context": "約 12:22–18:14：節目以 Anthropic 與 Salesforce 合作討論模型層、企業資料層與應用層的價值分配，並關注雙方未來定價權。",
+      "stance": "positive",
+      "confidence": 0.97
+    },
+    {
+      "name": "Marvell Technology",
+      "ticker": "MRVL",
+      "market": "US",
+      "entity_type": "company",
+      "mention_context": "約 18:14–19:59：主持人指出 Marvell 上修財務展望，並將 XPU、Google 相關案與 scale-up 光互連交換晶片視為重要成長動能。",
+      "stance": "positive",
+      "confidence": 0.98
+    },
+    {
+      "name": "OpenAI",
+      "ticker": null,
+      "market": "US",
+      "entity_type": "company",
+      "mention_context": "約 19:59–26:48：節目討論 OpenAI Orion 推論晶片的效能與 custom XPU 路線，同時指出訓練需求與供應鏈限制仍可能使其持續依賴 NVIDIA GPU。",
+      "stance": "mixed",
+      "confidence": 0.96
+    },
+    {
+      "name": "AI 加速器與資料中心供應鏈",
+      "ticker": null,
+      "market": "OTHER",
+      "entity_type": "industry",
+      "mention_context": "約 18:14–29:25：核心產業討論涵蓋 GPU、XPU/ASIC、光互連、載板、記憶體、先進封裝與伺服器組裝的供需及競爭。",
+      "stance": "positive",
+      "confidence": 0.99
+    }
+  ],
+  "topics": [
+    {
+      "topic": "Anthropic 與 Salesforce 企業 AI 合作",
+      "summary": "主持人認為模型供應商與企業軟體平台可能形成合作兼競爭關係；Salesforce 的企業資料與流程 know-how 構成進入門檻，而 Anthropic 則可能在模型與介面層取得更多價值。"
+    },
+    {
+      "topic": "Marvell XPU 與光互連成長",
+      "summary": "節目將 Marvell 財務展望上修連結到 XPU 專案放量及 scale-up 光互連需求，並把光通供應鏈視為近期重要觀察主軸。"
+    },
+    {
+      "topic": "NVIDIA 與 custom XPU 競爭",
+      "summary": "主持人認為 Orion 等 custom XPU 在特定推論工作負載具競爭力，但 NVIDIA 的快速產品迭代、通用 GPU 生態與平台化能力仍形成顯著競爭優勢。"
+    },
+    {
+      "topic": "AI 供應鏈產能瓶頸",
+      "summary": "節目強調光學元件、載板、先進封裝與其他伺服器零組件的產能取得可能限制 custom XPU 實際出貨，供應鏈管理能力因而成為競爭因素。"
+    },
+    {
+      "topic": "AI TAM 與 ASIC/GPU 共存",
+      "summary": "主持人認為 ASIC 市占提升與 GPU 絕對需求成長可以同時發生，因為 AI 基礎設施總市場仍可能持續擴大。"
+    },
+    {
+      "topic": "工作、家庭與財富自由",
+      "summary": "QA 討論高薪工作與陪伴家庭的取捨；主持人將資產累積後取得更多時間自由視為財富自由的重要面向。"
+    }
+  ],
+  "market_observations": [
+    {
+      "observation": "主持人認為 Salesforce 的企業資料與既有客戶流程可能使其在 AI 應用層保有價值，即使模型與介面由 frontier AI 公司提供。",
+      "time_sensitivity": "structural",
+      "evidence_type": "derived_interpretation"
+    },
+    {
+      "observation": "節目將 Marvell 對 XPU 與 scale-up 光互連的展望視為 AI 資料中心光通需求持續增長的訊號。",
+      "time_sensitivity": "months",
+      "evidence_type": "source_statement"
+    },
+    {
+      "observation": "主持人認為單一推論 benchmark 不足以推導 NVIDIA 競爭力下降，因為不同晶片的工作負載定位、產品迭代速度與整體平台能力不同。",
+      "time_sensitivity": "months",
+      "evidence_type": "derived_interpretation"
+    },
+    {
+      "observation": "節目認為 NVIDIA 對光學元件、載板、CoWoS 等供應鏈產能的取得能力可能形成 custom XPU 競爭者難以快速複製的優勢。",
+      "time_sensitivity": "months",
+      "evidence_type": "source_statement"
+    },
+    {
+      "observation": "若記憶體規格因成本或供應限制而調整，需求可能轉移到更大的板材或其他零組件，供應瓶頸可能由一個環節移往另一個環節。",
+      "time_sensitivity": "months",
+      "evidence_type": "derived_interpretation"
+    },
+    {
+      "observation": "主持人認為 AI 基礎設施 TAM 持續擴大時，ASIC/XPU 市占增加與 NVIDIA GPU 絕對營收成長並不互斥。",
+      "time_sensitivity": "structural",
+      "evidence_type": "derived_interpretation"
+    }
+  ],
+  "analysis_meta": {
+    "generated_at": "2026-09-23T11:55:54Z",
+    "generator": "ChatGPT scheduled P1.7-4A",
+    "source_scope": "full_transcript",
+    "review_status": "unreviewed"
+  }
+}
