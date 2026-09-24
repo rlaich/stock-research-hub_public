@@ -1,0 +1,178 @@
+{
+  "schema_version": 1,
+  "episode": {
+    "number": 699,
+    "date": "2026-09-23",
+    "title": "2026-09-23-股癌-EP699-逐字稿"
+  },
+  "source": {
+    "platform": "vocus",
+    "url": "https://vocus.cc/article/6ab3b2ecfd89780001aacb08",
+    "content_stored": false
+  },
+  "analysis": {
+    "summary": "本集投資主軸聚焦盤面輪動、agentic AI 對 CPU 需求的再催化，以及高速光通訊鏈中的 DSP 供需。主持人認為指數仍在高檔、弱勢族群開始修復時，僅因短線交易不順而直接轉空並不符合其交易框架；Meta Muse 等 agentic 應用再次提醒市場 CPU 在 AI workflow 中的重要性，但對網路流傳的極端 CPU/GPU 比例與需求數字保持懷疑。DSP 部分則認為 400G 至 1.6T 升級階段仍有訊號處理需求與缺貨/漲價題材，CPO/LPO 長期可能改變架構，但不宜以零和方式直接推論既有供應鏈需求立即消失。後段亦談 AI 對遊戲開發效率與小團隊槓桿的提升。以上為節目觀點整理，非獨立驗證的市場事實或交易指令。",
+    "relevance": "high"
+  },
+  "entities": [
+    {
+      "name": "Meta",
+      "ticker": "META",
+      "market": "US",
+      "entity_type": "company",
+      "mention_context": "約 11:37–20:17：節目以 Meta Muse agentic 產品為市場催化案例，討論其可能帶動 CPU 需求重新受到關注。",
+      "stance": "positive",
+      "confidence": 0.97
+    },
+    {
+      "name": "AMD",
+      "ticker": "AMD",
+      "market": "US",
+      "entity_type": "company",
+      "mention_context": "約 13:08–20:17：主持人引用 AMD 對 agentic workload 下 CPU/GPU 配置可能收斂的說法，並將 1:1 視為偏樂觀情境。",
+      "stance": "positive",
+      "confidence": 0.96
+    },
+    {
+      "name": "Arm",
+      "ticker": "ARM",
+      "market": "US",
+      "entity_type": "company",
+      "mention_context": "約 13:08–14:56：節目引用 Arm 對傳統 AI 與 agentic AI data center CPU core 需求差異的較樂觀估計。",
+      "stance": "positive",
+      "confidence": 0.94
+    },
+    {
+      "name": "Intel",
+      "ticker": "INTC",
+      "market": "US",
+      "entity_type": "company",
+      "mention_context": "約 16:37–19:11：主持人在討論 CPU 供需時提到部分長期 Intel 夥伴可能感受不到相同程度的缺貨。",
+      "stance": "neutral",
+      "confidence": 0.91
+    },
+    {
+      "name": "Acer",
+      "ticker": "2353.TW",
+      "market": "TW",
+      "entity_type": "company",
+      "mention_context": "約 14:56–16:37：節目評論宏碁董事長對部分元件供需的公開看法，主持人對其 AI 供應鏈判斷持保留態度。",
+      "stance": "negative",
+      "confidence": 0.94
+    },
+    {
+      "name": "Marvell Technology",
+      "ticker": "MRVL",
+      "market": "US",
+      "entity_type": "company",
+      "mention_context": "約 22:23–27:07：DSP 缺貨與漲價討論中，主持人認為 Marvell 後續對供需與產品的評論值得追蹤。",
+      "stance": "positive",
+      "confidence": 0.96
+    },
+    {
+      "name": "MaxLinear",
+      "ticker": "MXL",
+      "market": "US",
+      "entity_type": "company",
+      "mention_context": "約 24:53–27:07：與 Marvell 一同被列為可觀察 DSP 市況與供需評論的廠商。",
+      "stance": "positive",
+      "confidence": 0.95
+    },
+    {
+      "name": "CPU／Agentic AI infrastructure",
+      "ticker": null,
+      "market": "OTHER",
+      "entity_type": "industry",
+      "mention_context": "約 11:37–20:17：節目認為 agentic workflow 相較傳統 AI 會提高 CPU 參與度，但提醒市場流傳的極端需求倍數缺乏合理假設。",
+      "stance": "positive",
+      "confidence": 0.99
+    },
+    {
+      "name": "DSP／高速光通訊",
+      "ticker": null,
+      "market": "OTHER",
+      "entity_type": "industry",
+      "mention_context": "約 20:17–27:07：主持人討論 DSP 據傳漲價、400G/800G/1.6T 的訊號處理需求，以及 CPO/LPO 對長期架構的影響。",
+      "stance": "positive",
+      "confidence": 0.99
+    },
+    {
+      "name": "遊戲開發產業",
+      "ticker": null,
+      "market": "OTHER",
+      "entity_type": "industry",
+      "mention_context": "約 43:49–50:32：QA 討論 AI 可加速除錯與重複性工作、提高 indie game 小團隊效率，但創意與產品判斷仍需要人。",
+      "stance": "positive",
+      "confidence": 0.97
+    }
+  ],
+  "topics": [
+    {
+      "topic": "高檔盤勢與類股輪動",
+      "summary": "主持人認為指數創高、先前弱勢族群逐步修復時，市場結構偏向輪動；短線策略失效不應直接等同整體市場已轉空。"
+    },
+    {
+      "topic": "Agentic AI 與 CPU 需求",
+      "summary": "Meta Muse 等 agentic 應用形成第二波 CPU 題材催化；節目認為 CPU 需求提升方向合理，但對 40:1 等極端 CPU/GPU 數字保持懷疑。"
+    },
+    {
+      "topic": "AI 題材 FOMO 與需求估算",
+      "summary": "主持人提醒需求估算必須考慮同時在線比例、核心利用率等假設，市場熱度升高時容易出現過度外推的數字。"
+    },
+    {
+      "topic": "DSP 漲價與高速互連",
+      "summary": "400G 後 DSP 使用增加，800G 更普遍、1.6T 需求更強；節目認為現階段缺貨與漲價具有產業背景，但仍需觀察廠商實際評論。"
+    },
+    {
+      "topic": "CPO/LPO 與既有供應鏈轉型",
+      "summary": "CPO/LPO 長期可能減少部分傳統 DSP 或銅互連需求，但主持人反對以零和方式推論舊技術立即消失，既有廠商也可能透過 chiplet、SerDes 或光通訊合作轉型。"
+    },
+    {
+      "topic": "AI 與遊戲開發效率",
+      "summary": "AI 被視為提高小型遊戲團隊除錯、製作與營運效率的槓桿，但節目不認為它能直接取代創意與遊戲製作人才。"
+    }
+  ],
+  "market_observations": [
+    {
+      "observation": "主持人觀察台股與 NQ 處於高檔、部分弱勢類股開始修復，因此現階段較傾向視為輪動而非已確認的全面轉空。",
+      "time_sensitivity": "days",
+      "evidence_type": "source_statement"
+    },
+    {
+      "observation": "Meta Muse 等 agentic 應用重新催化 CPU 題材；主持人認為 CPU 在 agentic workload 中的重要性提高屬既有趨勢的再次確認，而非全新 thesis。",
+      "time_sensitivity": "months",
+      "evidence_type": "source_statement"
+    },
+    {
+      "observation": "網路流傳以一億使用者直接推算 CPU 顆數或 40:1 CPU/GPU 比例的算法，被主持人認為缺少合理的同時在線率與利用率假設。",
+      "time_sensitivity": "weeks",
+      "evidence_type": "source_statement"
+    },
+    {
+      "observation": "節目將約 1:4 至 1:2 的 CPU/GPU 配置描述為較接近其理解的市場共識，1:1 則屬更樂觀情境；這些數字為來源觀點，未在本分析中獨立驗證。",
+      "time_sensitivity": "months",
+      "evidence_type": "source_statement"
+    },
+    {
+      "observation": "主持人提到市場傳聞部分 DSP 產品可能漲價約 15%–20%，並認為高速交換與光模組規格提升使現階段 DSP 供需偏緊；漲幅與適用範圍未由節目獨立驗證。",
+      "time_sensitivity": "weeks",
+      "evidence_type": "source_statement"
+    },
+    {
+      "observation": "由 400G 向 800G、1.6T 升級會提高高速訊號處理的重要性，但 CPO/LPO 成熟後可能重新分配 DSP、SerDes 與互連元件的價值位置。",
+      "time_sensitivity": "structural",
+      "evidence_type": "derived_interpretation"
+    },
+    {
+      "observation": "AI 工具可降低遊戲開發中的除錯與重複工作成本，可能提高小型團隊的產出槓桿，但產品創意與內容品質仍是差異化來源。",
+      "time_sensitivity": "structural",
+      "evidence_type": "derived_interpretation"
+    }
+  ],
+  "analysis_meta": {
+    "generated_at": "2026-09-24T06:43:06Z",
+    "generator": "ChatGPT Scheduled Task / P1.7-4A / new-episode full-transcript analysis",
+    "source_scope": "full_transcript",
+    "review_status": "unreviewed"
+  }
+}
