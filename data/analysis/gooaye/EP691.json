@@ -1,0 +1,110 @@
+{
+  "schema_version": 1,
+  "episode": {
+    "number": 691,
+    "date": "2026-08-26",
+    "title": "2026-08-26-股癌-EP691-逐字稿"
+  },
+  "source": {
+    "platform": "vocus",
+    "url": "https://vocus.cc/article/6a8eba89fd897800012d195b",
+    "content_stored": false
+  },
+  "analysis": {
+    "summary": "本集主要討論 AI 對投資研究與交易工作流的實際影響。主持人認為 AI 已大幅縮短財報、年報、產業框架與資料整理的時間，但因市場參與者普遍都能使用類似工具，AI 本身未必形成持久的超額優勢；真正較難取代的仍是盤中訊號識別、題材敏感度、資金與風險判斷。其目前工作方式呈現人機混合：以人發現市場正在發生的故事與量價訊號，再用 AI 快速補齊產業、公司與既有研究資料，最後由人決定交易。節目亦提出將主觀市場感受進一步量化、建立可重複流程，作為未來研究方向。以上為節目觀點整理，非獨立驗證的市場事實或交易建議。",
+    "relevance": "high"
+  },
+  "entities": [
+    {
+      "name": "NVIDIA",
+      "ticker": "NVDA",
+      "market": "US",
+      "entity_type": "company",
+      "mention_context": "約 24:33–27:57：主持人以 NVIDIA 相關技術白皮書與市場題材為例，說明盤中先由人識別族群與事件訊號，再利用 AI 快速補足產業研究。",
+      "stance": "neutral",
+      "confidence": 0.92
+    },
+    {
+      "name": "Anthropic",
+      "ticker": null,
+      "market": "US",
+      "entity_type": "company",
+      "mention_context": "約 18:25–21:42：主持人談到研究工作中使用 Claude 等模型的經驗，肯定其分析能力，同時提醒模型可能表現得過度自信。",
+      "stance": "mixed",
+      "confidence": 0.96
+    },
+    {
+      "name": "OpenAI",
+      "ticker": null,
+      "market": "US",
+      "entity_type": "company",
+      "mention_context": "約 18:25–21:42 與 30:34–34:10：主持人比較 GPT 與其他模型的使用感受，並提及低延遲、多模態 AI 對未來生活與工作流程的潛在價值。",
+      "stance": "mixed",
+      "confidence": 0.93
+    },
+    {
+      "name": "AI 投資研究工具",
+      "ticker": null,
+      "market": "OTHER",
+      "entity_type": "industry",
+      "mention_context": "約 11:20–34:10：本集核心討論 AI 在財報分析、產業研究、資訊整理、盤中研究與交易決策中的角色及限制。",
+      "stance": "positive",
+      "confidence": 0.99
+    }
+  ],
+  "topics": [
+    {
+      "topic": "AI 對投資研究生產力的影響",
+      "summary": "主持人認為 AI 能把過去需要大量時間的財報、年報與產業研究壓縮到較短時間，但工作總投入不一定下降，反而可能因可研究範圍擴大而增加。"
+    },
+    {
+      "topic": "社群資訊與 AI 的分工",
+      "summary": "事件型與即時市場資訊仍偏向透過社群平台取得，再由 AI 協助整理、分析與補足背景；主持人不認為所有資訊取得都應由 AI 取代。"
+    },
+    {
+      "topic": "人機混合交易工作流",
+      "summary": "盤中由人觀察量價、族群與事件訊號，選出值得研究的題材後，再使用 AI 快速取得產業 overview、財報資訊與既有研究資料，最後交易決策仍由人完成。"
+    },
+    {
+      "topic": "AI 工具普及與市場優勢",
+      "summary": "主持人認為 AI 研究能力逐漸成為市場參與者的基本工具，因此單純擁有 AI 不必然形成壓倒性競爭優勢，差異可能更多來自訊號識別、資訊來源與實際決策。"
+    },
+    {
+      "topic": "主觀交易感受的量化",
+      "summary": "主持人開始思考將多年累積的盤感、訊號判斷與交易感受轉換成可量化、可重複驗證的方法，以降低長期依賴純主觀判斷的風險。"
+    }
+  ],
+  "market_observations": [
+    {
+      "observation": "主持人認為 AI 已顯著降低財報、年報與跨產業研究的時間成本，但這類能力因普及而逐漸成為基本配備，而非獨占優勢。",
+      "time_sensitivity": "structural",
+      "evidence_type": "source_statement"
+    },
+    {
+      "observation": "節目認為盤中量價、族群強弱與事件驅動的人工識別目前仍比直接要求 AI 尋找交易線索更符合其工作流程。",
+      "time_sensitivity": "structural",
+      "evidence_type": "source_statement"
+    },
+    {
+      "observation": "當更多市場參與者使用 AI 加速研究時，公開資訊被反映到價格的速度可能提高，使資訊優勢的有效期間縮短。",
+      "time_sensitivity": "months",
+      "evidence_type": "derived_interpretation"
+    },
+    {
+      "observation": "主持人的實務流程顯示 AI 更適合作為快速研究與驗證的後端工具，而訊號發現、部位投入與風險承擔仍保留在人類決策端。",
+      "time_sensitivity": "structural",
+      "evidence_type": "derived_interpretation"
+    },
+    {
+      "observation": "若能把長期累積的盤感與交易訊號量化成可重複規則，可能有助於檢驗過往績效究竟來自可持續方法或特定市場環境。",
+      "time_sensitivity": "structural",
+      "evidence_type": "derived_interpretation"
+    }
+  ],
+  "analysis_meta": {
+    "generated_at": "2026-09-25T06:41:15Z",
+    "generator": "ChatGPT scheduled P1.7-4A",
+    "source_scope": "full_transcript",
+    "review_status": "unreviewed"
+  }
+}
