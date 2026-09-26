@@ -1,0 +1,137 @@
+{
+  "schema_version": 1,
+  "episode": {
+    "number": 690,
+    "date": "2026-08-22",
+    "title": "2026-08-22-股癌-EP690-逐字稿"
+  },
+  "source": {
+    "platform": "vocus",
+    "url": "https://vocus.cc/article/6a89663afd897800014b82f6",
+    "content_stored": false
+  },
+  "analysis": {
+    "summary": "本集市場主題聚焦 Google 與 Marvell 的客製化半導體合作，以及 Google 從 turnkey 朝 customer-owned tooling（COT）深化的供應鏈影響。主持人認為 Google 將更多高價值環節掌握在自身，可能壓縮傳統 turnkey 模式的價值捕捉；對 Broadcom 的既有商業模式形成較直接的壓力，但 Marvell、MediaTek 等設計服務夥伴仍可能因 Google 擴大自研晶片與新增專案而取得更多 NRE、IP 授權與設計服務機會。節目亦認為當時市場雖缺乏強烈動能延續，但整體仍呈現逐步收復先前跌幅的狀態。以上為節目觀點整理，未對其中未公開晶片代號、供應鏈傳聞或投資判斷做獨立事實驗證。",
+    "relevance": "high"
+  },
+  "entities": [
+    {
+      "name": "Alphabet / Google",
+      "ticker": "GOOGL",
+      "market": "US",
+      "entity_type": "company",
+      "mention_context": "約 14:27–26:10：節目以 Google 與 Marvell 的合作為核心，討論 Google 朝 COT 模式發展、自行掌握晶片設計與高價值供應鏈環節的方向。",
+      "stance": "positive",
+      "confidence": 0.98
+    },
+    {
+      "name": "Marvell Technology",
+      "ticker": "MRVL",
+      "market": "US",
+      "entity_type": "company",
+      "mention_context": "約 14:27–26:10：節目討論 Marvell 與 Google 在 TPU 周邊晶片、互連與 near-memory compute 等領域的合作，並視其為 Google 擴大設計夥伴的重要案例。",
+      "stance": "positive",
+      "confidence": 0.98
+    },
+    {
+      "name": "Broadcom",
+      "ticker": "AVGO",
+      "market": "US",
+      "entity_type": "company",
+      "mention_context": "約 14:27–26:10：節目將 Broadcom 的 turnkey 模式與 Google 趨向 COT 的策略比較，認為 Google 自行掌握更多價值鏈環節可能降低 Broadcom 可取得的 turnkey 經濟價值。",
+      "stance": "negative",
+      "confidence": 0.96
+    },
+    {
+      "name": "MediaTek",
+      "ticker": "2454",
+      "market": "TW",
+      "entity_type": "company",
+      "mention_context": "約 14:27–26:10：節目以 MediaTek 參與 Google TPU 世代的 I/O、SerDes、memory interface 等合作為 COT/設計服務模式案例，認為新增合作夥伴未必等同既有專案遭搶。",
+      "stance": "mixed",
+      "confidence": 0.96
+    },
+    {
+      "name": "Alchip Technologies",
+      "ticker": "3661",
+      "market": "TW",
+      "entity_type": "company",
+      "mention_context": "約 14:27–22:42：節目提及世芯與 COT 趨勢及先進製程產能取得能力，作為 IC design partner 在客戶自研晶片模式下仍具價值的例子。",
+      "stance": "positive",
+      "confidence": 0.9
+    },
+    {
+      "name": "AMD",
+      "ticker": "AMD",
+      "market": "US",
+      "entity_type": "company",
+      "mention_context": "約 14:27–22:42：節目轉述市場對 AMD 可能參與 Google 後續晶片合作的討論，並明確把此部分視為市場傳聞與可能性，而非已確認專案。",
+      "stance": "neutral",
+      "confidence": 0.86
+    },
+    {
+      "name": "Custom AI Silicon / ASIC Design Services",
+      "ticker": null,
+      "market": "OTHER",
+      "entity_type": "industry",
+      "mention_context": "約 14:27–26:10：本集主要產業討論圍繞 hyperscaler 自研晶片、COT、turnkey、NRE/IP 授權與設計服務的價值鏈重分配。",
+      "stance": "positive",
+      "confidence": 0.99
+    }
+  ],
+  "topics": [
+    {
+      "topic": "Google 與 Marvell 客製化半導體合作",
+      "summary": "節目將合作解讀為 Google 擴大自研晶片生態與供應商多元化的訊號，合作範圍偏向 TPU 周邊與其他新晶片專案，而非單純取代既有 TPU 主晶片合作。"
+    },
+    {
+      "topic": "Turnkey 向 COT 的商業模式遷移",
+      "summary": "Google 若自行掌握設計、光罩、關鍵料件與投片等高價值環節，外部設計夥伴的收入結構將更偏向 NRE、IP 授權與設計服務，而非完整 turnkey 加價模式。"
+    },
+    {
+      "topic": "Broadcom 與其他 IC design partners 的差異化影響",
+      "summary": "節目認為 COT 對 Broadcom 原本高價值 turnkey 模式的影響較直接；相較之下，Marvell、MediaTek、世芯等設計服務供應商仍可能受惠於 Google 新增晶片專案與供應鏈分工。"
+    },
+    {
+      "topic": "AI 晶片專案數量與供應鏈 TAM",
+      "summary": "即使單一供應商取得的價值鏈份額下降，若 hyperscaler 開發的晶片數量與部署規模持續增加，設計服務市場的總需求仍可能擴大。"
+    },
+    {
+      "topic": "市場盤勢與交易節奏",
+      "summary": "主持人認為當時市場缺乏先前追漲即可獲利的強動能，但不少標的仍以波段方式逐步收復跌幅，較適合避免追逐短線漲停與過度 FOMO。"
+    }
+  ],
+  "market_observations": [
+    {
+      "observation": "節目認為 hyperscaler 自研晶片成熟後，由 turnkey 逐步轉向 COT 是降低成本並掌握更多價值鏈的可能方向。",
+      "time_sensitivity": "structural",
+      "evidence_type": "source_statement"
+    },
+    {
+      "observation": "Google 增加 Marvell 等合作夥伴不必然代表 MediaTek 等既有供應商的既有專案被取代，也可能反映 Google 正增加自研晶片專案總數。",
+      "time_sensitivity": "months",
+      "evidence_type": "source_statement"
+    },
+    {
+      "observation": "若 COT 比例提高，Broadcom 類型的完整 turnkey 模式可能面臨較大的單案價值與毛利壓力，而純設計服務供應商的相對機會可能增加。",
+      "time_sensitivity": "structural",
+      "evidence_type": "derived_interpretation"
+    },
+    {
+      "observation": "先進製程與封裝產能取得能力仍可能使 hyperscaler 保留多家外部 IC design partner，而非將所有工作完全內製。",
+      "time_sensitivity": "months",
+      "evidence_type": "source_statement"
+    },
+    {
+      "observation": "主持人描述當時盤勢為動能延續性較弱但整體仍逐步墊高，並提醒短線追強容易受到隔日反轉影響。",
+      "time_sensitivity": "days",
+      "evidence_type": "source_statement"
+    }
+  ],
+  "analysis_meta": {
+    "generated_at": "2026-09-26T06:08:38Z",
+    "generator": "ChatGPT scheduled P1.7-4A",
+    "source_scope": "full_transcript",
+    "review_status": "unreviewed"
+  }
+}
