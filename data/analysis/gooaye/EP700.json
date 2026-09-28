@@ -1,0 +1,196 @@
+{
+  "schema_version": 1,
+  "episode": {
+    "number": 700,
+    "date": "2026-09-26",
+    "title": "2026-09-26-股癌-EP700-逐字稿"
+  },
+  "source": {
+    "platform": "vocus",
+    "url": "https://vocus.cc/article/6ab7a837fd89780001086d4b",
+    "content_stored": false
+  },
+  "analysis": {
+    "summary": "本集投資主軸聚焦 Meta Connect 2026 與 AI hardware/agentic AI 生態，以及近期台股動能策略失效後的交易調整。主持人對 Meta 的 Muse Charm 與 AR/VR 載體較過去 AI Pin、Rabbit R1 等裝置更感興趣，理由包括 Meta 已有 Facebook/Instagram 使用者基礎與潛在服務串接能力；但同時認為手機仍是極強競品，AI 裝置或眼鏡快速取代手機、形成極高出貨量的假設偏樂觀，且 Meta 的使用者信任與平台合作關係是重要限制。交易面則指出七月至九月前半追強動能策略較難操作，近期較偏好在多頭型態中等待回檔、降低追價與槓桿，並觀察中秋連假後市場熱度是否恢復。以上為節目觀點整理，非獨立驗證的市場事實或交易指令。",
+    "relevance": "high"
+  },
+  "entities": [
+    {
+      "name": "Meta Platforms",
+      "ticker": "META",
+      "market": "US",
+      "entity_type": "company",
+      "mention_context": "約 08:55–27:07：Meta Connect 2026、Muse Charm、眼鏡與 agentic AI 生態為本集主要產業討論；主持人肯定產品與既有社群生態優勢，同時強調信任問題與手機競爭。",
+      "stance": "mixed",
+      "confidence": 0.99
+    },
+    {
+      "name": "Apple",
+      "ticker": "AAPL",
+      "market": "US",
+      "entity_type": "company",
+      "mention_context": "約 22:24–27:07：作為掌握行動終端與作業系統的平台方，被用來說明 Meta 長期希望建立自有硬體終端、降低受平台政策與抽成限制的動機。",
+      "stance": "neutral",
+      "confidence": 0.94
+    },
+    {
+      "name": "Alphabet / Google",
+      "ticker": "GOOGL",
+      "market": "US",
+      "entity_type": "company",
+      "mention_context": "約 17:25–27:07：Google 被提及為使用者帳號與行動平台的重要既有入口，也與 Meta 的終端自主性議題形成對照。",
+      "stance": "neutral",
+      "confidence": 0.93
+    },
+    {
+      "name": "TSMC",
+      "ticker": "2330.TW",
+      "market": "TW",
+      "entity_type": "company",
+      "mention_context": "約 14:57–17:25：節目以 AR 眼鏡光波導若達極高出貨假設時可能消耗大量 12 吋 wafer 為例，提醒相關供應鏈需求推估高度依賴終端滲透率前提。",
+      "stance": "neutral",
+      "confidence": 0.91
+    },
+    {
+      "name": "AMD",
+      "ticker": "AMD",
+      "market": "US",
+      "entity_type": "company",
+      "mention_context": "約 37:30–40:56：QA 持股組合中被列為 CPU/data-center exposure 的一部分；主持人認為整體組合過去配置合理，但沒有對未來單獨給出明確買賣判斷。",
+      "stance": "neutral",
+      "confidence": 0.9
+    },
+    {
+      "name": "Lumentum",
+      "ticker": "LITE",
+      "market": "US",
+      "entity_type": "company",
+      "mention_context": "約 37:30–40:56：與 Coherent 一同被視為光通訊配置，屬 data-center 敘事的一部分。",
+      "stance": "positive",
+      "confidence": 0.92
+    },
+    {
+      "name": "Coherent",
+      "ticker": "COHR",
+      "market": "US",
+      "entity_type": "company",
+      "mention_context": "約 37:30–40:56：與 Lumentum 一同被視為光通訊配置，主持人認為該持股組合覆蓋面完整。",
+      "stance": "positive",
+      "confidence": 0.92
+    },
+    {
+      "name": "Bloom Energy",
+      "ticker": "BE",
+      "market": "US",
+      "entity_type": "company",
+      "mention_context": "約 37:30–40:56：被歸入 data center 發電與供電敘事。",
+      "stance": "neutral",
+      "confidence": 0.9
+    },
+    {
+      "name": "Corning",
+      "ticker": "GLW",
+      "market": "US",
+      "entity_type": "company",
+      "mention_context": "約 37:30–40:56：被連結到光通訊與資料中心供應鏈配置。",
+      "stance": "positive",
+      "confidence": 0.9
+    },
+    {
+      "name": "Teradyne",
+      "ticker": "TER",
+      "market": "US",
+      "entity_type": "company",
+      "mention_context": "約 37:30–40:56：作為設備端 exposure 出現在聽眾的 data-center/AI 組合中。",
+      "stance": "neutral",
+      "confidence": 0.89
+    },
+    {
+      "name": "AI hardware / agentic AI devices",
+      "ticker": null,
+      "market": "OTHER",
+      "entity_type": "industry",
+      "mention_context": "約 09:58–27:07：節目比較 Muse Charm、AI Pin、Rabbit R1、Pendant 與眼鏡等裝置，認為新終端有機會但要取代手機仍非常困難。",
+      "stance": "mixed",
+      "confidence": 0.99
+    },
+    {
+      "name": "台股動能交易",
+      "ticker": null,
+      "market": "TW",
+      "entity_type": "industry",
+      "mention_context": "約 40:56–49:59：主持人描述七月至九月前半追強策略較難操作，近期轉向多頭型態回檔介入、降低追價與槓桿。",
+      "stance": "mixed",
+      "confidence": 0.99
+    }
+  ],
+  "topics": [
+    {
+      "topic": "Meta Connect 2026 與 Muse Charm",
+      "summary": "主持人認為 Muse Charm 相較過去獨立 AI hardware 有較好的起跑點，因 Meta 已具備龐大社群使用者與潛在服務串接能力；但產品規格與商業模式仍有高度不確定性。"
+    },
+    {
+      "topic": "AI 裝置與手機競爭",
+      "summary": "節目認為眼鏡、AI pendant 或其他 agentic 裝置真正的主要競爭者是高度成熟的智慧型手機，因此對短期極高滲透率與數億台級出貨假設保持保留。"
+    },
+    {
+      "topic": "Meta 信任與平台生態",
+      "summary": "主持人認為 Meta 的使用者信任是 agentic 裝置取得帳號、支付與購物授權的重要障礙；另一方面，若合作服務足夠多，既有 Facebook/Instagram 生態可降低新裝置導入門檻。"
+    },
+    {
+      "topic": "Agentic commerce 與平台權力",
+      "summary": "若 AI agent 取代人直接瀏覽購物網站，流量、廣告與交易入口的話語權可能轉向 agent 平台，可能促使大型平台重新協商合作、封鎖或分潤關係。"
+    },
+    {
+      "topic": "台股動能策略調整",
+      "summary": "主持人描述近期追強後快速反轉的情況較多，因此從追紅轉向等待多頭型態中的回檔，並降低追價與槓桿，強調交易節奏需要隨市場結構調整。"
+    },
+    {
+      "topic": "AI/data-center 持股組合",
+      "summary": "QA 中評論包含 Google、Lumentum、Coherent、Bloom Energy、Corning、Teradyne、AMD 等標的的組合，認為其涵蓋光通訊、供電、設備與 CPU 等 data-center 敘事，但未表示所有標的未來仍同等偏好。"
+    }
+  ],
+  "market_observations": [
+    {
+      "observation": "主持人觀察連假前可能因降部位與融資/地方借貸資金收回而出現賣壓，並預期部分資金在假期後回流；是否發生仍需看節後市場。",
+      "time_sensitivity": "days",
+      "evidence_type": "source_statement"
+    },
+    {
+      "observation": "Meta Muse Charm 與眼鏡等 AI hardware 的供應鏈需求高度依賴終端能否形成足夠滲透率；以數億台出貨直接推估光波導或 wafer 需求，被主持人視為前提偏樂觀。",
+      "time_sensitivity": "months",
+      "evidence_type": "source_statement"
+    },
+    {
+      "observation": "Meta 相較早期 AI Pin、Rabbit R1 等新創硬體的優勢，在於既有社群帳號、生態與合作服務可作為 agentic device 的入口；但授權敏感帳號與支付功能需要更高使用者信任。",
+      "time_sensitivity": "structural",
+      "evidence_type": "derived_interpretation"
+    },
+    {
+      "observation": "Agent 代替使用者瀏覽與購物可能削弱網站原有廣告曝光與導購能力，使 agent 平台與電商/服務平台之間出現新的流量與分潤博弈。",
+      "time_sensitivity": "structural",
+      "evidence_type": "derived_interpretation"
+    },
+    {
+      "observation": "主持人表示七月至九月前半追強動能交易較容易遭遇快速反轉，近期採取在多頭型態中等待回檔、降低追價的方式適應盤勢。",
+      "time_sensitivity": "weeks",
+      "evidence_type": "source_statement"
+    },
+    {
+      "observation": "主持人認為近期盤面雖讓短線動能交易者感到難做，但指數仍偏高檔；策略失效不必然等於整體市場轉空，槓桿與交易速度是風險來源之一。",
+      "time_sensitivity": "weeks",
+      "evidence_type": "source_statement"
+    },
+    {
+      "observation": "節目末段感受到市場熱絡度可能正在回升，但明確保留判斷，表示仍要觀察中秋連假後的交易狀況。",
+      "time_sensitivity": "days",
+      "evidence_type": "source_statement"
+    }
+  ],
+  "analysis_meta": {
+    "generated_at": "2026-09-28T06:39:01Z",
+    "generator": "ChatGPT Scheduled Task / P1.7-4A / new-episode full-transcript analysis",
+    "source_scope": "full_transcript",
+    "review_status": "unreviewed"
+  }
+}
