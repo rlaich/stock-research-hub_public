@@ -1,0 +1,137 @@
+{
+  "schema_version": 1,
+  "episode": {
+    "number": 688,
+    "date": "2026-08-15",
+    "title": "2026-08-15-股癌-EP688-逐字稿"
+  },
+  "source": {
+    "platform": "vocus",
+    "url": "https://vocus.cc/article/6a806cdbfd8978000138520e",
+    "content_stored": false
+  },
+  "analysis": {
+    "summary": "本集市場主軸聚焦兩條 AI 基礎設施線索：推論架構與資料中心供電。主持人先討論 SpaceX 與 Cerebras 的解禁籌碼，認為大量股票釋出短期可能造成供給壓力，但流動性與持有人增加後，單一籌碼事件的長期影響可能下降；產業面則關注 Cerebras 以 SRAM/WSE 參與 disaggregated inference，以及與 AMD 協作的推論架構。另一核心是 NVIDIA 800VDC 白皮書所代表的高功率 rack 供電演進，主持人將其拆成近期 Power Rack、中期 Power Center、長期 DC Power Block，並指出 PSU、轉換、電容、連接器、BBU、GaN/SiC、UPS/BESS、重電與系統整合等環節可能在不同階段受惠。QA 亦談被動與功率元件，認為 AI 需求與漲價仍是較強的基本面線索，但股價與資金輪動未必同步。以上為節目觀點整理，未對白皮書時程、供應鏈傳聞或市場預測做獨立事實驗證。",
+    "relevance": "high"
+  },
+  "entities": [
+    {
+      "name": "NVIDIA",
+      "ticker": "NVDA",
+      "market": "US",
+      "entity_type": "company",
+      "mention_context": "約 17:51–30:52：節目以市場流傳的 NVIDIA 800VDC 白皮書為核心，討論 AI data center 高功率 rack 從 Power Rack、Power Center 到 DC Power Block 的供電演進與相關元件。",
+      "stance": "positive",
+      "confidence": 0.98
+    },
+    {
+      "name": "AMD",
+      "ticker": "AMD",
+      "market": "US",
+      "entity_type": "company",
+      "mention_context": "約 12:45–17:51：節目提到 AMD 與 Cerebras 公布 disaggregated inference 架構，由 AMD host 處理 prompt/long context，再交由 Cerebras WSE 執行 decode。",
+      "stance": "positive",
+      "confidence": 0.96
+    },
+    {
+      "name": "Cerebras",
+      "ticker": null,
+      "market": "US",
+      "entity_type": "company",
+      "mention_context": "約 12:45–17:51：討論 WSE、SRAM、高速 decode、產能擴張及股票解禁；主持人認為其推論解法值得後續觀察，但籌碼釋出可能帶來短期波動。",
+      "stance": "mixed",
+      "confidence": 0.98
+    },
+    {
+      "name": "SpaceX",
+      "ticker": null,
+      "market": "US",
+      "entity_type": "company",
+      "mention_context": "約 11:25–12:44：節目討論解禁股票逐步流入市場，認為首批供給衝擊可能較大，而持有人與流動性增加後，後續單一解禁梯次的影響可能下降。",
+      "stance": "mixed",
+      "confidence": 0.96
+    },
+    {
+      "name": "AI Data Center Power Infrastructure",
+      "ticker": null,
+      "market": "OTHER",
+      "entity_type": "industry",
+      "mention_context": "約 17:51–30:52：本集主要產業題材，涵蓋 800VDC、Power Rack、Power Center、DC Power Block、PSU、BBU、GaN/SiC、UPS/BESS、busbar 與重電等。",
+      "stance": "positive",
+      "confidence": 0.99
+    },
+    {
+      "name": "Passive and Power Components",
+      "ticker": null,
+      "market": "OTHER",
+      "entity_type": "industry",
+      "mention_context": "約 30:53–33:22：QA 討論被動與功率元件在前波大漲後回檔再反彈，主持人認為 AI 相關需求、價格條件與獲利成長仍有基本面支撐。",
+      "stance": "positive",
+      "confidence": 0.97
+    }
+  ],
+  "topics": [
+    {
+      "topic": "Cerebras 與 disaggregated inference",
+      "summary": "節目以 prefill/decode 分工說明推論架構，關注 SRAM 高頻寬與低延遲對 token generation 的價值，以及 Cerebras WSE 與 AMD host 協作的可能性。"
+    },
+    {
+      "topic": "股票解禁與流動性",
+      "summary": "SpaceX 與 Cerebras 都被用來討論解禁供給；主持人認為初期大批股票釋出可能形成籌碼壓力，但流動性擴大與持有人分散後，後續衝擊可能逐漸下降。"
+    },
+    {
+      "topic": "800VDC 與 Power Rack",
+      "summary": "主持人認為 2026–2027 近期仍以 Power Rack 為主，相關環節包括 AC/800V PSU、800V/54V 轉換、電容、連接器與 BBU；800V 的核心動機是處理高功率 rack 下低壓大電流造成的尺寸、空間與冷卻瓶頸。"
+    },
+    {
+      "topic": "Power Center 與 DC Power Block",
+      "summary": "節目把 Power Center 視為較中期架構，關注集中式整流、GaN/SiC、DC UPS、BESS、SCADA；更長期的 DC Power Block 則延伸到 transformer、switchboard、busduct、儲能、重電與設施級控制。"
+    },
+    {
+      "topic": "AI 元件需求與資金輪動",
+      "summary": "QA 認為被動與功率元件仍可見 AI 需求、漲價與獲利成長，但股價在前波大漲與回檔後，能否再取得資金青睞仍需與其他低估族群比較。"
+    },
+    {
+      "topic": "市場底部與不確定性",
+      "summary": "QA 強調事件與價格走勢需搭配觀察，抄底應分批並保留資金；主持人反對把任何單一事件或價格位置視為百分之百確定的底部。"
+    }
+  ],
+  "market_observations": [
+    {
+      "observation": "主持人認為 SpaceX 與 Cerebras 的股票解禁可能在早期帶來較明顯籌碼壓力，但隨流動性與持有人增加，後續梯次對價格的影響可能降低。",
+      "time_sensitivity": "weeks",
+      "evidence_type": "source_statement"
+    },
+    {
+      "observation": "Cerebras 以 SRAM/WSE 聚焦 decode、再與 AMD host 分工 prefill/long-context 的架構，被主持人視為 reasoning/inference 時代值得追蹤的解法。",
+      "time_sensitivity": "months",
+      "evidence_type": "source_statement"
+    },
+    {
+      "observation": "節目認為 AI rack 功耗持續提升會放大 54V 低壓大電流下的 busbar、cable、connector、power shelf 與冷卻瓶頸，因此提高電壓具有工程上的實際驅動因素。",
+      "time_sensitivity": "structural",
+      "evidence_type": "source_statement"
+    },
+    {
+      "observation": "主持人把 800VDC 供電演進拆成不同時間尺度，意味相關供應鏈不宜以單一同步營收時點估值，而應分辨近期 Power Rack 與更長期 Power Center/DC Power Block。",
+      "time_sensitivity": "months",
+      "evidence_type": "derived_interpretation"
+    },
+    {
+      "observation": "QA 中主持人表示 AI 相關被動與功率元件仍可見漲價與需求轉強，且部分公司獲利成長快於營收，但非 AI 的車用、PC、消費電子需求與價格傳導較不一致。",
+      "time_sensitivity": "weeks",
+      "evidence_type": "source_statement"
+    },
+    {
+      "observation": "主持人認為市場底部只能估相對位置，事件訊號需與反彈強度及資金行為交叉觀察，分批投入可降低過早耗盡資金的風險。",
+      "time_sensitivity": "structural",
+      "evidence_type": "source_statement"
+    }
+  ],
+  "analysis_meta": {
+    "generated_at": "2026-09-29T06:35:36Z",
+    "generator": "ChatGPT scheduled P1.7-4A",
+    "source_scope": "full_transcript",
+    "review_status": "unreviewed"
+  }
+}
