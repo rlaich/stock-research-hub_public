@@ -1,0 +1,133 @@
+{
+  "schema_version": 1,
+  "episode": {
+    "number": 687,
+    "date": "2026-08-12",
+    "title": "2026-08-12-股癌-EP687-逐字稿"
+  },
+  "source": {
+    "platform": "vocus",
+    "url": "https://vocus.cc/article/6a7c5ff9fd897800014d30ae",
+    "content_stored": false
+  },
+  "analysis": {
+    "summary": "本集投資主軸分成台股交易制度與 AI 基礎設施敘事兩部分。主持人觀察處置股改為兩分鐘撮合後，盤中假單與博弈行為增加，認為短線互信降低、利多與營收容易成為出貨事件，但較長週期仍看到部分族群型態轉強，因此整體態度偏審慎樂觀。AI 部分聚焦 Google/DeepMind 人事變動與 Google Cloud，主持人不認同將組織調整直接等同 Google 放棄 frontier model，反而提出 Google 可能提高雲端算力與基礎設施的資源配置、把部分高風險前沿研究外部化，同時保留投資與雲端合作關係；並把 Meta 的算力租賃布局視為相近方向。Q&A 另談到槓桿管理，認為當槓桿使投資人過度關注雜訊、影響睡眠與情緒時，可能代表部位超過自身承受能力。以上均為節目內容的結構化整理，不是對相關市場事實的獨立驗證，也不是投資建議。",
+    "relevance": "high"
+  },
+  "entities": [
+    {
+      "name": "Alphabet / Google",
+      "ticker": "GOOGL",
+      "market": "US",
+      "entity_type": "company",
+      "mention_context": "約 14:07–29:26：節目以 DeepMind 人事變動、Google Cloud 與 frontier model 的資源配置為核心，主持人認為不能直接解讀為 Google 放棄前沿模型，並提出算力基礎設施與雲端現金流可能提高戰略重要性的觀點。",
+      "stance": "positive",
+      "confidence": 0.98
+    },
+    {
+      "name": "Apple",
+      "ticker": "AAPL",
+      "market": "US",
+      "entity_type": "company",
+      "mention_context": "約 14:07–29:26：被用作市場未必獎勵最大 AI 資本支出的例子，主持人以其股價表現說明 AI 投資敘事與資本市場定價可能不同步。",
+      "stance": "positive",
+      "confidence": 0.93
+    },
+    {
+      "name": "Meta Platforms",
+      "ticker": "META",
+      "market": "US",
+      "entity_type": "company",
+      "mention_context": "約 21:03–29:26：主持人把 Meta 的算力採購、可能的租賃與模型 API 布局，與 Google 強化 AI infrastructure/cloud 的方向並列觀察。",
+      "stance": "positive",
+      "confidence": 0.94
+    },
+    {
+      "name": "Berkshire Hathaway",
+      "ticker": "BRK.B",
+      "market": "US",
+      "entity_type": "company",
+      "mention_context": "約 14:07–29:26：節目以 Berkshire 對 Google 的投資敘事推演其可能看重類似鐵路、電網式的重資產與基礎設施現金流；這是主持人的推論而非本分析獨立驗證。",
+      "stance": "neutral",
+      "confidence": 0.9
+    },
+    {
+      "name": "AI frontier models",
+      "ticker": null,
+      "market": "OTHER",
+      "entity_type": "industry",
+      "mention_context": "約 14:07–29:26：節目討論 OpenAI、Anthropic、Google 等前沿模型競爭，認為產業仍處早期，價值鏈最終是否集中在軟體端仍具高度不確定性。",
+      "stance": "mixed",
+      "confidence": 0.98
+    },
+    {
+      "name": "Cloud / AI compute infrastructure",
+      "ticker": null,
+      "market": "OTHER",
+      "entity_type": "industry",
+      "mention_context": "約 21:03–29:26：主持人將算力比喻為數位時代的鐵路與電網，認為雲端與 AI 基礎設施可能取得比市場原先預期更高的價值鏈份額。",
+      "stance": "positive",
+      "confidence": 0.98
+    },
+    {
+      "name": "台股處置股交易",
+      "ticker": null,
+      "market": "TW",
+      "entity_type": "industry",
+      "mention_context": "約 09:31–14:07：主持人觀察兩分鐘撮合新制後假單與博弈行為增加，短線交易互信下降，但仍認為部分族群型態逐漸轉強。",
+      "stance": "mixed",
+      "confidence": 0.97
+    }
+  ],
+  "topics": [
+    {
+      "topic": "處置股兩分鐘撮合與短線交易",
+      "summary": "主持人認為制度改變後參與者仍在適應，假單與互相算計變多；對一般投資人而言，重點不是嘗試利用制度套利，而是避免被超短線雜訊困住。"
+    },
+    {
+      "topic": "Google AI 組織與 Cloud 戰略",
+      "summary": "節目將 DeepMind 人事調整解讀為可能由較獨立的雙軌結構轉向母公司更直接控制，同時推演 Google 將更多資源配置到 Cloud/compute infrastructure、外部化部分高風險研究的可能性。"
+    },
+    {
+      "topic": "AI 價值鏈重新分配",
+      "summary": "主持人認為 AI 產業仍很早期，不能預設軟體或 frontier labs 最終一定取得最大價值；算力、雲端與基礎設施可能比早期敘事占有更高的經濟價值。"
+    },
+    {
+      "topic": "槓桿與風險承受度",
+      "summary": "Q&A 中主持人以睡眠、情緒與對新聞雜訊的敏感度作為自我檢查訊號，認為若槓桿讓投資人持續焦慮，應重新檢視部位是否超過自身承受能力。"
+    }
+  ],
+  "market_observations": [
+    {
+      "observation": "主持人觀察台股處置股改為兩分鐘撮合後，假單與短線博弈增加，市場參與者仍在適應新制度。",
+      "time_sensitivity": "weeks",
+      "evidence_type": "source_statement"
+    },
+    {
+      "observation": "主持人認為當時台股雖存在利多出貨與短線互信不足，但已有多個族群型態逐步轉強，因此對較長週期盤勢仍偏樂觀。",
+      "time_sensitivity": "weeks",
+      "evidence_type": "source_statement"
+    },
+    {
+      "observation": "節目提出 Google 的 AI 組織調整可能代表資源配置更偏向 Cloud 與算力基礎設施，而不是退出 frontier model；此為主持人依當時事件所做的推演。",
+      "time_sensitivity": "months",
+      "evidence_type": "source_statement"
+    },
+    {
+      "observation": "若大型科技公司持續將算力由純自用轉向對外租賃與雲端服務，AI 價值鏈可能從單純模型能力競賽擴展為基礎設施利用率、資本效率與現金流的競爭。",
+      "time_sensitivity": "structural",
+      "evidence_type": "derived_interpretation"
+    },
+    {
+      "observation": "節目把過度追蹤國際事件與盤中雜訊視為槓桿可能超過個人風險承受能力的訊號之一。",
+      "time_sensitivity": "structural",
+      "evidence_type": "source_statement"
+    }
+  ],
+  "analysis_meta": {
+    "generated_at": "2026-09-29T14:39:55+08:00",
+    "generator": "ChatGPT",
+    "source_scope": "full_transcript",
+    "review_status": "unreviewed"
+  }
+}
