@@ -1,0 +1,97 @@
+{
+  "schema_version": 1,
+  "episode": {
+    "number": 686,
+    "date": "2026-08-08",
+    "title": "2026-08-08-股癌-EP686-逐字稿"
+  },
+  "source": {
+    "platform": "vocus",
+    "url": "https://vocus.cc/article/6a76e2bdfd897800015a4bb7",
+    "content_stored": false
+  },
+  "analysis": {
+    "summary": "本集市場主軸是七月修正後的風險管理與資金輪動。主持人開始更重視降低回撤、分散與避險，而非單純追求最大報酬；產業面則觀察美股軟體、光通訊，以及台股光通訊、散熱、電源等輪動，並認為 AI 相關需求與元件規格升級敘事仍在，但短線不宜只靠動能追價。Q&A 延伸到交易慣性與回檔應對，強調市場環境改變時應重新檢視部位與方法。以上為節目內容的結構化整理，不是獨立市場事實驗證或投資建議。",
+    "relevance": "high"
+  },
+  "entities": [
+    {
+      "name": "Palantir",
+      "ticker": "PLTR",
+      "market": "US",
+      "entity_type": "company",
+      "mention_context": "約 17:16–18:42：作為美股資金回流高估值軟體股的例子。",
+      "stance": "positive",
+      "confidence": 0.95
+    },
+    {
+      "name": "Cloudflare",
+      "ticker": "NET",
+      "market": "US",
+      "entity_type": "company",
+      "mention_context": "約 17:16–18:42：與 Palantir 並列，用來說明財報後軟體族群的強勢。",
+      "stance": "positive",
+      "confidence": 0.95
+    },
+    {
+      "name": "AI optical communications",
+      "ticker": null,
+      "market": "OTHER",
+      "entity_type": "industry",
+      "mention_context": "約 18:42–23:19：節目觀察美台光通訊轉強、上游材料供給與資金輪動。",
+      "stance": "positive",
+      "confidence": 0.98
+    },
+    {
+      "name": "AI power infrastructure",
+      "ticker": null,
+      "market": "OTHER",
+      "entity_type": "industry",
+      "mention_context": "約 24:56–27:16：討論資料中心更高電壓架構可能提高 PSU、PDU 與相關元件規格及需求。",
+      "stance": "positive",
+      "confidence": 0.94
+    }
+  ],
+  "topics": [
+    {
+      "topic": "資產配置與回撤管理",
+      "summary": "主持人由近期波動反思科技股集中曝險，開始提高對分散、避險與資本保存的重視。"
+    },
+    {
+      "topic": "AI 供應鏈輪動",
+      "summary": "節目追蹤軟體、光通訊、散熱、電源與被動元件的資金輪動，並區分產業基本面與短線價格動能。"
+    },
+    {
+      "topic": "交易慣性調整",
+      "summary": "Q&A 討論強勢行情形成的追價習慣，在市場轉弱後可能放大損失，因此需要依環境調整部位與預期。"
+    }
+  ],
+  "market_observations": [
+    {
+      "observation": "主持人認為近期修正促使其更重視控制回撤與資產配置。",
+      "time_sensitivity": "structural",
+      "evidence_type": "source_statement"
+    },
+    {
+      "observation": "節目觀察當時美股資金明顯回到軟體與光通訊，台股亦出現光通訊與散熱轉強跡象。",
+      "time_sensitivity": "weeks",
+      "evidence_type": "source_statement"
+    },
+    {
+      "observation": "若 AI 資料中心持續提高功率與電壓規格，電源相關零組件的單機價值與規格需求可能提升。",
+      "time_sensitivity": "months",
+      "evidence_type": "derived_interpretation"
+    },
+    {
+      "observation": "單靠前一階段形成的動能交易習慣，在市場結構改變時可能增加追高與頻繁換股風險。",
+      "time_sensitivity": "structural",
+      "evidence_type": "derived_interpretation"
+    }
+  ],
+  "analysis_meta": {
+    "generated_at": "2026-09-30T14:51:29+08:00",
+    "generator": "ChatGPT",
+    "source_scope": "full_transcript",
+    "review_status": "unreviewed"
+  }
+}
