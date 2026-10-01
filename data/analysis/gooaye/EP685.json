@@ -1,0 +1,124 @@
+{
+  "schema_version": 1,
+  "episode": {
+    "number": 685,
+    "date": "2026-08-05",
+    "title": "2026-08-05-股癌-EP685-逐字稿"
+  },
+  "source": {
+    "platform": "vocus",
+    "url": "https://vocus.cc/article/6a7323d1fd89780001712d13",
+    "content_stored": false
+  },
+  "analysis": {
+    "summary": "本集聚焦七月急跌後的估值修復、AI基礎設施供應鏈與軟體估值。主持人認為超跌區可能快速收復，不宜把第二隻腳視為必然；HBM規格、TPU時程與光通訊限制較偏成本、供應或時程調整，而非長期需求邏輯反轉。美股以Palantir財報後表態觀察風險偏好，並討論AI對軟體毛利、資料整合與企業級穩定性的影響。Q&A強調配置、降低槓桿與依新資訊動態修正判斷。",
+    "relevance": "high"
+  },
+  "entities": [
+    {
+      "name": "NVIDIA",
+      "ticker": "NVDA",
+      "market": "US",
+      "entity_type": "company",
+      "mention_context": "約16:42–19:09討論部分AI加速器世代HBM規格調整，重點為成本、供應與良率。",
+      "stance": "neutral",
+      "confidence": 0.96
+    },
+    {
+      "name": "Palantir",
+      "ticker": "PLTR",
+      "market": "US",
+      "entity_type": "company",
+      "mention_context": "約24:00–30:37，財報後強勢被視為高估值軟體重新獲市場接受的案例。",
+      "stance": "positive",
+      "confidence": 0.98
+    },
+    {
+      "name": "Cloudflare",
+      "ticker": "NET",
+      "market": "US",
+      "entity_type": "company",
+      "mention_context": "約27:11–28:45，與資安軟體並列說明部分軟體並未因AI而失去商業價值。",
+      "stance": "positive",
+      "confidence": 0.94
+    },
+    {
+      "name": "MediaTek",
+      "ticker": "2454",
+      "market": "TW",
+      "entity_type": "company",
+      "mention_context": "約19:09–20:00討論TPU與ASIC時程調整，roadmap整體仍在。",
+      "stance": "neutral",
+      "confidence": 0.86
+    },
+    {
+      "name": "AI optical communications",
+      "ticker": null,
+      "market": "OTHER",
+      "entity_type": "industry",
+      "mention_context": "約20:00–24:00討論中國光元件限制、海外產能與磷化銦上游材料。",
+      "stance": "mixed",
+      "confidence": 0.98
+    },
+    {
+      "name": "HBM",
+      "ticker": null,
+      "market": "OTHER",
+      "entity_type": "industry",
+      "mention_context": "約16:42–19:09討論部分產品HBM堆疊規格調整及成本、缺貨、良率因素。",
+      "stance": "neutral",
+      "confidence": 0.98
+    }
+  ],
+  "topics": [
+    {
+      "topic": "急跌後的估值修復",
+      "summary": "市場在數個交易日快速收復超跌區，主持人認為V型反轉使第二隻腳不再是必然劇本。"
+    },
+    {
+      "topic": "AI基礎設施規格與供應鏈",
+      "summary": "討論HBM、TPU、800V DC與光通訊，區分短期成本或時程變化與長期需求方向。"
+    },
+    {
+      "topic": "AI與軟體估值",
+      "summary": "Palantir、Cloudflare與資安軟體用來說明AI並非必然淘汰所有軟體，企業級產品仍需要資料整合、穩定性與法遵。"
+    },
+    {
+      "topic": "動態風險管理",
+      "summary": "市場判斷應隨去槓桿、融資與財報後價格反應等新資訊更新，並以配置與技術紀律管理波動。"
+    }
+  ],
+  "market_observations": [
+    {
+      "observation": "主持人認為七月急跌後超跌估值修復速度很快，明顯第二隻腳不一定出現。",
+      "time_sensitivity": "weeks",
+      "evidence_type": "source_statement"
+    },
+    {
+      "observation": "節目認為部分HBM規格下調主要反映成本、供應與良率權衡，長期升級方向未因此被否定。",
+      "time_sensitivity": "months",
+      "evidence_type": "source_statement"
+    },
+    {
+      "observation": "中國光通訊元件若面臨更嚴格限制，海外產能可降低直接衝擊，但上游材料可能成為供應鏈風險點。",
+      "time_sensitivity": "months",
+      "evidence_type": "derived_interpretation"
+    },
+    {
+      "observation": "高估值軟體財報後仍獲正向價格反應，可視為當時市場風險偏好與估值容忍度回升訊號。",
+      "time_sensitivity": "weeks",
+      "evidence_type": "derived_interpretation"
+    },
+    {
+      "observation": "快速去槓桿後，降低槓桿、限制單一部位並依新資訊調整，有助提升對波動的耐受度。",
+      "time_sensitivity": "structural",
+      "evidence_type": "derived_interpretation"
+    }
+  ],
+  "analysis_meta": {
+    "generated_at": "2026-10-01T14:41:48+08:00",
+    "generator": "ChatGPT",
+    "source_scope": "full_transcript",
+    "review_status": "unreviewed"
+  }
+}
