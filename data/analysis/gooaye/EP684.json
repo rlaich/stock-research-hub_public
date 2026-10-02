@@ -1,0 +1,151 @@
+{
+  "schema_version": 1,
+  "episode": {
+    "number": 684,
+    "date": "2026-08-01",
+    "title": "2026-08-01-股癌-EP684-逐字稿"
+  },
+  "source": {
+    "platform": "vocus",
+    "url": "https://vocus.cc/article/6a6dd484fd8978000190b151",
+    "content_stored": false
+  },
+  "analysis": {
+    "summary": "本集以七月急跌後的反彈為背景，將核心風險歸納為高槓桿與流動性收縮的連鎖效應。主持人以 Situational Awareness 基金及 Archegos 類比說明熱門 AI／動能部位在去槓桿時可能被迫拋售，並認為市場雖可能仍有餘震，但事件衝擊將逐步淡化。台股部分重點討論處置制度如何進一步壓縮流動性，以及大部位投資者的退出風險。Q&A 延伸至 FCN、泡沫退場與 FIRE，整體主軸是避免過度槓桿、重視流動性，並接受風險管理與長期報酬之間的取捨。",
+    "relevance": "high"
+  },
+  "entities": [
+    {
+      "name": "Situational Awareness",
+      "ticker": null,
+      "market": "US",
+      "entity_type": "other",
+      "mention_context": "約09:49–29:16，被視為本輪市場去槓桿的重要案例；主持人認為其高槓桿 AI 多倉與軟體空倉同時受壓，放大流動性衝擊。",
+      "stance": "mixed",
+      "confidence": 0.98
+    },
+    {
+      "name": "NVIDIA",
+      "ticker": "NVDA",
+      "market": "US",
+      "entity_type": "company",
+      "mention_context": "約09:49–13:37，列為 Situational Awareness 持有的熱門 AI／動能標的之一，用於說明先前強勢股在去槓桿期間跌幅較大。",
+      "stance": "neutral",
+      "confidence": 0.94
+    },
+    {
+      "name": "Anthropic",
+      "ticker": null,
+      "market": "US",
+      "entity_type": "company",
+      "mention_context": "約13:37–18:00，主持人認為 Situational Awareness 清算後仍具價值的重要資產之一是 Anthropic 私募持股，並提及未來 pre-IPO 潛力。",
+      "stance": "positive",
+      "confidence": 0.9
+    },
+    {
+      "name": "Citadel",
+      "ticker": null,
+      "market": "US",
+      "entity_type": "company",
+      "mention_context": "約09:49–29:16，作為接手 Situational Awareness 大型部位的交易對手，說明極端流動性壓力下 block trade 的角色。",
+      "stance": "neutral",
+      "confidence": 0.96
+    },
+    {
+      "name": "MediaTek",
+      "ticker": "2454",
+      "market": "TW",
+      "entity_type": "company",
+      "mention_context": "約09:49–13:37，主持人提到發哥給出良好 guidance，視為台股反彈後仍可能存在的新動能。",
+      "stance": "positive",
+      "confidence": 0.9
+    },
+    {
+      "name": "Powerchip Semiconductor Manufacturing",
+      "ticker": "6770",
+      "market": "TW",
+      "entity_type": "company",
+      "mention_context": "約08:19–09:49及 Q&A 提及力積電；主持人回顧過往交易經驗並談及近期大幅回檔。",
+      "stance": "mixed",
+      "confidence": 0.91
+    },
+    {
+      "name": "Taiwan stock disposition system",
+      "ticker": null,
+      "market": "TW",
+      "entity_type": "other",
+      "mention_context": "約18:00–29:16，主持人批評處置制度在劇烈行情中抽離流動性，可能加劇大部位退出困難。",
+      "stance": "negative",
+      "confidence": 0.99
+    },
+    {
+      "name": "0050",
+      "ticker": "0050",
+      "market": "TW",
+      "entity_type": "etf",
+      "mention_context": "約36:27–49:10，在 FCN 與 FIRE 問答中作為長期持有、定期投入與退休資產配置的例子。",
+      "stance": "positive",
+      "confidence": 0.96
+    }
+  ],
+  "topics": [
+    {
+      "topic": "市場去槓桿與流動性衝擊",
+      "summary": "主持人認為七月急跌主要呈現全市場降槓桿；熱門 AI 與動能部位因集中、槓桿及流動性壓力而遭遇強制賣出，反彈後仍可能有清算餘震。"
+    },
+    {
+      "topic": "台股處置制度與退出風險",
+      "summary": "節目主張限制撮合與流動性的處置制度在極端行情可能放大價格衝擊；部位越大，能否退出比能否買進更重要。"
+    },
+    {
+      "topic": "AI 多頭、泡沫與風險管理",
+      "summary": "主持人仍偏向 AI 長期多頭，但認為未來出現更大 correction 並不意外；完美逃頂不實際，需在提前退出與承受回撤之間取捨。"
+    },
+    {
+      "topic": "FCN 與原型產品",
+      "summary": "對 FCN 採審慎態度，指出其可類比由金融機構代做 sell put，但需注意多標的最差履約、報價與費用；一般仍偏好簡單原型產品。"
+    },
+    {
+      "topic": "FIRE 與生活支出",
+      "summary": "退休提領率不能只以當前低支出估算，未來家庭與生活階段可能提高支出；較偏好降低工作壓力並持續累積，而非過早完全退出職場。"
+    }
+  ],
+  "market_observations": [
+    {
+      "observation": "主持人將本輪劇烈修正的主要機制解讀為高槓桿部位在流動性惡化下被迫降槓桿，而非單純基本面惡化。",
+      "time_sensitivity": "weeks",
+      "evidence_type": "source_statement"
+    },
+    {
+      "observation": "主持人認為大型去槓桿事件後仍可能有中小型基金或策略團隊整理部位造成餘震，但事件本身對市場的影響應逐步下降。",
+      "time_sensitivity": "weeks",
+      "evidence_type": "source_statement"
+    },
+    {
+      "observation": "處置、漲跌停與低流動性在壓力行情中可能形成回饋迴圈，使大型部位更難退出並加劇價格波動。",
+      "time_sensitivity": "structural",
+      "evidence_type": "derived_interpretation"
+    },
+    {
+      "observation": "AI 長期題材即使維持正向，也不排除未來發生更深修正；高報酬熱門股與高槓桿結合會顯著放大 drawdown。",
+      "time_sensitivity": "months",
+      "evidence_type": "derived_interpretation"
+    },
+    {
+      "observation": "對泡沫退場而言，主持人認為技術面價格通常早於基本面訊號；等待基本面明確惡化可能已承受大幅回撤，因此需事先建立價格與配置紀律。",
+      "time_sensitivity": "structural",
+      "evidence_type": "source_statement"
+    },
+    {
+      "observation": "FCN 等結構型商品的收益需與履約條件、最差標的風險及隱含費用一起評估，不能只看票面利率。",
+      "time_sensitivity": "structural",
+      "evidence_type": "derived_interpretation"
+    }
+  ],
+  "analysis_meta": {
+    "generated_at": "2026-10-02T14:24:39+08:00",
+    "generator": "ChatGPT",
+    "source_scope": "full_transcript",
+    "review_status": "unreviewed"
+  }
+}
