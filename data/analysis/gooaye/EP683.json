@@ -1,0 +1,151 @@
+{
+  "schema_version": 1,
+  "episode": {
+    "number": 683,
+    "date": "2026-07-29",
+    "title": "2026-07-29-股癌-EP683-逐字稿"
+  },
+  "source": {
+    "platform": "vocus",
+    "url": "https://vocus.cc/article/6a69d808fd89780001588980",
+    "content_stored": false
+  },
+  "analysis": {
+    "summary": "本集以 2026 年 7 月台股與全球 AI／科技股劇烈修正為主軸。主持人回顧自身淨值回撤與槓桿管理，認為這波雖跌幅嚴重，但與前一年的流動性危機相比，市場參與者仍有較多既有獲利，因此尚未出現同等程度的被迫去槓桿與爆量。策略上轉向降低單一持股集中度、減少槓桿並提高指數型曝險。產業研究部分討論 Agentic AI 對 general-purpose CPU 的增量需求，以及中國 DUV／CXMT 供應能力是否會改變全球半導體競爭格局。整體重點是市場急跌時估值可能繼續下修，風險承受能力與存活優先於追求反彈。",
+    "relevance": "high"
+  },
+  "entities": [
+    {
+      "name": "TSMC",
+      "ticker": "2330",
+      "market": "TW",
+      "entity_type": "company",
+      "mention_context": "約 01:23–20:55 與 QA，多次作為相對穩健的 AI 核心資產與資金 parking 標的；主持人也討論市場反彈時資金可能從其撤出轉向高 beta 標的。",
+      "stance": "positive",
+      "confidence": 0.98
+    },
+    {
+      "name": "NVIDIA",
+      "ticker": "NVDA",
+      "market": "US",
+      "entity_type": "company",
+      "mention_context": "約 14:15–26:14，被視為 AI 核心估值 benchmark，並延伸討論 GB200、Vera Rubin 與 CPU/GPU 配置。",
+      "stance": "positive",
+      "confidence": 0.96
+    },
+    {
+      "name": "AMD",
+      "ticker": "AMD",
+      "market": "US",
+      "entity_type": "company",
+      "mention_context": "約 20:55–26:14，討論 Agentic AI 可能增加 CPU 需求，以及 EPYC 與 MI 系列在 AI 基礎設施中的配置。",
+      "stance": "positive",
+      "confidence": 0.91
+    },
+    {
+      "name": "Intel",
+      "ticker": "INTC",
+      "market": "US",
+      "entity_type": "company",
+      "mention_context": "約 20:55–26:14，主持人認為 general-purpose server 擴張可能增加 Intel 與 AMD CPU 的需求空間。",
+      "stance": "positive",
+      "confidence": 0.86
+    },
+    {
+      "name": "Samsung Electronics",
+      "ticker": null,
+      "market": "OTHER",
+      "entity_type": "company",
+      "mention_context": "約 11:30–17:41，與 SK Hynix 一同用來討論韓國市場急跌、記憶體景氣與 AI 核心資產估值訊號。",
+      "stance": "mixed",
+      "confidence": 0.94
+    },
+    {
+      "name": "SK Hynix",
+      "ticker": null,
+      "market": "OTHER",
+      "entity_type": "company",
+      "mention_context": "約 11:30–17:41，作為記憶體供應與韓國科技股修正的代表案例。",
+      "stance": "mixed",
+      "confidence": 0.94
+    },
+    {
+      "name": "CXMT",
+      "ticker": null,
+      "market": "OTHER",
+      "entity_type": "company",
+      "mention_context": "約 26:14–31:55，用於討論中國 DUV、本土記憶體產能及其產品能否進入海外供應鏈。",
+      "stance": "neutral",
+      "confidence": 0.92
+    },
+    {
+      "name": "ASML",
+      "ticker": "ASML",
+      "market": "US",
+      "entity_type": "company",
+      "mention_context": "約 26:14–31:55，作為先進曝光設備技術複雜度與跨國供應鏈能力的比較基準。",
+      "stance": "neutral",
+      "confidence": 0.93
+    }
+  ],
+  "topics": [
+    {
+      "topic": "市場急跌、槓桿與流動性",
+      "summary": "主持人將七月行情視為歷史級劇烈修正，強調槓桿會在終點未知的下跌中放大生存風險，並觀察到市場尚未出現典型爆量投降。"
+    },
+    {
+      "topic": "估值壓縮與資產配置",
+      "summary": "即使部分 AI 與半導體公司 forward valuation 已顯著下降，主持人仍警告便宜可以變得更便宜，因而降低集中度並提高指數曝險。"
+    },
+    {
+      "topic": "Agentic AI 與 CPU 需求",
+      "summary": "節目研究 Agentic workflow 是否會使 general-purpose server 成為 AI data center 的重要補充，進而推動 CPU 需求逐步接近 GPU 規模。"
+    },
+    {
+      "topic": "中國 DUV 與記憶體供應鏈",
+      "summary": "討論中國自製 DUV 與 CXMT 產能的潛在影響，並把海外市場准入視為其是否能實質改變全球供應格局的重要條件。"
+    },
+    {
+      "topic": "回撤後的風險管理",
+      "summary": "Q&A 反覆強調投資者的進場時點會影響市場認知；面對深度回撤時，降低部位與避免過度槓桿比預測精確底部更重要。"
+    }
+  ],
+  "market_observations": [
+    {
+      "observation": "主持人認為本輪中小型與 AI 科技股修正雖深，但許多較早進場者仍保有年內獲利，可能是市場尚未出現典型爆量投降的原因之一。",
+      "time_sensitivity": "weeks",
+      "evidence_type": "source_statement"
+    },
+    {
+      "observation": "主持人表示在市場方向不明且個股技術型態普遍轉弱時，策略上會降低單一持股比重、避免新增槓桿並增加指數型曝險。",
+      "time_sensitivity": "weeks",
+      "evidence_type": "source_statement"
+    },
+    {
+      "observation": "AI 核心公司若本身只獲得較低估值倍數，可能代表其他供應鏈公司的估值需要向下收斂，而不一定代表核心公司必然向上重估。",
+      "time_sensitivity": "months",
+      "evidence_type": "derived_interpretation"
+    },
+    {
+      "observation": "Agentic AI 的 CPU 增量需求未必全部體現在 GPU rack 的 CPU/GPU 比例；general-purpose servers 可能承接部分 workflow 與卸載工作。",
+      "time_sensitivity": "structural",
+      "evidence_type": "derived_interpretation"
+    },
+    {
+      "observation": "中國 DUV 與記憶體產能對全球供應鏈的影響，不只取決於生產能力，也取決於產品是否能進入主要海外客戶與市場。",
+      "time_sensitivity": "structural",
+      "evidence_type": "derived_interpretation"
+    },
+    {
+      "observation": "深度回撤中低估值本身不足以界定底部；部位大小、槓桿與持有期間會決定投資者能否承受進一步估值壓縮。",
+      "time_sensitivity": "structural",
+      "evidence_type": "derived_interpretation"
+    }
+  ],
+  "analysis_meta": {
+    "generated_at": "2026-10-03T14:25:00+08:00",
+    "generator": "ChatGPT",
+    "source_scope": "full_transcript",
+    "review_status": "unreviewed"
+  }
+}
