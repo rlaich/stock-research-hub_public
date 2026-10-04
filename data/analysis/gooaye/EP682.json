@@ -1,0 +1,169 @@
+{
+  "schema_version": 1,
+  "episode": {
+    "number": 682,
+    "date": "2026-07-25",
+    "title": "2026-07-25-股癌-EP682-逐字稿"
+  },
+  "source": {
+    "platform": "vocus",
+    "url": "https://vocus.cc/article/6a648a0afd897800011cc50c",
+    "content_stored": false
+  },
+  "analysis": {
+    "summary": "本集在科技股與 AI 供應鏈大幅修正的背景下，核心討論市場價格訊號與產業基本面暫時背離。主持人認為目前尚無單一基本面事件足以解釋全面下跌，較像估值壓縮與未知風險共同作用，因此策略上偏向降低交易頻率、必要時提高現金，而非在下跌中增加槓桿。產業面則認為 Google 等雲端業者的 AI 資本支出具有競爭必要性，即使推論成本會壓縮傳統軟體毛利；同時記憶體漲價可能在第四季至明年第一季趨平，但其他 AI 供應鏈元件仍偏緊。功率半導體、類比元件與鋁電容等基本面訊號仍正向，然而短期股價可能持續與基本面脫鉤。",
+    "relevance": "high"
+  },
+  "entities": [
+    {
+      "name": "TSMC",
+      "ticker": "2330",
+      "market": "TW",
+      "entity_type": "company",
+      "mention_context": "約 14:24–20:19，財報被評為非常好但股價仍下跌，作為目前基本面與價格反應背離的代表。",
+      "stance": "positive",
+      "confidence": 0.96
+    },
+    {
+      "name": "Alphabet",
+      "ticker": "GOOGL",
+      "market": "US",
+      "entity_type": "company",
+      "mention_context": "約 14:24–23:36，主持人認為財報與 Google Cloud 表現良好，AI 已能變現；負自由現金流主要反映必要的 AI 基礎設施投資。",
+      "stance": "positive",
+      "confidence": 0.98
+    },
+    {
+      "name": "Apple",
+      "ticker": "AAPL",
+      "market": "US",
+      "entity_type": "company",
+      "mention_context": "約 14:24–20:19，被視為因終端用戶與通路優勢而可較多利用外部 AI 能力、降低自建模型資本需求的特殊案例。",
+      "stance": "neutral",
+      "confidence": 0.91
+    },
+    {
+      "name": "Amazon",
+      "ticker": "AMZN",
+      "market": "US",
+      "entity_type": "company",
+      "mention_context": "約 14:24–20:19，與 Microsoft 等 CSP 並列，預期為維持 AI 競爭力仍需持續投入大量資本。",
+      "stance": "neutral",
+      "confidence": 0.88
+    },
+    {
+      "name": "Microsoft",
+      "ticker": "MSFT",
+      "market": "US",
+      "entity_type": "company",
+      "mention_context": "約 14:24–20:19，作為大型 CSP 被預期持續承擔 AI 訓練與推論基礎設施投資。",
+      "stance": "neutral",
+      "confidence": 0.88
+    },
+    {
+      "name": "Tesla",
+      "ticker": "TSLA",
+      "market": "US",
+      "entity_type": "company",
+      "mention_context": "約 20:19–23:36，主持人認為其 physical AI／Optimus 投資方向較難估值，市場對高資本投入產生疑慮可以理解。",
+      "stance": "mixed",
+      "confidence": 0.94
+    },
+    {
+      "name": "Texas Instruments",
+      "ticker": "TXN",
+      "market": "US",
+      "entity_type": "company",
+      "mention_context": "約 20:19–23:36 與 42:23–44:19，電話會議被解讀為類比與功率半導體全面復甦、data center 需求與漲價趨勢正向。",
+      "stance": "positive",
+      "confidence": 0.97
+    },
+    {
+      "name": "Palantir",
+      "ticker": "PLTR",
+      "market": "US",
+      "entity_type": "company",
+      "mention_context": "約 30:31–31:30，產品被評為具高度差異化與國防等利基市場壁壘，但主持人區分產品品質與高估值是否合理。",
+      "stance": "positive",
+      "confidence": 0.93
+    },
+    {
+      "name": "CXMT",
+      "ticker": null,
+      "market": "OTHER",
+      "entity_type": "company",
+      "mention_context": "約 23:36–29:17，中國客戶拒絕進一步記憶體漲價時可能轉向本土 CXMT，形成供應替代因素。",
+      "stance": "neutral",
+      "confidence": 0.91
+    },
+    {
+      "name": "Nippon Chemi-Con",
+      "ticker": null,
+      "market": "OTHER",
+      "entity_type": "company",
+      "mention_context": "約 44:19–47:35，主持人提及九月新一波漲價與鋁電容供給偏緊，認為基本面尚未明顯轉弱。",
+      "stance": "positive",
+      "confidence": 0.94
+    }
+  ],
+  "topics": [
+    {
+      "topic": "科技股全面修正與風險控制",
+      "summary": "半導體與 AI 相關股票普遍大跌且缺乏單一明確原因；主持人傾向尊重價格訊號、降低交易頻率並在必要時增加現金，而非槓桿搶反彈。"
+    },
+    {
+      "topic": "AI 資本支出與軟體經濟模型",
+      "summary": "AI 軟體需要持續支付訓練與推論成本，使傳統高毛利軟體模型改變；大型 CSP 的高 CapEx 被視為維持競爭地位所必需。"
+    },
+    {
+      "topic": "Google Cloud 與 AI 變現",
+      "summary": "Google 財報被解讀為 Cloud 與 AI 商業化的正面驗證；自由現金流承壓不等於投資失敗，而是基礎設施擴張的成本。"
+    },
+    {
+      "topic": "記憶體價格與 AI 供應鏈通膨",
+      "summary": "記憶體價格在大幅上漲後可能於第四季至明年第一季趨平，但節目判斷這更像漲價收斂而非需求崩潰，其他元件仍存在漲價。"
+    },
+    {
+      "topic": "功率與類比半導體復甦",
+      "summary": "Texas Instruments 的展望與供應鏈資訊支持功率／類比半導體需求改善，400V 向 800V 升級也被視為中長期結構性驅動。"
+    }
+  ],
+  "market_observations": [
+    {
+      "observation": "主持人觀察科技與 AI 供應鏈出現廣泛估值壓縮，即使部分公司財報與產業展望良好，股價仍可能同步下跌。",
+      "time_sensitivity": "weeks",
+      "evidence_type": "source_statement"
+    },
+    {
+      "observation": "在市場原因不明且指數持續破底時，主持人偏向提高現金、降低交易頻率並避免使用大槓桿搶反彈。",
+      "time_sensitivity": "weeks",
+      "evidence_type": "source_statement"
+    },
+    {
+      "observation": "AI 應用的訓練與推論具有持續運算成本，因此軟體公司的 AI TAM 擴大可能同時伴隨毛利率低於傳統純軟體模式。",
+      "time_sensitivity": "structural",
+      "evidence_type": "derived_interpretation"
+    },
+    {
+      "observation": "大型 CSP 的 AI CapEx 若屬競爭必要投資，短期自由現金流轉弱不能單獨視為基本面惡化，仍需觀察 Cloud 成長與 AI 變現回報。",
+      "time_sensitivity": "months",
+      "evidence_type": "derived_interpretation"
+    },
+    {
+      "observation": "記憶體在前期大幅漲價後，第四季漲幅可能收斂至低個位至約一成並進一步趨平；節目仍認為整體 AI CapEx 趨勢未明顯改變。",
+      "time_sensitivity": "months",
+      "evidence_type": "source_statement"
+    },
+    {
+      "observation": "功率半導體受 data center、400V 向 800V 升級及高階產能配置影響，可能帶動 IDM、晶圓代工與封測環節的結構性需求。",
+      "time_sensitivity": "structural",
+      "evidence_type": "derived_interpretation"
+    }
+  ],
+  "analysis_meta": {
+    "generated_at": "2026-10-04T14:52:43+08:00",
+    "generator": "ChatGPT",
+    "source_scope": "full_transcript",
+    "review_status": "unreviewed"
+  }
+}
