@@ -1,0 +1,160 @@
+{
+  "schema_version": 1,
+  "episode": {
+    "number": 681,
+    "date": "2026-07-22",
+    "title": "2026-07-22-股癌-EP681-逐字稿"
+  },
+  "source": {
+    "platform": "vocus",
+    "url": "https://vocus.cc/article/6a60abd3fd89780001b20739",
+    "content_stored": false
+  },
+  "analysis": {
+    "summary": "本集聚焦科技股與中小型股急跌後的反彈與資金再配置。主持人將目前行情視為仍需警戒的區間盤，認為基本面良好不等於股價會立即上漲，操作上應同時觀察技術型態、資金流與催化事件。產業面重點包括 AMD Advancing AI、Turin CPU、Agentic AI 帶動的 CPU 需求，以及 Google 自研推論晶片與 ASIC 供應鏈。風險管理方面則反覆強調降低槓桿、控制部位上限，並在高估值或市場結構轉弱時保留調整彈性。",
+    "relevance": "high"
+  },
+  "entities": [
+    {
+      "name": "TSMC",
+      "ticker": "2330",
+      "market": "TW",
+      "entity_type": "company",
+      "mention_context": "約 13:20–16:05，被描述為市場回檔時大型資金暫時停泊、防守，待市場回穩後再移往其他標的的核心資產。",
+      "stance": "positive",
+      "confidence": 0.96
+    },
+    {
+      "name": "AMD",
+      "ticker": "AMD",
+      "market": "US",
+      "entity_type": "company",
+      "mention_context": "約 10:35–27:52，重點討論 Advancing AI、Turin、GPU/CPU 客戶與 Agentic AI CPU 需求；主持人認為 AMD 可能成為後續市場催化與 CPU 供應鏈焦點。",
+      "stance": "positive",
+      "confidence": 0.99
+    },
+    {
+      "name": "NVIDIA",
+      "ticker": "NVDA",
+      "market": "US",
+      "entity_type": "company",
+      "mention_context": "約 10:35–25:35，作為 AI GPU、CUDA 生態與 AMD 競爭的主要比較基準；主持人仍認為 NVIDIA 有能力透過軟硬體持續提升競爭力。",
+      "stance": "positive",
+      "confidence": 0.96
+    },
+    {
+      "name": "Intel",
+      "ticker": "INTC",
+      "market": "US",
+      "entity_type": "company",
+      "mention_context": "約 10:35–25:35，與 AMD CPU roadmap 比較，討論 Clearwater Forest、Granite/Diamond Rapids 與 CPU 供應鏈需求。",
+      "stance": "mixed",
+      "confidence": 0.93
+    },
+    {
+      "name": "Alphabet",
+      "ticker": "GOOGL",
+      "market": "US",
+      "entity_type": "company",
+      "mention_context": "約 16:05–19:04 與 25:35–26:40，討論財報預期、Frozen/TIA 推論晶片與 Google AI ecosystem；主持人對短期財報採中性態度，但對長期生態仍偏正面。",
+      "stance": "mixed",
+      "confidence": 0.97
+    },
+    {
+      "name": "Marvell Technology",
+      "ticker": "MRVL",
+      "market": "US",
+      "entity_type": "company",
+      "mention_context": "約 16:05–19:04，被認為可能負責 Google Frozen/TIA 推論加速晶片設計，因此相較 Google 本身，更可能是該題材的直接供應鏈觀察標的。",
+      "stance": "positive",
+      "confidence": 0.91
+    },
+    {
+      "name": "Microsoft",
+      "ticker": "MSFT",
+      "market": "US",
+      "entity_type": "company",
+      "mention_context": "約 19:04–20:25，被提及可能大量部署 AMD host servers 進行模型推論，作為 AMD 大型客戶採用的重要訊號。",
+      "stance": "neutral",
+      "confidence": 0.92
+    },
+    {
+      "name": "Apple",
+      "ticker": "AAPL",
+      "market": "US",
+      "entity_type": "company",
+      "mention_context": "約 19:04–20:25，主持人轉述市場對 Apple 與 AMD server 合作的預期，視為 Advancing AI 可能公布的潛在客戶催化。",
+      "stance": "neutral",
+      "confidence": 0.83
+    },
+    {
+      "name": "Anthropic",
+      "ticker": null,
+      "market": "OTHER",
+      "entity_type": "company",
+      "mention_context": "約 20:25–26:40，被提及為市場流傳可能採用 AMD 的模型公司之一，若正式公布合作可能形成市場催化。",
+      "stance": "neutral",
+      "confidence": 0.84
+    }
+  ],
+  "topics": [
+    {
+      "topic": "回檔後的市場結構與資金輪動",
+      "summary": "大盤反彈但許多中小型與高 PE 科技股技術型態已受損，資金可能先轉往台積電、指數、老 AI 與大型業績股防守，再等待新的主流族群形成。"
+    },
+    {
+      "topic": "AMD Advancing AI 與 CPU 週期",
+      "summary": "Turin 與大型客戶採用可能成為近期催化；主持人認為 Agentic AI 提升 CPU 在 AI infrastructure 中的重要性，並可能帶動 CPU 與相關 components 的需求及 ASP。"
+    },
+    {
+      "topic": "Google ASIC 與推論晶片供應鏈",
+      "summary": "Frozen/TIA 被視為 Google 內部推論加速器，投資焦點可能更偏向設計與零組件供應鏈，而不是晶片本身對 Alphabet 營收的直接貢獻。"
+    },
+    {
+      "topic": "基本面、技術面與估值的混合框架",
+      "summary": "主持人不把良好業績或低 forward PE 單獨視為買進理由，而是搭配技術型態、催化與市場資金選擇；分析師目標價主要用來理解市場預期而非直接作為交易依據。"
+    },
+    {
+      "topic": "槓桿、部位上限與停損彈性",
+      "summary": "市場急跌再次凸顯高槓桿風險；新手應使用較硬性的防呆與停損機制，而研究經驗增加後可透過部位上限與機會成本管理增加彈性。"
+    }
+  ],
+  "market_observations": [
+    {
+      "observation": "主持人將當前反彈視為仍處主要均線壓力附近的人道走廊，若個股反彈無法延續並再次轉弱，可能成為下一輪落隊標的。",
+      "time_sensitivity": "weeks",
+      "evidence_type": "source_statement"
+    },
+    {
+      "observation": "AI 與伺服器供應鏈後續業績可能隨 GB、AMD CPU/GPU 與 custom silicon 放量而改善，但基本面改善不保證股價同步上漲。",
+      "time_sensitivity": "months",
+      "evidence_type": "source_statement"
+    },
+    {
+      "observation": "高 PE 中小型股修正後，資金轉向大型、低估值、已有業績的老 AI，可解讀為風險偏好下降時的防守型輪動。",
+      "time_sensitivity": "weeks",
+      "evidence_type": "derived_interpretation"
+    },
+    {
+      "observation": "Agentic workflow 可能提高 general-purpose CPU 相對 GPU/ASIC 的配置需求，CPU 供應限制及換代亦可能改善 socket、記憶體與其他相關 components 的價值量。",
+      "time_sensitivity": "structural",
+      "evidence_type": "derived_interpretation"
+    },
+    {
+      "observation": "Google 自研推論晶片若主要供內部使用，其對 Alphabet 營收的直接影響有限，但可能為 ASIC 設計商與相關零組件形成更直接的供應鏈催化。",
+      "time_sensitivity": "months",
+      "evidence_type": "derived_interpretation"
+    },
+    {
+      "observation": "估值倍數與分析師目標價應用於理解市場預期與潛在預期差，而非機械式決定交易；真正的 alpha 可能來自尚未被市場模型納入的資訊。",
+      "time_sensitivity": "structural",
+      "evidence_type": "source_statement"
+    }
+  ],
+  "analysis_meta": {
+    "generated_at": "2026-10-05T14:41:48+08:00",
+    "generator": "ChatGPT",
+    "source_scope": "full_transcript",
+    "review_status": "unreviewed"
+  }
+}
