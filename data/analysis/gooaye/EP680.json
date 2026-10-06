@@ -1,0 +1,160 @@
+{
+  "schema_version": 1,
+  "episode": {
+    "number": 680,
+    "date": "2026-07-18",
+    "title": "2026-07-18-股癌-EP680-逐字稿"
+  },
+  "source": {
+    "platform": "vocus",
+    "url": "https://vocus.cc/article/6a5bcfd1fd89780001fbde34",
+    "content_stored": false
+  },
+  "analysis": {
+    "summary": "本集核心是市場快速修正後的防守策略與 AI/半導體基本面判讀。主持人認為台積電第二季與展望整體仍強，包括資本支出與美元營收成長預期上修，但市場風險偏好下降使好消息未能支撐股價；自身淨值回撤達預設門檻後，操作轉為降低槓桿、減少高 beta 個股，優先配置台積電、指數與已有業績支撐的公司。AI 方面則反駁高效率中國模型會降低算力需求的論點，以 Jevons Paradox 與 Agentic AI token 消耗增加解釋需求可能反而擴大。整體框架是產業基本面未明顯惡化，但估值倍數與市場結構可能持續修正，因此先求守成與存活。",
+    "relevance": "high"
+  },
+  "entities": [
+    {
+      "name": "TSMC",
+      "ticker": "2330",
+      "market": "TW",
+      "entity_type": "company",
+      "mention_context": "約 08:33–17:05 與後續 Q&A，重點討論第二季財報、毛利率、CapEx 上修、美元營收成長展望與先進封裝；主持人認為基本面與法說內容偏正面，但市場仍出現顯著修正。",
+      "stance": "positive",
+      "confidence": 0.99
+    },
+    {
+      "name": "SpaceX",
+      "ticker": null,
+      "market": "OTHER",
+      "entity_type": "company",
+      "mention_context": "約 00:48–08:33，主持人表示股價下跌時仍持續加碼，並以過往參訪及員工交流描述其快速、扁平且高度執行導向的公司文化。",
+      "stance": "positive",
+      "confidence": 0.99
+    },
+    {
+      "name": "Tesla",
+      "ticker": "TSLA",
+      "market": "US",
+      "entity_type": "company",
+      "mention_context": "約 02:36–05:12，以 Elon Musk 的成本導向與 AI5/AI6/FSD 晶片決策作為供應鏈快速變動的案例。",
+      "stance": "positive",
+      "confidence": 0.91
+    },
+    {
+      "name": "Intel",
+      "ticker": "INTC",
+      "market": "US",
+      "entity_type": "company",
+      "mention_context": "約 09:58–11:45，EMIB 被視為可能分擔先進封裝需求、讓台積電前段產能釋放更多量的潛在替代方案。",
+      "stance": "neutral",
+      "confidence": 0.9
+    },
+    {
+      "name": "CrowdStrike",
+      "ticker": "CRWD",
+      "market": "US",
+      "entity_type": "company",
+      "mention_context": "約 17:05–18:25，與 Supermicro 一同作為基本面沒有劇烈改變、但市場敘事與股價曾大幅波動的案例。",
+      "stance": "positive",
+      "confidence": 0.88
+    },
+    {
+      "name": "Supermicro",
+      "ticker": "SMCI",
+      "market": "US",
+      "entity_type": "company",
+      "mention_context": "約 17:05–18:25，作為基本面與市場敘事可能脫鉤、價格大幅修正後又強烈反彈的案例。",
+      "stance": "mixed",
+      "confidence": 0.86
+    },
+    {
+      "name": "Micron Technology",
+      "ticker": "MU",
+      "market": "US",
+      "entity_type": "company",
+      "mention_context": "約 08:33–09:58 與 22:37 後，被用來比較市場提前拉高財報預期，以及記憶體產業前景良好但股價仍可劇烈修正的現象。",
+      "stance": "positive",
+      "confidence": 0.9
+    },
+    {
+      "name": "MediaTek",
+      "ticker": "2454",
+      "market": "TW",
+      "entity_type": "company",
+      "mention_context": "約 45:00–46:18，作為基本面投資者認為內在價值可能高於市場價格、但股價短期仍未反映的案例。",
+      "stance": "positive",
+      "confidence": 0.83
+    },
+    {
+      "name": "Flytech Technology",
+      "ticker": "6206",
+      "market": "TW",
+      "entity_type": "company",
+      "mention_context": "約 43:57–46:18，Q&A 討論 POS/IPC 與軟體營收成長；主持人認為公司成績不差，但提醒 IPC book-to-bill 可能受缺料等因素干擾。",
+      "stance": "mixed",
+      "confidence": 0.91
+    }
+  ],
+  "topics": [
+    {
+      "topic": "台積電財報、CapEx 與先進封裝",
+      "summary": "主持人認為第二季財報與法說整體正面，特別是 CapEx 與美元營收成長預期上修；先進封裝緊張仍是供應限制，而競爭方案若成熟可能協助釋放前段產能。"
+    },
+    {
+      "topic": "市場修正與防守型資產配置",
+      "summary": "在自身淨值回撤超過預設門檻後，主持人由進攻轉為防守，減少高 beta 與選股，優先使用台積電、台指期或大盤指數承接曝險。"
+    },
+    {
+      "topic": "AI 效率、Kimi 與 Jevons Paradox",
+      "summary": "主持人不認同更高效率或低成本模型會直接壓低 AI 基礎設施需求，認為 reasoning、Agentic AI 與更廣泛採用可能提高總 token 與算力消耗。"
+    },
+    {
+      "topic": "基本面與市場敘事脫鉤",
+      "summary": "記憶體、光通訊、半導體等產業基本面未見同幅度惡化，但市場風險偏好下降與估值倍數壓縮仍可造成大幅回撤，因此不能只用基本面解釋短期價格。"
+    },
+    {
+      "topic": "槓桿、流動性與長期投資",
+      "summary": "主持人仍傾向長期持有股票而非全面轉現金，但強調槓桿必須低、資金用途與部位規模要匹配；股票質押只能作為低比例周轉工具。"
+    }
+  ],
+  "market_observations": [
+    {
+      "observation": "主持人認為台積電財報與展望沒有明顯基本面利空，但股價仍大幅下跌，反映市場風險偏好與估值壓縮可能凌駕單一公司的好消息。",
+      "time_sensitivity": "weeks",
+      "evidence_type": "source_statement"
+    },
+    {
+      "observation": "當中小型與高 beta 科技股技術型態普遍轉弱時，主持人選擇降低進攻性，將新增曝險優先放在指數、台積電或已有業績支撐的公司。",
+      "time_sensitivity": "weeks",
+      "evidence_type": "source_statement"
+    },
+    {
+      "observation": "高效率 AI 模型不必然降低整體算力需求；若成本下降帶來更廣泛採用，且 Agentic workflow 消耗更多 tokens，總需求可能依 Jevons Paradox 增加。",
+      "time_sensitivity": "structural",
+      "evidence_type": "derived_interpretation"
+    },
+    {
+      "observation": "產業基本面維持強勁時，市場仍可能透過 PE 壓縮完成修正，因此低估值或業績成長本身不足以界定短期底部。",
+      "time_sensitivity": "months",
+      "evidence_type": "derived_interpretation"
+    },
+    {
+      "observation": "主持人把淨值自高點回撤約 15% 設為切換防守模式的個人風控門檻，顯示策略調整依賴 portfolio-level drawdown，而不只是單一股票訊號。",
+      "time_sensitivity": "structural",
+      "evidence_type": "source_statement"
+    },
+    {
+      "observation": "股票質押若只用於相對總資產很小的短期周轉，其風險與高比例質押後再融資加碼有本質差異；槓桿比例本身是主要風險來源。",
+      "time_sensitivity": "structural",
+      "evidence_type": "source_statement"
+    }
+  ],
+  "analysis_meta": {
+    "generated_at": "2026-10-06T14:47:39+08:00",
+    "generator": "ChatGPT",
+    "source_scope": "full_transcript",
+    "review_status": "unreviewed"
+  }
+}
