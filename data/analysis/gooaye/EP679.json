@@ -1,0 +1,165 @@
+{
+  "schema_version": 1,
+  "episode": {
+    "number": 679,
+    "date": "2026-07-15",
+    "title": "2026-07-15-股癌-EP679-逐字稿"
+  },
+  "source": {
+    "platform": "vocus",
+    "url": "https://vocus.cc/article/6a5bc396fd89780001fa0376",
+    "content_stored": false
+  },
+  "analysis": {
+    "summary": "本集前段以 AI 工具的成本、準確性與治理為切入點，強調通用模型在缺乏 domain knowledge 時可能因過度驗證消耗大量 token，且仍可能產生錯誤。市場主軸則聚焦近期亞洲與台股去槓桿：主持人認為韓國市場高集中度與高槓桿造成被迫平倉，並透過跨市場資金與風險偏好影響其他亞洲市場；台灣券商同步收緊融資與質押額度。策略上不追逐僅存的強勢族群，而把盤面視為區間震盪，降低走弱部位、提高現金彈性並等待財報季。產業面仍未看到 AI 基本需求遭破壞，載板、CCL、功率與封測供需仍偏緊，但高漲幅族群的估值與籌碼風險需和產業基本面分開看。",
+    "relevance": "high"
+  },
+  "entities": [
+    {
+      "name": "TSMC",
+      "ticker": "2330",
+      "market": "TW",
+      "entity_type": "company",
+      "mention_context": "約 21:47–27:30 與 51:05 後，主持人認為台積電基本展望仍佳，市場轉弱時資金也可能回到大型核心股；另提及後段封測外包需求。",
+      "stance": "positive",
+      "confidence": 0.97
+    },
+    {
+      "name": "Micron",
+      "ticker": "MU",
+      "market": "US",
+      "entity_type": "company",
+      "mention_context": "約 43:48–46:05 的研究方法 QA，以過早買入美光但長期方向最終正確的案例說明 timing 與資金效率的重要性。",
+      "stance": "neutral",
+      "confidence": 0.91
+    },
+    {
+      "name": "NVIDIA",
+      "ticker": "NVDA",
+      "market": "US",
+      "entity_type": "company",
+      "mention_context": "約 51:05–52:43，在封測需求討論中作為 AI 後段測試需求來源，主持人認為相關供需狀況仍佳。",
+      "stance": "positive",
+      "confidence": 0.94
+    },
+    {
+      "name": "KYEC",
+      "ticker": "2449",
+      "market": "TW",
+      "entity_type": "company",
+      "mention_context": "約 51:05–51:46，作為 NVIDIA/AI 測試需求相關案例，主持人表示目前狀況良好。",
+      "stance": "positive",
+      "confidence": 0.94
+    },
+    {
+      "name": "Powerchip Semiconductor Manufacturing",
+      "ticker": "6770",
+      "market": "TW",
+      "entity_type": "company",
+      "mention_context": "約 50:18–51:46，引用公司近期說法討論功率 MOSFET 與封裝產能緊繃、客戶持續要求增加供應。",
+      "stance": "positive",
+      "confidence": 0.93
+    },
+    {
+      "name": "Jane Street",
+      "ticker": null,
+      "market": "OTHER",
+      "entity_type": "company",
+      "mention_context": "約 14:22–15:07，作為高波動與被迫去槓桿環境下量化／套利資金可能受益的例子。",
+      "stance": "neutral",
+      "confidence": 0.86
+    },
+    {
+      "name": "Archegos Capital Management",
+      "ticker": null,
+      "market": "OTHER",
+      "entity_type": "company",
+      "mention_context": "約 15:18–16:55，主持人用 Archegos 高槓桿爆倉歷史案例說明強制去槓桿可能產生跨市場連鎖效應。",
+      "stance": "negative",
+      "confidence": 0.96
+    },
+    {
+      "name": "CCL and IC substrate industry",
+      "ticker": null,
+      "market": "OTHER",
+      "entity_type": "industry",
+      "mention_context": "約 23:47–26:30 與 49:31–52:43，主持人認為載板與 CCL 供需仍非常緊、持續有漲價訊號，但股價與估值已反映多年多頭故事。",
+      "stance": "positive",
+      "confidence": 0.97
+    },
+    {
+      "name": "Semiconductor packaging and testing industry",
+      "ticker": null,
+      "market": "OTHER",
+      "entity_type": "industry",
+      "mention_context": "約 50:18–52:43，AI、功率元件與一般 IC 後段封測多個環節均被描述為高稼動或供不應求，且可能持續漲價。",
+      "stance": "positive",
+      "confidence": 0.97
+    }
+  ],
+  "topics": [
+    {
+      "topic": "AI 成本、準確性與治理",
+      "summary": "通用 AI 在缺乏領域知識時可能反覆驗證、消耗過量 token，仍不能消除 hallucination 或資料判讀錯誤；高風險工作需要人類治理與驗證。"
+    },
+    {
+      "topic": "韓國去槓桿與亞洲市場傳染",
+      "summary": "主持人把近期劇烈修正的一部分歸因於韓國高集中度、高槓桿市場的被迫平倉，並認為跨市場資金與風險偏好使其他亞洲市場跟著降低槓桿。"
+    },
+    {
+      "topic": "台灣融資收緊與風控",
+      "summary": "券商對單一標的融資、質押與不限用途借貸額度收緊，使市場參與者無法像過去一樣自由增加槓桿，也反映金融機構主動控制違約與爆倉風險。"
+    },
+    {
+      "topic": "區間盤策略與守成",
+      "summary": "在強勢族群數量下降、輪動加快的環境中，主持人避免追逐僅存動能股，偏向減碼型態轉弱標的、保留現金並等待財報與新催化劑。"
+    },
+    {
+      "topic": "半導體供需仍強但估值分化",
+      "summary": "AI 基本需求尚未看到破壞性變化；載板、CCL、功率與封測供需仍偏緊，但已大漲族群的股價修正不能直接解讀為產業基本面惡化。"
+    }
+  ],
+  "market_observations": [
+    {
+      "observation": "主持人認為近期亞洲股市修正的重要資金面因素之一，是韓國市場高槓桿部位被迫平倉後帶動區域性去槓桿。",
+      "time_sensitivity": "weeks",
+      "evidence_type": "source_statement"
+    },
+    {
+      "observation": "台灣券商已對融資、質押與部分標的額度加強風控，限制槓桿擴張，這可能降低市場短期流動性但也減少進一步槓桿堆疊。",
+      "time_sensitivity": "weeks",
+      "evidence_type": "source_statement"
+    },
+    {
+      "observation": "在大盤距高點仍不遠但熱門個股大幅回撤的環境，追逐僅存強勢族群可能承擔擁擠交易與下一輪去槓桿風險。",
+      "time_sensitivity": "weeks",
+      "evidence_type": "derived_interpretation"
+    },
+    {
+      "observation": "若反彈失敗並再度破底，主持人的風險管理順序是先撤回近期加碼部位，再逐步降低總曝險與提高現金水位，而非立即建立空單。",
+      "time_sensitivity": "weeks",
+      "evidence_type": "source_statement"
+    },
+    {
+      "observation": "目前尚未觀察到會破壞 AI 整體需求的基本面變化，因此近期修正較偏資金與籌碼問題，而非 AI 產業 thesis 已反轉。",
+      "time_sensitivity": "months",
+      "evidence_type": "source_statement"
+    },
+    {
+      "observation": "CCL、載板與多個封測環節仍呈現供應緊張或高稼動，但基本面強勁不代表已大幅上漲的股票短期沒有估值與籌碼修正風險。",
+      "time_sensitivity": "months",
+      "evidence_type": "derived_interpretation"
+    },
+    {
+      "observation": "研究正確與投資有效率並非同一件事；若 thesis 需要很長時間才被市場驗證，資金機會成本仍可能使較晚確認後再投入成為合理選擇。",
+      "time_sensitivity": "structural",
+      "evidence_type": "derived_interpretation"
+    }
+  ],
+  "analysis_meta": {
+    "generated_at": "2026-10-07T14:22:22+08:00",
+    "generator": "ChatGPT",
+    "source_scope": "full_transcript",
+    "review_status": "unreviewed"
+  }
+}
