@@ -1,0 +1,156 @@
+{
+  "schema_version": 1,
+  "episode": {
+    "number": 678,
+    "date": "2026-07-11",
+    "title": "2026-07-11-股癌-EP678-逐字稿"
+  },
+  "source": {
+    "platform": "vocus",
+    "url": "https://vocus.cc/article/6a5bc36cfd89780001f9fd00",
+    "content_stored": false
+  },
+  "analysis": {
+    "summary": "本集市場主軸聚焦 AI 算力供給、電子零組件漲價與光通訊內部輪動。主持人認為 Meta 將既有 GPU 算力對外出租並非退出 AI 競賽，而是提高資產利用率並增加算力供給，長期可能壓低單位算力價格、促進 AI 應用，但也讓 Neocloud 與高估值算力供應鏈面臨更可量化的競爭與估值收斂。產業面則觀察到記憶體、被動元件、功率元件、封裝與導線架仍有缺貨或漲價現象。光通訊方面，資金從過去熱門的 narrow-and-fast／SiPh、InP 敘事部分轉向 wide-and-slow／VCSEL 等更遠期方案，但主持人強調不同技術應用場景可並存，不宜把短期股價輪動直接等同基本面淘汰。整體策略偏向區分產業基本面與市場資金流，並等待大盤風險偏好改善後再評估高估值族群。",
+    "relevance": "high"
+  },
+  "entities": [
+    {
+      "name": "NVIDIA",
+      "ticker": "NVDA",
+      "market": "US",
+      "entity_type": "company",
+      "mention_context": "約 10:33–13:00，主持人提到 NVIDIA 股價重新轉強，並以 Blackwell、Rubin、Hopper 世代說明新舊 GPU 可分別承擔訓練、推論與出租用途。",
+      "stance": "positive",
+      "confidence": 0.97
+    },
+    {
+      "name": "Meta Platforms",
+      "ticker": "META",
+      "market": "US",
+      "entity_type": "company",
+      "mention_context": "約 10:33–17:39，主持人認為 Meta 對外提供部分算力並非縮減 AI 投資，而是持續擴張並提高既有 GPU 資產利用率；此舉對 Meta 與整體 AI 應用偏正面。",
+      "stance": "positive",
+      "confidence": 0.98
+    },
+    {
+      "name": "Analog Devices",
+      "ticker": "ADI",
+      "market": "US",
+      "entity_type": "company",
+      "mention_context": "約 18:43–20:43，作為功率／類比元件漲價案例，主持人提到公司已發出漲價通知。",
+      "stance": "positive",
+      "confidence": 0.91
+    },
+    {
+      "name": "AI compute rental and Neocloud industry",
+      "ticker": null,
+      "market": "OTHER",
+      "entity_type": "industry",
+      "mention_context": "約 13:00–17:39，Meta 等大型自用算力持有者加入外部租賃供給，可能增加競爭、穩定算力價格並使投報率更容易估算。",
+      "stance": "mixed",
+      "confidence": 0.97
+    },
+    {
+      "name": "Memory industry",
+      "ticker": null,
+      "market": "OTHER",
+      "entity_type": "industry",
+      "mention_context": "約 17:39–18:43，主持人表示下一季記憶體合約價格仍有上漲趨勢，雖漲幅可能收斂，但大型客戶採購意願仍強。",
+      "stance": "positive",
+      "confidence": 0.96
+    },
+    {
+      "name": "Passive components and power semiconductor industry",
+      "ticker": null,
+      "market": "OTHER",
+      "entity_type": "industry",
+      "mention_context": "約 18:43–20:43 與 30:44–35:01，被動、功率元件及相關封裝環節被描述為多數漲價成功、稼動率提升且部分供應環節持續吃緊。",
+      "stance": "positive",
+      "confidence": 0.97
+    },
+    {
+      "name": "Optical interconnect industry",
+      "ticker": null,
+      "market": "OTHER",
+      "entity_type": "industry",
+      "mention_context": "約 20:43–28:52，討論 SiPh／InP 的 narrow-and-fast 與 VCSEL 等 wide-and-slow 技術路線及市場資金輪動；主持人認為應用場景不同、可並存。",
+      "stance": "mixed",
+      "confidence": 0.97
+    },
+    {
+      "name": "Lead frame and semiconductor packaging industry",
+      "ticker": null,
+      "market": "OTHER",
+      "entity_type": "industry",
+      "mention_context": "約 30:44–35:01，主持人引述產業端資訊，指出部分導線架 lead time 拉長並出現約 10–20% 漲價，封裝供應亦偏緊。",
+      "stance": "positive",
+      "confidence": 0.94
+    }
+  ],
+  "topics": [
+    {
+      "topic": "Meta 算力出租與 AI 資產利用率",
+      "summary": "主持人把 Meta 對外提供部分 GPU 算力解讀為 AI 投資延伸而非退出；舊世代 GPU 可持續用於推論或出租，提高資料中心資產的經濟壽命與利用率。"
+    },
+    {
+      "topic": "算力價格、Neocloud 競爭與估值",
+      "summary": "大型算力持有者增加外部供給後，單位算力價格可能下降且投報率更透明，有利 AI 應用普及，但可能壓縮 Neocloud 與高估值供應鏈的敘事溢價。"
+    },
+    {
+      "topic": "電子零組件漲價循環",
+      "summary": "記憶體、被動元件、功率元件、封裝與導線架多個環節仍有漲價、缺貨或稼動率提升訊號，顯示 AI 與電子供應鏈需求尚未明顯降溫。"
+    },
+    {
+      "topic": "光通訊技術與資金輪動",
+      "summary": "市場資金近期部分從 SiPh／InP 等 narrow-and-fast 熱門路線轉向 VCSEL、AOC、Micro LED 等 wide-and-slow 敘事，但兩類技術面向不同傳輸距離與架構，並非必然互斥。"
+    },
+    {
+      "topic": "基本面與資金面的分離",
+      "summary": "主持人提醒供應緊張或產業基本面良好不保證股價立即上漲；短期市場資金取向、估值與 sentiment 可能造成產業內部明顯分化。"
+    }
+  ],
+  "market_observations": [
+    {
+      "observation": "主持人認為 Meta 對外出租部分 GPU 算力是提高既有 AI 資產利用率並持續投入 AI 的訊號，而非退出算力競賽。",
+      "time_sensitivity": "months",
+      "evidence_type": "source_statement"
+    },
+    {
+      "observation": "若更多大型自用算力持有者進入租賃市場，單位算力價格可能逐步下降與穩定，促進 AI 應用，但也使 Neocloud 的長期投報率與估值更容易被量化。",
+      "time_sensitivity": "structural",
+      "evidence_type": "derived_interpretation"
+    },
+    {
+      "observation": "記憶體下一季價格仍被預期上漲，但年增率與漲幅可能因高基期逐步收斂；大型客戶採購力量目前仍強。",
+      "time_sensitivity": "months",
+      "evidence_type": "source_statement"
+    },
+    {
+      "observation": "被動元件、功率元件與後段封裝多個環節仍出現漲價或高稼動率訊號，部分導線架 lead time 甚至由約三至四個月延長至七至八個月。",
+      "time_sensitivity": "months",
+      "evidence_type": "source_statement"
+    },
+    {
+      "observation": "光通訊族群近期的強弱差異可能反映資金在不同技術敘事間輪動，而不能直接推導 SiPh／InP 基本面已被 wide-and-slow 路線取代。",
+      "time_sensitivity": "weeks",
+      "evidence_type": "derived_interpretation"
+    },
+    {
+      "observation": "高估值科技族群若要重新取得市場資金，可能需要大盤突破或風險偏好改善；在此之前，資金較偏好短期可見營收與獲利的供應鏈環節。",
+      "time_sensitivity": "weeks",
+      "evidence_type": "source_statement"
+    },
+    {
+      "observation": "產業供需良好與股票短期表現並非同一件事；投資者若實際採用短期資金流策略，需要把基本面研究與市場資金位置分開判讀。",
+      "time_sensitivity": "structural",
+      "evidence_type": "derived_interpretation"
+    }
+  ],
+  "analysis_meta": {
+    "generated_at": "2026-10-08T14:10:51+08:00",
+    "generator": "ChatGPT",
+    "source_scope": "full_transcript",
+    "review_status": "unreviewed"
+  }
+}
