@@ -1,0 +1,142 @@
+{
+  "schema_version": 1,
+  "episode": {
+    "number": 677,
+    "date": "2026-07-08",
+    "title": "2026-07-08-股癌-EP677-逐字稿"
+  },
+  "source": {
+    "platform": "vocus",
+    "url": "https://vocus.cc/article/6a5bc341fd89780001f9f6bd",
+    "content_stored": false
+  },
+  "analysis": {
+    "summary": "本集核心圍繞高槓桿風險、台股中小型股修正與 AI 產業長線趨勢。主持人認為近期中小型股劇烈波動較像降槓桿與資金輪動，而非已出現足以推翻行情的系統性壞消息；光通與部分被動元件轉弱，但功率元件、CCL、wafer 與封測仍有強勢族群，因此對大盤維持中性偏多、見招拆招。針對 SemiAnalysis 對 NVL144 等供應鏈時程的討論，主持人將其解讀為短期研發與量產時程變化，而非 AI 長期需求 thesis 改變。QA 進一步談到 token 成本下降可能改善部分軟體公司的經濟性，並討論 CrowdStrike、Cloudflare、Palantir 等公司。",
+    "relevance": "high"
+  },
+  "entities": [
+    {
+      "name": "TSMC",
+      "ticker": "2330",
+      "market": "TW",
+      "entity_type": "company",
+      "mention_context": "約 14:24–28:34 與 QA，被視為台股 AI 核心資產與市場相對穩健標的，並等待後續公司展望作為盤勢判斷的重要訊號。",
+      "stance": "positive",
+      "confidence": 0.98
+    },
+    {
+      "name": "NVIDIA",
+      "ticker": "NVDA",
+      "market": "US",
+      "entity_type": "company",
+      "mention_context": "約 14:24–28:34 與 39:33–44:14，被視為美股 AI 核心公司；主持人認為 NVL144 等短期時程雜音不改長線趨勢。",
+      "stance": "positive",
+      "confidence": 0.99
+    },
+    {
+      "name": "CrowdStrike",
+      "ticker": "CRWD",
+      "market": "US",
+      "entity_type": "company",
+      "mention_context": "約 39:33–44:14，作為市場曾過度悲觀看待資安與軟體股、但後續表現恢復的案例，也是主持人偏好的軟體公司之一。",
+      "stance": "positive",
+      "confidence": 0.96
+    },
+    {
+      "name": "Cloudflare",
+      "ticker": "NET",
+      "market": "US",
+      "entity_type": "company",
+      "mention_context": "約 39:33–44:14，與 CrowdStrike、Palantir 並列主持人偏好的軟體股。",
+      "stance": "positive",
+      "confidence": 0.93
+    },
+    {
+      "name": "Palantir",
+      "ticker": "PLTR",
+      "market": "US",
+      "entity_type": "company",
+      "mention_context": "約 39:33–44:14，被列為主持人較喜歡的軟體公司之一。",
+      "stance": "positive",
+      "confidence": 0.93
+    },
+    {
+      "name": "Tesla",
+      "ticker": "TSLA",
+      "market": "US",
+      "entity_type": "company",
+      "mention_context": "約 39:33–44:14，主持人表示其 Tesla 持有較偏向對公司領導人的長期信念。",
+      "stance": "positive",
+      "confidence": 0.95
+    },
+    {
+      "name": "SpaceX",
+      "ticker": null,
+      "market": "OTHER",
+      "entity_type": "company",
+      "mention_context": "約 08:22–10:44 與 39:33–44:14，被用來說明新時代資產規模與主持人的長期持有偏好。",
+      "stance": "positive",
+      "confidence": 0.94
+    }
+  ],
+  "topics": [
+    {
+      "topic": "高槓桿與生存風險",
+      "summary": "主持人比較不同世代投資人的槓桿工具，強調追求快速資產成長時必須同時評估極端回撤風險。"
+    },
+    {
+      "topic": "台股降槓桿與族群輪動",
+      "summary": "近期中小型股劇烈修正被解讀為投機資金降槓桿與輪動；部分族群轉弱，但功率元件、CCL、wafer、封測仍維持相對強勢。"
+    },
+    {
+      "topic": "AI 供應鏈短期雜音與長期趨勢",
+      "summary": "SemiAnalysis 對 NVL144、800G、HBM 等議題的短期修正，被主持人視為研發與量產過程中的時程變化，而不是 AI 長期需求方向逆轉。"
+    },
+    {
+      "topic": "軟體股與 token 成本下降",
+      "summary": "主持人認為部分近期財報與電話會議已開始呈現 token 成本下降改善軟體公司經濟性的跡象，反駁 SaaS 會被 AI 一體淘汰的簡化敘事。"
+    },
+    {
+      "topic": "市場預測與風險管理",
+      "summary": "無論熊市或短期高點，主持人偏好看到實際牌面後再調整，而不是預設頂底；當交易信心不足時應先縮小部位。"
+    }
+  ],
+  "market_observations": [
+    {
+      "observation": "近期台股中小型股急跌可能主要反映高槓桿部位降低，而不是已確認的重大基本面利空。",
+      "time_sensitivity": "weeks",
+      "evidence_type": "source_statement"
+    },
+    {
+      "observation": "只要市場仍存在可承接資金且維持強勢的 AI 相關族群，主持人暫不把近期修正解讀為行情立即結束。",
+      "time_sensitivity": "weeks",
+      "evidence_type": "source_statement"
+    },
+    {
+      "observation": "NVL144 等新架構的短期量產遞延屬於 AI 基礎設施研發與驗證風險，若終端需求與大方向未變，不能單憑時程延後推導 AI thesis 反轉。",
+      "time_sensitivity": "months",
+      "evidence_type": "derived_interpretation"
+    },
+    {
+      "observation": "AI 核心公司與部分周邊供應鏈公司的估值差異，顯示市場定價不一定與產業重要性線性一致，資金偏好與籌碼仍會影響短期相對表現。",
+      "time_sensitivity": "months",
+      "evidence_type": "derived_interpretation"
+    },
+    {
+      "observation": "token 成本下降可能改善部分 SaaS 與資安公司的 AI 服務經濟性，但軟體產業內部分化很大，不宜把整個 SaaS 類別視為單一方向。",
+      "time_sensitivity": "structural",
+      "evidence_type": "derived_interpretation"
+    },
+    {
+      "observation": "高槓桿策略在急速回撤時可能造成非線性資本損失，因此部位生存能力比追求最快資產成長更重要。",
+      "time_sensitivity": "structural",
+      "evidence_type": "derived_interpretation"
+    }
+  ],
+  "analysis_meta": {
+    "generated_at": "2026-10-09T14:41:37+08:00",
+    "generator": "ChatGPT",
+    "source_scope": "full_transcript",
+    "review_status": "unreviewed"
+  }
+}
