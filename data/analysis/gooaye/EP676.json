@@ -1,0 +1,156 @@
+{
+  "schema_version": 1,
+  "episode": {
+    "number": 676,
+    "date": "2026-07-04",
+    "title": "2026-07-04-股癌-EP676-逐字稿"
+  },
+  "source": {
+    "platform": "vocus",
+    "url": "https://vocus.cc/article/6a5bc317fd89780001f9f155",
+    "content_stored": false
+  },
+  "analysis": {
+    "summary": "本集市場主軸聚焦台股修正後的資金重新凝聚、被動與功率元件缺貨漲價、封裝產能的排擠效應，以及 Meta 將閒置或較舊 AI 算力對外出租所代表的資本支出含義。主持人認為強勢族群在修正後若能率先轉強並伴隨大盤創高，才較能確認行情重新延續；產業面則觀察到 MOSFET 等功率元件供應緊張，掌握製造與封測產能者較有優勢。對 Meta 的 Neo Cloud 動向，主持人傾向解讀為尋找算力變現出口、支持繼續擴大 AI 建置，而非退出 AI 投資。QA 另討論光通資金退潮、DDIC 成本轉嫁與題材帶來的估值重評，以及券商質押額度趨緊但未形成全面收傘。",
+    "relevance": "high"
+  },
+  "entities": [
+    {
+      "name": "Meta Platforms",
+      "ticker": "META",
+      "market": "US",
+      "entity_type": "company",
+      "mention_context": "約 21:48–29:03，討論 Meta 將部分算力對外出租與 Neo Cloud 商業模式；主持人傾向解讀為算力變現與繼續擴建 AI 基礎設施，而非退出 AI。",
+      "stance": "positive",
+      "confidence": 0.95
+    },
+    {
+      "name": "TSMC",
+      "ticker": "2330",
+      "market": "TW",
+      "entity_type": "company",
+      "mention_context": "約 19:59–21:48，以台積電作為 AI 供應鏈中掌握製造產能的重要類比，說明成熟製程與封裝端同樣可能因產能稀缺受惠。",
+      "stance": "positive",
+      "confidence": 0.93
+    },
+    {
+      "name": "ASE Technology",
+      "ticker": "3711",
+      "market": "TW",
+      "entity_type": "company",
+      "mention_context": "約 18:31–21:48，作為封裝測試產業代表，節目觀察 AI 需求造成封裝報價與產能議價能力提升。",
+      "stance": "positive",
+      "confidence": 0.88
+    },
+    {
+      "name": "King Yuan Electronics",
+      "ticker": "2449",
+      "market": "TW",
+      "entity_type": "company",
+      "mention_context": "約 18:31–19:59，與 NVIDIA 相關測試需求一同被提及，作為封測族群強勢與 AI 需求的案例。",
+      "stance": "positive",
+      "confidence": 0.87
+    },
+    {
+      "name": "NVIDIA",
+      "ticker": "NVDA",
+      "market": "US",
+      "entity_type": "company",
+      "mention_context": "約 18:31–21:48 與 40:40–44:27，作為 AI 封測需求來源及產業基本面良好但股價不一定同步上漲的例子。",
+      "stance": "positive",
+      "confidence": 0.91
+    },
+    {
+      "name": "Coherent",
+      "ticker": "COHR",
+      "market": "US",
+      "entity_type": "company",
+      "mention_context": "約 40:40–44:27，與 Lumentum 一同作為光通訊基本面仍佳、但當下市場資金並未集中於該族群的案例。",
+      "stance": "mixed",
+      "confidence": 0.92
+    },
+    {
+      "name": "Lumentum",
+      "ticker": "LITE",
+      "market": "US",
+      "entity_type": "company",
+      "mention_context": "約 40:40–44:27，節目認為光通產業方向仍正確，但短期股價表現受資金輪動影響。",
+      "stance": "mixed",
+      "confidence": 0.91
+    },
+    {
+      "name": "MediaTek",
+      "ticker": "2454",
+      "market": "TW",
+      "entity_type": "company",
+      "mention_context": "約 49:22–49:59，作為市場提前交易新 AI 故事、在既有手機展望下修後仍可能因估值重評快速上漲的案例。",
+      "stance": "positive",
+      "confidence": 0.9
+    }
+  ],
+  "topics": [
+    {
+      "topic": "修正後的市場資金輪動",
+      "summary": "主持人觀察被動元件與功率元件率先轉強，但認為仍需大盤創高與強勢族群延續才能確認修正結束。"
+    },
+    {
+      "topic": "功率元件缺貨與漲價",
+      "summary": "ODM/EMS 端出現部分 MOSFET 等功率元件難以取得的訊號，節目認為產業緊張程度正在升高，掌握產能的 IDM 或能確保晶圓與封裝資源者較有優勢。"
+    },
+    {
+      "topic": "封裝產能排擠效應",
+      "summary": "AI 需求使部分封裝廠具備更強議價能力，節目提到部分 design house 面臨明顯報價上升，封裝測試可能成為下一階段市場關注焦點。"
+    },
+    {
+      "topic": "Meta Neo Cloud 與 AI CapEx",
+      "summary": "主持人不把 Meta 出租較舊或暫時閒置算力視為 AI 撤退，而視為新增變現管道，可能降低持續擴大 AI 基礎設施投資的顧慮。"
+    },
+    {
+      "topic": "光通與 DDIC 的估值重評",
+      "summary": "光通基本面仍佳但短期資金不在該族群；DDIC 則可能因成本轉嫁成功、新業務題材或市場提前交易轉折而先出現 PE re-rating。"
+    }
+  ],
+  "market_observations": [
+    {
+      "observation": "被動元件與功率元件在修正後率先轉強，但主持人仍以大盤重新創高作為較明確的修正結束確認訊號。",
+      "time_sensitivity": "weeks",
+      "evidence_type": "source_statement"
+    },
+    {
+      "observation": "部分 ODM/EMS 已反映 MOSFET 等功率元件出現供應緊張甚至買不到料的情況，且七月可能持續出現漲價訊息。",
+      "time_sensitivity": "months",
+      "evidence_type": "source_statement"
+    },
+    {
+      "observation": "AI 需求對成熟製程與後段封裝形成產能排擠，具自有產能或能提前鎖定晶圓、封裝資源的供應商可能擁有更高議價能力。",
+      "time_sensitivity": "months",
+      "evidence_type": "derived_interpretation"
+    },
+    {
+      "observation": "Meta 若能把較舊或暫時閒置的 GPU 算力外租，可能提高資產利用率並降低持續擴建 AI 基礎設施的經濟阻力。",
+      "time_sensitivity": "structural",
+      "evidence_type": "derived_interpretation"
+    },
+    {
+      "observation": "光通訊產業基本面良好不代表短期股價必然領先；主持人將資金與法人是否重新流入視為行情重新啟動的重要條件。",
+      "time_sensitivity": "weeks",
+      "evidence_type": "source_statement"
+    },
+    {
+      "observation": "券商質押與不限用途借貸額度明顯趨緊，但主持人觀察較像限制新增槓桿，而非全面要求既有借款立即收回。",
+      "time_sensitivity": "months",
+      "evidence_type": "source_statement"
+    },
+    {
+      "observation": "部分 DDIC 與其他 IC design 股票可能先反映成本轉嫁、題材或新業務帶來的估值倍數上修，即使終端消費需求尚未明顯復甦。",
+      "time_sensitivity": "months",
+      "evidence_type": "derived_interpretation"
+    }
+  ],
+  "analysis_meta": {
+    "generated_at": "2026-10-10T14:53:58+08:00",
+    "generator": "ChatGPT",
+    "source_scope": "full_transcript",
+    "review_status": "unreviewed"
+  }
+}
