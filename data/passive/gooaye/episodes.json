@@ -5,9 +5,30 @@
     "platform": "vocus",
     "room_url": "https://vocus.cc/salon/6908b98efd89780001cb1d32/room/6908c04d5ed52e53fa5821e4"
   },
-  "generated_at": "2026-09-27T06:21:57+00:00",
-  "episode_count": 55,
+  "generated_at": "2026-10-11T00:33:46+00:00",
+  "episode_count": 58,
   "episodes": [
+    {
+      "episode": 703,
+      "date": "2026-10-07",
+      "title": "2026-10-07-股癌-EP703-逐字稿",
+      "source": "vocus",
+      "source_url": "https://vocus.cc/article/6acab1b3fd89780001780e55"
+    },
+    {
+      "episode": 702,
+      "date": "2026-10-03",
+      "title": "2026-10-03-股癌-EP702-逐字稿",
+      "source": "vocus",
+      "source_url": "https://vocus.cc/article/6acab14dfd8978000177f923"
+    },
+    {
+      "episode": 701,
+      "date": "2026-09-30",
+      "title": "2026-09-30-股癌-EP701-逐字稿",
+      "source": "vocus",
+      "source_url": "https://vocus.cc/article/6acab07dfd8978000177d14c"
+    },
     {
       "episode": 700,
       "date": "2026-09-26",
