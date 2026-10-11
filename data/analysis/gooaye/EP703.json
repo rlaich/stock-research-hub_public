@@ -1,0 +1,178 @@
+{
+  "schema_version": 1,
+  "episode": {
+    "number": 703,
+    "date": "2026-10-07",
+    "title": "2026-10-07-股癌-EP703-逐字稿"
+  },
+  "source": {
+    "platform": "vocus",
+    "url": "https://vocus.cc/article/6acab1b3fd89780001780e55",
+    "content_stored": false
+  },
+  "analysis": {
+    "summary": "本集投資主軸聚焦台股創新高後的風險管理。主持人認為以台積電未來一至三年可推算獲利與 AI 需求觀察，指數新高未必是終點，但歷史上的供應鏈狂潮最終仍可能伴隨劇烈修正，因此開始預先規劃降低回撤的方法。其偏好仍以股票為核心，不急於改成股債配置，而是透過汰弱留強、降低槓桿、提高現金或可用流動性，以及配置在零組件漲價與供應正常化兩種不同情境下受惠的股票來分散循環風險。QA 另討論趨勢判讀、台指期正價差轉倉成本，以及長期持股中投資 thesis 隨公司轉型而更新的重要性。以上為節目觀點整理，非獨立驗證的市場事實或交易指令。",
+    "relevance": "high"
+  },
+  "entities": [
+    {
+      "name": "TSMC",
+      "ticker": "2330.TW",
+      "market": "TW",
+      "entity_type": "company",
+      "mention_context": "約 12:29–15:54：作為台股大型權值與未來 EPS 推估的基準；主持人認為 AI 訂單即使修正也未必突然崩落，但提醒供應鏈循環最終仍可能帶來大幅回撤。",
+      "stance": "positive",
+      "confidence": 0.98
+    },
+    {
+      "name": "MediaTek",
+      "ticker": "2454.TW",
+      "market": "TW",
+      "entity_type": "company",
+      "mention_context": "約 31:32–32:49：與台積電及其他中大型股一起用來說明大型股票方向通常反映市場集合意志，而非單一主力可以輕易控制。",
+      "stance": "neutral",
+      "confidence": 0.9
+    },
+    {
+      "name": "NVIDIA",
+      "ticker": "NVDA",
+      "market": "US",
+      "entity_type": "company",
+      "mention_context": "約 48:00–50:42：主持人以自己 2018 年因顯示卡題材買進、後續公司轉向 AI 成長為例，說明長期持有不是一次決策，而是隨公司演變持續更新判斷。",
+      "stance": "positive",
+      "confidence": 0.97
+    },
+    {
+      "name": "Nebius",
+      "ticker": "NBIS",
+      "market": "US",
+      "entity_type": "company",
+      "mention_context": "約 48:00–50:42：由聽眾 Yandex 持股轉為 NBIS 的案例延伸討論運氣與持續持有決策；主持人對 neocloud 題材本身仍認為風險較高。",
+      "stance": "mixed",
+      "confidence": 0.96
+    },
+    {
+      "name": "CoreWeave",
+      "ticker": "CRWV",
+      "market": "US",
+      "entity_type": "company",
+      "mention_context": "約 49:10–50:42：與 Nebius 一同被列為 neocloud 題材；主持人承認其可能受惠 AI supply chain，但個人偏好較低，主要原因是風險較高。",
+      "stance": "negative",
+      "confidence": 0.93
+    },
+    {
+      "name": "SpaceX",
+      "ticker": null,
+      "market": "OTHER",
+      "entity_type": "company",
+      "mention_context": "約 49:10–50:42：用作公司投資 thesis 可能隨時間演變的假設案例，例如早期因 Starlink 或發射能力投資，未來獲利核心可能轉向其他業務。",
+      "stance": "neutral",
+      "confidence": 0.91
+    },
+    {
+      "name": "台股加權指數",
+      "ticker": null,
+      "market": "TW",
+      "entity_type": "index",
+      "mention_context": "約 11:35–25:43：指數突破高點後成為本集風控討論背景；主持人整體仍偏多，但開始提高對未來快速修正與流動性風險的警戒。",
+      "stance": "positive",
+      "confidence": 0.99
+    },
+    {
+      "name": "美國國債",
+      "ticker": null,
+      "market": "US",
+      "entity_type": "other",
+      "mention_context": "約 13:39–15:54：作為傳統股債配置的緩衝資產被討論；主持人認為長期具有配置合理性，但自己現階段仍希望以股票為核心。",
+      "stance": "neutral",
+      "confidence": 0.95
+    },
+    {
+      "name": "AI / semiconductor supply chain",
+      "ticker": null,
+      "market": "OTHER",
+      "entity_type": "industry",
+      "mention_context": "約 12:29–18:28：討論 AI 需求、memory/components 漲價與供應正常化後不同公司受惠方向，並思考以不同循環曝險進行股票內部的風險分散。",
+      "stance": "mixed",
+      "confidence": 0.98
+    }
+  ],
+  "topics": [
+    {
+      "topic": "台股新高後的風險管理",
+      "summary": "主持人認為多頭趨勢仍在，但在指數創高後應預先思考下一次快速修正，避免等到流動性惡化才被迫調整部位。"
+    },
+    {
+      "topic": "股票核心配置與股債取捨",
+      "summary": "傳統股債配置可提供長期緩衝與現金流，但主持人現階段仍偏好股票為核心，改以降低槓桿、增加可用現金與股票內部配置來管理風險。"
+    },
+    {
+      "topic": "供應鏈循環的股票內部避險",
+      "summary": "零組件缺貨漲價受惠股與供應恢復、靠出貨量受惠的公司處於不同循環位置；主持人思考同時保留兩類曝險，降低單一供應鏈情境的傷害。"
+    },
+    {
+      "topic": "汰弱留強與流動性",
+      "summary": "當大盤創高但持股未跟上、甚至持續破底時，主持人傾向減碼或退出弱勢標的，把資金留作現金並降低質押或槓桿曝險，而不是強行追逐新的強勢股。"
+    },
+    {
+      "topic": "趨勢判讀與基本面",
+      "summary": "QA 中認為均線、月線與季線斜率可協助辨認趨勢，但長期超額報酬仍應回到基本面與 EPS 成長趨勢，而非試圖預測單一主力操控。"
+    },
+    {
+      "topic": "槓桿工具與轉倉成本",
+      "summary": "台指期長期正價差使轉倉成為顯性成本；主持人認為沒有固定解法，應比較期貨、質押或槓桿 ETF 等工具在當下市場環境中的實際成本。"
+    },
+    {
+      "topic": "長期持股與 thesis 演變",
+      "summary": "以 NVIDIA、NBIS 與 SpaceX 假設案例說明，最初買進理由不必與多年後的核心 thesis 相同；持有人在過程中持續選擇持有，本身也是反覆做出的投資決策。"
+    }
+  ],
+  "market_observations": [
+    {
+      "observation": "主持人認為台股在創高後仍處於相對偏多環境，但不把新高視為可以忽略風險的理由，反而開始預先規劃下一次快速修正的部位管理。",
+      "time_sensitivity": "weeks",
+      "evidence_type": "source_statement"
+    },
+    {
+      "observation": "以台積電未來一至三年可推算 EPS 與 AI 訂單觀察，主持人傾向認為台股高點仍可能延伸，但同時強調供應鏈狂潮最終可能伴隨非常大的循環回撤。",
+      "time_sensitivity": "months",
+      "evidence_type": "source_statement"
+    },
+    {
+      "observation": "若零組件價格由缺貨上漲轉為供應穩定或下跌，原先因成本與缺料受害、但營運依賴出貨量的公司可能轉為受惠者；這可形成與缺貨漲價概念股不同的循環曝險。",
+      "time_sensitivity": "months",
+      "evidence_type": "derived_interpretation"
+    },
+    {
+      "observation": "在大盤創高時仍無法接近自身高點、甚至持續破底的持股，被主持人視為需要優先汰弱的風險來源，因市場修正時可能承受更大的 further damage。",
+      "time_sensitivity": "weeks",
+      "evidence_type": "source_statement"
+    },
+    {
+      "observation": "主持人目前不傾向用新增槓桿追逐已轉強族群，而是把弱勢部位釋出的資金保留為現金或降低既有質押，藉此提高下一次回檔時的流動性。",
+      "time_sensitivity": "weeks",
+      "evidence_type": "source_statement"
+    },
+    {
+      "observation": "趨勢判讀可利用均線斜率與市場實際交易 feedback，但主持人認為長期股價趨勢最終仍應與企業 EPS 與基本面成長連結。",
+      "time_sensitivity": "structural",
+      "evidence_type": "source_statement"
+    },
+    {
+      "observation": "台指期正價差下的轉倉成本被視為市場強勢時使用槓桿必須接受的成本之一；工具選擇應比較期貨、質押與其他槓桿方式，而不是假設存在零成本解法。",
+      "time_sensitivity": "months",
+      "evidence_type": "source_statement"
+    },
+    {
+      "observation": "長期投資的報酬不能完全以最初買進理由是否命中來衡量，因公司與產業 thesis 會演變；持有人持續評估並選擇不賣出，也構成後續投資判斷。",
+      "time_sensitivity": "structural",
+      "evidence_type": "derived_interpretation"
+    }
+  ],
+  "analysis_meta": {
+    "generated_at": "2026-10-11T06:21:24+00:00",
+    "generator": "ChatGPT Scheduled Task / P1.7-4A / new-episode full-transcript analysis",
+    "source_scope": "full_transcript",
+    "review_status": "unreviewed"
+  }
+}
