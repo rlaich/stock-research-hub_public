@@ -1,0 +1,155 @@
+{
+  "schema_version": 1,
+  "episode": {
+    "number": 704,
+    "date": "2026-10-10",
+    "title": "2026-10-10-股癌-EP704-逐字稿"
+  },
+  "source": {
+    "platform": "vocus",
+    "url": "https://vocus.cc/article/6acaf608fd89780001874cc5",
+    "content_stored": false
+  },
+  "analysis": {
+    "summary": "本集投資主軸是降低對短期市場雜訊的反應，將部位配置、風控與長期 thesis 放在單一月度數字或媒體 headline 之前。主持人以 OpenAI 年化營收估算差異造成的 AI 股短暫波動為例，認為 run-rate 類指標需要理解計算基礎，若長期營運方向沒有實質破壞，不宜因短期數字落差頻繁砍倉追價。產業研究重點則是 Marvell Investor Day 對 AI data-center connectivity 的大幅長期展望：隨 scale-up/scale-across 架構擴大，interconnect、光通訊、SerDes、NPO/CPO 與 custom compute 的重要性提升；同時 Marvell 進入資料中心管理領域，也可能代表相關 TAM 擴張而非單純侵蝕既有 BMC 市場。主持人仍提醒 3.2T、TFLN 等遠期題材容易在多頭市場被提前炒作，即使技術方向正確也可能經歷極大回撤。",
+    "relevance": "high"
+  },
+  "entities": [
+    {
+      "name": "Marvell Technology",
+      "ticker": "MRVL",
+      "market": "US",
+      "entity_type": "company",
+      "mention_context": "約 21:22–31:18，Investor Day 長期展望是本集主要產業研究，聚焦 interconnect、custom compute、NPO/CPO、800G/1.6T/3.2T 與資料中心管理。",
+      "stance": "positive",
+      "confidence": 0.99
+    },
+    {
+      "name": "NVIDIA",
+      "ticker": "NVDA",
+      "market": "US",
+      "entity_type": "company",
+      "mention_context": "約 21:22 起，以 NVL72 到更大 scale-up cluster 作為 data center as a computer 與高速互連需求的架構基準。",
+      "stance": "positive",
+      "confidence": 0.96
+    },
+    {
+      "name": "Broadcom",
+      "ticker": "AVGO",
+      "market": "US",
+      "entity_type": "company",
+      "mention_context": "約 14:04 與 25:14–26:50，被視為 AI connectivity 領先業者；主持人關注 Marvell 上修後 Broadcom 是否也出現相關展望上修。",
+      "stance": "positive",
+      "confidence": 0.95
+    },
+    {
+      "name": "OpenAI",
+      "ticker": null,
+      "market": "OTHER",
+      "entity_type": "company",
+      "mention_context": "約 16:34–21:22，以年化營收估算由市場流傳約 700 億美元轉為約 500 億美元的事件，討論短期 headline、ARR/run-rate 解讀與 panic selling。",
+      "stance": "positive",
+      "confidence": 0.96
+    },
+    {
+      "name": "Anthropic",
+      "ticker": null,
+      "market": "OTHER",
+      "entity_type": "company",
+      "mention_context": "約 17:25–18:33，用來說明不同 AI 公司營收認列與 run-rate 比較基礎可能不同。",
+      "stance": "neutral",
+      "confidence": 0.92
+    },
+    {
+      "name": "ASPEED Technology",
+      "ticker": "5274",
+      "market": "TW",
+      "entity_type": "company",
+      "mention_context": "約 27:44–31:18，作為既有 BMC 市場代表，討論 Marvell 資料中心管理方案是否意味競爭或更大的管理晶片 TAM。",
+      "stance": "mixed",
+      "confidence": 0.94
+    },
+    {
+      "name": "Nuvoton Technology",
+      "ticker": "4919",
+      "market": "TW",
+      "entity_type": "company",
+      "mention_context": "約 27:44–30:19，回顧主持人過去投資 BMC 題材的經驗，並比較 BMC 現有市場規模與未來資料中心整合管理可能性。",
+      "stance": "mixed",
+      "confidence": 0.94
+    },
+    {
+      "name": "United Microelectronics",
+      "ticker": "2303",
+      "market": "TW",
+      "entity_type": "company",
+      "mention_context": "約 25:54–26:50，提及市場因 3.2T/TFLN 技術路線而關注相關布局，並用來提醒遠期技術題材的投機風險。",
+      "stance": "neutral",
+      "confidence": 0.87
+    }
+  ],
+  "topics": [
+    {
+      "topic": "長期 thesis 與短期市場雜訊",
+      "summary": "主持人認為完善配置與風控後，不應讓單一短期 headline 或估算數字輕易推翻長期研究結論；真正需要調整的是長期營運故事出現實質破壞時。"
+    },
+    {
+      "topic": "AI 營收 run-rate 解讀",
+      "summary": "以 OpenAI 營收估算事件說明 ARR/run-rate 會受到採樣月份、成長階段與會計比較基礎影響，不能把單一外推值當成確定全年營收。"
+    },
+    {
+      "topic": "AI data-center connectivity",
+      "summary": "Marvell 的長期展望強調 interconnect 將成為 AI 基礎設施核心，從 rack 到 data center 的 scale-up/scale-across 需要更高速的 SerDes、光學與交換技術。"
+    },
+    {
+      "topic": "NPO、CPO 與高速光通訊",
+      "summary": "Marvell 認為 NPO 與 CPO 可能並行，800G 為現階段主力、1.6T 正在 ramp，3.2T 則是更遠期方向；主持人看好趨勢但提醒市場可能過早交易遠期技術。"
+    },
+    {
+      "topic": "資料中心管理與 BMC TAM",
+      "summary": "Marvell 進入更廣義的 data-center management 不一定只是搶既有 BMC 市場，也可能反映 AI 資料中心整體 solution 化後管理晶片的市場範圍擴大。"
+    },
+    {
+      "topic": "風險承受與資產配置",
+      "summary": "Q&A 延續存活優先的觀念：投資經驗增加後降低槓桿與波動曝險並非膽小，而是理解自身可承受 drawdown；All Weather 類配置則以降低極端風險換取較少暴擊報酬。"
+    }
+  ],
+  "market_observations": [
+    {
+      "observation": "短期 AI headline 若只改變 run-rate 或估算口徑、沒有破壞長期營收成長 thesis，主持人傾向降低交易反應而不是立即大幅調倉。",
+      "time_sensitivity": "weeks",
+      "evidence_type": "source_statement"
+    },
+    {
+      "observation": "Marvell 對 2028 與 2031 營收及 AI connectivity 的展望明顯積極，主持人認為可進一步觀察其他 XPU、interconnect 與 connectivity 業者是否跟進上修。",
+      "time_sensitivity": "months",
+      "evidence_type": "source_statement"
+    },
+    {
+      "observation": "AI cluster 從單一 rack 擴展至更大 scale-up/scale-across 架構，使高速互連逐漸由附屬元件轉為系統效能的核心限制之一。",
+      "time_sensitivity": "structural",
+      "evidence_type": "derived_interpretation"
+    },
+    {
+      "observation": "1.6T 尚在 ramp 時市場已開始交易 3.2T/TFLN 等更遠期技術，代表多頭環境下題材折現時間拉長，也提高技術路線選錯或估值先行修正的風險。",
+      "time_sensitivity": "months",
+      "evidence_type": "derived_interpretation"
+    },
+    {
+      "observation": "Marvell 進入資料中心管理可能不只是 BMC 競爭事件；若 AI infrastructure 朝 total solution 發展，現有較小的 server-management TAM 有機會擴張。",
+      "time_sensitivity": "structural",
+      "evidence_type": "derived_interpretation"
+    },
+    {
+      "observation": "投資者在累積經驗後降低槓桿與採取更多元配置，可視為控制 ruin risk 的結果，而不是單純降低報酬企圖。",
+      "time_sensitivity": "structural",
+      "evidence_type": "derived_interpretation"
+    }
+  ],
+  "analysis_meta": {
+    "generated_at": "2026-10-12T14:11:46+08:00",
+    "generator": "ChatGPT",
+    "source_scope": "full_transcript",
+    "review_status": "unreviewed"
+  }
+}
