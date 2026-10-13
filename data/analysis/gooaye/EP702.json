@@ -1,0 +1,192 @@
+{
+  "schema_version": 1,
+  "episode": {
+    "number": 702,
+    "date": "2026-10-03",
+    "title": "2026-10-03-股癌-EP702-逐字稿"
+  },
+  "source": {
+    "platform": "vocus",
+    "url": "https://vocus.cc/article/6acab14dfd8978000177f923",
+    "content_stored": false
+  },
+  "analysis": {
+    "summary": "本集投資主軸包含企業導入 AI 的成本治理、十月市場轉強與 AI 供應鏈，以及光通訊可能面臨的美中政策變化。主持人以聯發科限制 AI 使用額度為例，認為企業即使認同 AI 能提高工程生產力，最終仍必須回到 token、雲端與地端基礎設施的成本效益。市場面上，主持人認為期貨與 NQ 創高、被動元件與功率元件補漲，顯示盤勢偏強，且 AI 相關缺貨與漲價趨勢仍延續。光通訊部分則分析 Morgan Stanley 所述、尚屬傳聞性質的美國 BOM 比例限制情境：現有高階光模組本就大量使用美系 DSP、driver、TIA 與雷射元件，因此短期直接改變可能有限，但長期可能限制中國供應鏈自行 cost down，並增加 non-China second source 與台灣供應鏈的間接受惠想像。以上為節目觀點整理，非獨立驗證的市場事實或交易指令。",
+    "relevance": "high"
+  },
+  "entities": [
+    {
+      "name": "MediaTek",
+      "ticker": "2454.TW",
+      "market": "TW",
+      "entity_type": "company",
+      "mention_context": "約 09:16–15:21：以企業限制員工 AI 使用額度及自建 data center 的案例，討論工程生產力與 token/基礎設施成本之間的治理取捨。",
+      "stance": "neutral",
+      "confidence": 0.97
+    },
+    {
+      "name": "Morgan Stanley",
+      "ticker": "MS",
+      "market": "US",
+      "entity_type": "company",
+      "mention_context": "約 20:04–32:06：主持人引用其 10 月 1 日光通訊相關報告，但多次強調內容偏向傳聞，應先視為政策情境分析而非已正式落地的規則。",
+      "stance": "neutral",
+      "confidence": 0.96
+    },
+    {
+      "name": "Broadcom",
+      "ticker": "AVGO",
+      "market": "US",
+      "entity_type": "company",
+      "mention_context": "約 23:08–27:51：作為高階光模組中美系 DSP/核心元件供應商的例子；若未來政策提高美系 BOM 要求，可能相對有利。",
+      "stance": "positive",
+      "confidence": 0.92
+    },
+    {
+      "name": "Marvell",
+      "ticker": "MRVL",
+      "market": "US",
+      "entity_type": "company",
+      "mention_context": "約 23:08–27:51：與 Broadcom 等一起被列為現有高階光模組核心美系元件供應商，政策情境下可能維持或提高供應鏈地位。",
+      "stance": "positive",
+      "confidence": 0.92
+    },
+    {
+      "name": "Coherent",
+      "ticker": "COHR",
+      "market": "US",
+      "entity_type": "company",
+      "mention_context": "約 23:08–27:51：被列為光通訊雷射元件的美系供應商之一；主持人認為政策若限制中國自製替代，核心美系零組件可能較直接受惠。",
+      "stance": "positive",
+      "confidence": 0.91
+    },
+    {
+      "name": "Lumentum",
+      "ticker": "LITE",
+      "market": "US",
+      "entity_type": "company",
+      "mention_context": "約 23:08–27:51：作為美系雷射元件供應商例子，與 Coherent 等被放在可能受政策保護的核心光通元件環節。",
+      "stance": "positive",
+      "confidence": 0.9
+    },
+    {
+      "name": "Airoha Technology",
+      "ticker": "6526.TW",
+      "market": "TW",
+      "entity_type": "company",
+      "mention_context": "約 28:46–31:17：主持人指出其光通 DSP 目前較偏 400G 世代，若政策要求美國 BOM 比例，並非第一波直接受惠，但可能存在中國去美化或美系尋找 non-China second source 的間接想像。",
+      "stance": "mixed",
+      "confidence": 0.9
+    },
+    {
+      "name": "TSMC",
+      "ticker": "2330.TW",
+      "market": "TW",
+      "entity_type": "company",
+      "mention_context": "約 29:58–31:17：先進製程產能被視為高階 DSP 的關鍵瓶頸；主持人討論中國設計商若缺乏先進製程取得能力，台灣代工或第三方供應鏈可能具有策略價值。",
+      "stance": "positive",
+      "confidence": 0.91
+    },
+    {
+      "name": "AI / semiconductor supply chain",
+      "ticker": null,
+      "market": "OTHER",
+      "entity_type": "industry",
+      "mention_context": "約 09:16–20:04：從企業 AI 使用成本延伸到供應鏈估值與產業節奏；主持人認為 AI 相關缺貨與漲價仍是較直接的 Tier 1 故事，非 AI 的排擠效應屬次級題材。",
+      "stance": "positive",
+      "confidence": 0.98
+    },
+    {
+      "name": "Optical communications",
+      "ticker": null,
+      "market": "OTHER",
+      "entity_type": "industry",
+      "mention_context": "約 20:04–32:06：完整拆解光模組 BOM、核心美系元件與中國組裝占比，並分析潛在美國政策對美系核心元件、中國供應鏈及台灣 second-source 機會的不同影響。",
+      "stance": "mixed",
+      "confidence": 0.99
+    },
+    {
+      "name": "Nasdaq-100 futures",
+      "ticker": null,
+      "market": "US",
+      "entity_type": "index",
+      "mention_context": "約 15:21–17:41：NQ 與期貨創高被主持人視為十月市場轉強的證據，主張在趨勢尚未明確轉弱前不宜過早預判高點或逆勢放空。",
+      "stance": "positive",
+      "confidence": 0.96
+    }
+  ],
+  "topics": [
+    {
+      "topic": "企業 AI 成本治理",
+      "summary": "AI 可提升工程生產力，但 token、雲端模型與地端算力都會形成真實成本；企業導入最終需要在模型能力、使用額度與基礎設施投資間找到可持續的經濟性。"
+    },
+    {
+      "topic": "十月市場轉強與順勢操作",
+      "summary": "主持人以期貨與 NQ 創高、題材全面轉強為依據維持偏多看法，認為在均線與市場趨勢尚未反轉前，不宜因主觀猜高點而過早逆勢。"
+    },
+    {
+      "topic": "AI 缺貨、漲價與排擠效應",
+      "summary": "被動元件、功率元件等仍可見缺貨與漲價，但主持人更偏好直接 AI 需求受惠者；非 AI 產品因產能排擠而受惠屬較次級、較需要謹慎的投資故事。"
+    },
+    {
+      "topic": "光模組 BOM 與美中政策情境",
+      "summary": "高階光模組核心價值目前大量集中在美系 DSP、driver、TIA 與雷射元件；若未來政策要求一定美系 BOM 比例，短期可能只是維持現況，長期則可能限制中國供應鏈以自製零件 cost down。"
+    },
+    {
+      "topic": "non-China second source 與台灣供應鏈",
+      "summary": "若美系光通廠商持續降低中國依賴，台灣可能承接部分機構件、光學件、封裝、組裝或 second-source 需求，但主持人將此定位為間接想像而非已確認訂單。"
+    },
+    {
+      "topic": "長期產業趨勢與短期股價雜訊",
+      "summary": "主持人認為產業趨勢不應因單日新聞或股價急跌就被判定反轉，應區分真正改變供需結構的因素與短期市場敘事。"
+    }
+  ],
+  "market_observations": [
+    {
+      "observation": "企業對高階 AI 模型的需求存在，但 token 與基礎設施帳單快速增加會迫使企業進行額度治理、自建算力或模型分級，AI adoption 的速度最終仍受成本效益約束。",
+      "time_sensitivity": "months",
+      "evidence_type": "source_statement"
+    },
+    {
+      "observation": "主持人將期貨與 NQ 創高、題材擴散視為市場偏強訊號，並認為在大盤尚未確認轉弱前提早逆勢放空的風險較高。",
+      "time_sensitivity": "weeks",
+      "evidence_type": "source_statement"
+    },
+    {
+      "observation": "AI 相關零組件的缺貨與漲價被視為較直接的產業驅動，而非 AI 產品因排擠效應受惠的故事被主持人降為較低優先級。",
+      "time_sensitivity": "months",
+      "evidence_type": "source_statement"
+    },
+    {
+      "observation": "節目引用的 65% 美國 BOM 情境尚屬傳聞性報告，且主持人指出現有高階光模組本就有約六成以上價值來自美系核心元件，因此短期直接供應鏈重分配可能有限。",
+      "time_sensitivity": "months",
+      "evidence_type": "source_statement"
+    },
+    {
+      "observation": "若未來美國對光通訊 BOM 的限制收緊，中國供應鏈以自製 DSP、driver、TIA 或雷射元件降低成本的空間可能受限，美系核心元件供應商的策略地位可能提高。",
+      "time_sensitivity": "structural",
+      "evidence_type": "derived_interpretation"
+    },
+    {
+      "observation": "美系光通廠商若基於政策風險主動降低中國組裝與零組件曝險，台灣與東南亞供應鏈可能獲得 second-source 或轉單機會，但節目明確將其視為尚未確認的間接受惠想像。",
+      "time_sensitivity": "months",
+      "evidence_type": "derived_interpretation"
+    },
+    {
+      "observation": "高階光通 DSP 需要先進製程，若中國設計商持續難以取得 3nm/5nm 等產能，其產品競爭力與量產速度可能受限，並增加台灣先進製程供應鏈的策略重要性。",
+      "time_sensitivity": "structural",
+      "evidence_type": "source_statement"
+    },
+    {
+      "observation": "短期新聞造成的 SSD、光通或其他供應鏈股價波動，不應自動等同於產業趨勢反轉；主持人主張以實際供需與長期產業方向作為主要判斷基礎。",
+      "time_sensitivity": "weeks",
+      "evidence_type": "source_statement"
+    }
+  ],
+  "analysis_meta": {
+    "generated_at": "2026-10-13T06:53:44+00:00",
+    "generator": "ChatGPT Scheduled Task / P1.7-4A / new-episode full-transcript analysis",
+    "source_scope": "full_transcript",
+    "review_status": "unreviewed"
+  }
+}
