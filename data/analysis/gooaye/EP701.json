@@ -1,0 +1,137 @@
+{
+  "schema_version": 1,
+  "episode": {
+    "number": 701,
+    "date": "2026-09-30",
+    "title": "2026-09-30-股癌-EP701-逐字稿"
+  },
+  "source": {
+    "platform": "vocus",
+    "url": "https://vocus.cc/article/6acab07dfd8978000177d14c",
+    "content_stored": false
+  },
+  "analysis": {
+    "summary": "本集投資主軸先回顧第三季：主持人經歷七月約三成部位回撤後減碼與換股，八、九月靠光通訊、小型 IC 設計、銅纜、衛星與低估值標的重新收復臺股高點，並認為近期市場動能與 FOMO 氣氛正在改善但仍需確認。產業面聚焦 AI 對晶片設計產能與流程的影響：大型業者優先投入 AI 專案可能帶來訂單外溢，中小型 IC design house 亦可能因 AI 輔助設計提升研發槓桿；同時因機密資料限制，地端 open-weight model 已有實務需求，未來 frontier closed models 也可能出現企業內部部署模式。另一重點是台積電赴德州擴產的市場傳聞；主持人將其視為尚未證實但具產業合理性的情境，若成真可能擴大美國半導體廠務、材料與供應鏈需求。整體策略仍偏向追蹤個別公司營收、獲利與題材趨勢，而非單靠總經指標頻繁進出。",
+    "relevance": "high"
+  },
+  "entities": [
+    {
+      "name": "TSMC",
+      "ticker": "TSM",
+      "market": "US",
+      "entity_type": "company",
+      "mention_context": "約 18:32–24:07，討論台積電可能赴美國德州擴大設廠的市場傳聞、當地基礎設施條件，以及若成真對廠務與材料供應鏈的潛在影響。",
+      "stance": "positive",
+      "confidence": 0.95
+    },
+    {
+      "name": "Broadcom",
+      "ticker": "AVGO",
+      "market": "US",
+      "entity_type": "company",
+      "mention_context": "約 02:57–04:14 提及主持人美股部位因 Broadcom 回撤而較晚收復高點；約 13:29–14:59 又以其晶片設計能力作為 AI 輔助設計效率討論背景。",
+      "stance": "mixed",
+      "confidence": 0.92
+    },
+    {
+      "name": "MediaTek",
+      "ticker": "2454",
+      "market": "TW",
+      "entity_type": "company",
+      "mention_context": "約 11:11–12:29，以大型 IC 設計公司承接 AI/TPU 相關需求後產能與團隊資源更緊張，說明訂單可能向其他設計公司外溢。",
+      "stance": "positive",
+      "confidence": 0.89
+    },
+    {
+      "name": "OpenAI",
+      "ticker": null,
+      "market": "OTHER",
+      "entity_type": "company",
+      "mention_context": "約 12:29–16:52，以其晶片設計流程中 AI 協作的案例作為討論起點，延伸到 AI 是否能縮短 IC 設計工時及提升中小型 design house 的研發槓桿。",
+      "stance": "positive",
+      "confidence": 0.86
+    },
+    {
+      "name": "NVIDIA",
+      "ticker": "NVDA",
+      "market": "US",
+      "entity_type": "company",
+      "mention_context": "約 17:54–18:32，美中政策討論中提到中國科技公司購買 NVIDIA 產品仍受美國出口政策影響，主持人判斷當下沒有明顯政策改變。",
+      "stance": "neutral",
+      "confidence": 0.93
+    },
+    {
+      "name": "Tesla",
+      "ticker": "TSLA",
+      "market": "US",
+      "entity_type": "company",
+      "mention_context": "約 06:15–09:27 與後段 Q&A 討論 Roadster/Cybertruck；主要屬產品與個人體驗話題，而非核心投資 thesis。",
+      "stance": "neutral",
+      "confidence": 0.96
+    }
+  ],
+  "topics": [
+    {
+      "topic": "第三季回撤、換股與市場動能",
+      "summary": "主持人回顧七月大幅回撤後的減碼與換股，八、九月藉由光通訊、小型 IC、銅纜、衛星等新主流重新收復臺股高點；近期市場故事對股價的拉動重新有效，但動能是否完全回歸仍待確認。"
+    },
+    {
+      "topic": "AI 帶動 IC design 訂單外溢",
+      "summary": "大型晶片設計業者將團隊與投片資源優先配置給 AI 專案，可能使其他訂單向次大型與中小型設計公司外溢，形成由上而下的需求涓滴。"
+    },
+    {
+      "topic": "AI 輔助晶片設計與研發槓桿",
+      "summary": "若 AI 能降低 layout 等工程密集工作的時間與人力需求，中小型 IC design house 可能在相同人力下推出更多產品，提升營運槓桿，但主持人仍將此視為需要持續驗證的產業假設。"
+    },
+    {
+      "topic": "企業地端 AI 與 closed-model deployment",
+      "summary": "晶片設計涉及客戶機密，使企業傾向在內部機房部署 open-weight models；主持人進一步提出 frontier closed models 未來也可能以受控方式進入企業地端環境的產業趨勢。"
+    },
+    {
+      "topic": "台積電美國德州擴產情境",
+      "summary": "主持人把德州設廠消息明確當作傳聞情境評論，認為當地水電、化工產業與客戶在地供應需求具合理性；若後續確認，廠務、材料與美國半導體供應鏈可能獲得新增需求。"
+    },
+    {
+      "topic": "個股趨勢優先於單一總經指標",
+      "summary": "即使公債利率等總經變數值得注意，主持人仍偏向追蹤公司營收、獲利、題材與盤面資金方向，避免因宏觀警訊過度頻繁進出而錯失主要趨勢。"
+    }
+  ],
+  "market_observations": [
+    {
+      "observation": "主持人認為近期臺股盤面故事重新能有效推動股價、價格結構逐步墊高，動能與 FOMO 氣氛正在改善，但仍需要數個交易日確認延續性。",
+      "time_sensitivity": "days",
+      "evidence_type": "source_statement"
+    },
+    {
+      "observation": "AI 晶片需求可能透過大型 design house 資源排擠，將非核心或新增設計訂單外溢到其他臺灣 IC 設計公司。",
+      "time_sensitivity": "months",
+      "evidence_type": "derived_interpretation"
+    },
+    {
+      "observation": "AI 輔助設計若能實質縮短晶片開發週期，中小型 IC design house 的產品推出頻率與研發產能可能提高，但目前仍需更多公司層級證據驗證。",
+      "time_sensitivity": "structural",
+      "evidence_type": "derived_interpretation"
+    },
+    {
+      "observation": "對機密資料敏感的半導體設計場景形成地端模型需求；若 frontier closed models 能以企業內部部署方式供應，可能擴大高階模型在受管制研發環境的可用市場。",
+      "time_sensitivity": "structural",
+      "evidence_type": "derived_interpretation"
+    },
+    {
+      "observation": "台積電德州擴產在本集仍被主持人明確視為傳聞；若後續證實，較直接的研究方向是美國新廠相關廠務、材料與在地供應鏈需求，而非把未證實廠數直接視為既定資本支出。",
+      "time_sensitivity": "months",
+      "evidence_type": "derived_interpretation"
+    },
+    {
+      "observation": "主持人認為產業研究深度本身不保證投資績效，市場參與者可透過不同方法取得成果，因此研究應服務於可執行的投資框架而非追求知識深度本身。",
+      "time_sensitivity": "structural",
+      "evidence_type": "source_statement"
+    }
+  ],
+  "analysis_meta": {
+    "generated_at": "2026-10-14T14:15:13+08:00",
+    "generator": "ChatGPT",
+    "source_scope": "full_transcript",
+    "review_status": "unreviewed"
+  }
+}
