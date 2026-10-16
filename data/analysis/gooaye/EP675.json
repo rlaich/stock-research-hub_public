@@ -1,0 +1,169 @@
+{
+  "schema_version": 1,
+  "episode": {
+    "number": 675,
+    "date": "2026-07-01",
+    "title": "2026-07-01-股癌-EP675-逐字稿"
+  },
+  "source": {
+    "platform": "vocus",
+    "url": "https://vocus.cc/article/6a5bc2edfd89780001f9eaf9",
+    "content_stored": false
+  },
+  "analysis": {
+    "summary": "本集市場主軸聚焦六月底再平衡壓力消退後的台股資金輪動、IC design 的需求型與成本型漲價差異、被動元件漲價擴散，以及 MOSFET 等功率元件交期拉長與缺貨。主持人認為市場資金充裕時會優先追逐需求驅動、成長能見度更高的供應鏈，而單純成本轉嫁的題材相對次要；被動元件則已進入全面漲價與供應外溢階段，但股價漲幅大，不宜把產業追蹤直接等同買進訊號。功率元件呈現類似較早期被動元件的供需緊張，核心短缺集中於歐美、日系一線 IDM 的高壓與 AI 伺服器相關料件，同時可能外溢訂單給二線供應商。交易面上，主持人反省在修正後過早追逐動能、頻繁換股造成摩擦成本，傾向等待新高與市場共識形成後再加強動能操作。QA 另強調長期持有個股仍需汰弱留強，指數具內建汰換機制而單一公司可能被產業變化淘汰。",
+    "relevance": "high"
+  },
+  "entities": [
+    {
+      "name": "TSMC",
+      "ticker": "2330",
+      "market": "TW",
+      "entity_type": "company",
+      "mention_context": "市場段落中被視為再平衡賣壓減弱後可能重新吸引資金的核心大型股；主持人並關注後續法說、漲價與毛利預期。",
+      "stance": "positive",
+      "confidence": 0.94
+    },
+    {
+      "name": "MediaTek",
+      "ticker": "2454",
+      "market": "TW",
+      "entity_type": "company",
+      "mention_context": "IC design 族群轉強案例之一；節目用其與其他設計公司說明市場正在區分需求驅動成長與單純成本轉嫁。",
+      "stance": "positive",
+      "confidence": 0.88
+    },
+    {
+      "name": "Global Unichip",
+      "ticker": "3443",
+      "market": "TW",
+      "entity_type": "company",
+      "mention_context": "與世芯、聯發科一同作為近期轉強的 IC design 代表，重點在後續營收與獲利是否能驗證需求。",
+      "stance": "positive",
+      "confidence": 0.84
+    },
+    {
+      "name": "Alchip Technologies",
+      "ticker": "3661",
+      "market": "TW",
+      "entity_type": "company",
+      "mention_context": "與創意、聯發科一同被列為 IC design 轉強案例，主持人強調仍需辨識真正由需求驅動的成長。",
+      "stance": "positive",
+      "confidence": 0.84
+    },
+    {
+      "name": "Passive components",
+      "ticker": null,
+      "market": "OTHER",
+      "entity_type": "industry",
+      "mention_context": "節目認為七月將有多家台系與日系供應商發布漲價訊息，缺貨與漲價已由 AI 關鍵料件向較廣產品外溢，但相關股票已大幅上漲。",
+      "stance": "positive",
+      "confidence": 0.96
+    },
+    {
+      "name": "Power semiconductors",
+      "ticker": null,
+      "market": "OTHER",
+      "entity_type": "industry",
+      "mention_context": "MOSFET 等功率元件開始出現 lead time 拉長、價格上升與缺貨，主持人將其視為類似被動元件較早期的供需收緊階段。",
+      "stance": "positive",
+      "confidence": 0.96
+    },
+    {
+      "name": "onsemi",
+      "ticker": "ON",
+      "market": "US",
+      "entity_type": "company",
+      "mention_context": "節目認為近期股價下跌較可能反映收購交易，而非功率元件產業轉差；對公司業務環境的描述仍偏正向。",
+      "stance": "positive",
+      "confidence": 0.87
+    },
+    {
+      "name": "CrowdStrike",
+      "ticker": "CRWD",
+      "market": "US",
+      "entity_type": "company",
+      "mention_context": "QA 中用作美股持股可能因短期事件突然大跌、但事後基本面未必惡化的例子，並非本集主要產業 thesis。",
+      "stance": "neutral",
+      "confidence": 0.79
+    },
+    {
+      "name": "Taiwan 50 ETF",
+      "ticker": "0050",
+      "market": "TW",
+      "entity_type": "etf",
+      "mention_context": "QA 中用來說明指數投資具有成分股汰換機制，因此長期持有與單一個股長抱的風險結構不同。",
+      "stance": "positive",
+      "confidence": 0.91
+    }
+  ],
+  "topics": [
+    {
+      "topic": "再平衡結束與資金輪動",
+      "summary": "主持人認為六月底基金再平衡造成的尾盤賣壓正在淡化，後續關鍵是資金重新集中在哪些族群，以及大盤能否由新的領漲族群推向新高。"
+    },
+    {
+      "topic": "IC design 漲價品質",
+      "summary": "節目區分需求驅動與成本轉嫁型漲價；在高成長選項很多的市場中，資金更偏好能由需求持續推升營收與獲利的公司。"
+    },
+    {
+      "topic": "被動元件全面漲價",
+      "summary": "七月預期有更多正式漲價訊息，供應緊張已從 AI 關鍵料件向其他產品擴散，且日系退出部分產品可能帶來台系與二線供應商轉單機會。"
+    },
+    {
+      "topic": "功率元件缺貨與外溢",
+      "summary": "MOSFET 等功率元件的交期與價格上升，核心短缺偏向一線 IDM 的高壓與 AI 伺服器相關產品，但產能重分配可能使二線廠獲得外溢訂單。"
+    },
+    {
+      "topic": "動能交易與摩擦成本",
+      "summary": "主持人反省在市場尚未確認新趨勢前過早追逐轉強股並頻繁換倉，導致不必要損失；後續傾向等待新高與市場共識更明確後再積極操作。"
+    },
+    {
+      "topic": "長期持股的汰弱留強",
+      "summary": "QA 強調指數會自動淘汰弱勢成分股，但單一公司可能因產業變化永久落後，因此長期個股投資仍需持續檢視並汰弱留強。"
+    }
+  ],
+  "market_observations": [
+    {
+      "observation": "六月底基金再平衡造成的台股尾盤壓力可能已告一段落，資金重新匯聚方向成為短期行情的重要觀察點。",
+      "time_sensitivity": "weeks",
+      "evidence_type": "source_statement"
+    },
+    {
+      "observation": "IC design 族群近期轉強，但主持人認為需求驅動的漲價與成長，較單純晶圓成本轉嫁更可能獲得持續資金青睞。",
+      "time_sensitivity": "months",
+      "evidence_type": "source_statement"
+    },
+    {
+      "observation": "被動元件供應緊張與漲價正在由 AI 關鍵料件向更廣泛產品外溢，日系供應商 EOL 或退出部分產品亦可能促成轉單。",
+      "time_sensitivity": "months",
+      "evidence_type": "source_statement"
+    },
+    {
+      "observation": "MOSFET 等功率元件已出現 lead time 拉長、價格上升與缺貨訊號，產業供需可能處於類似被動元件較早期的收緊階段。",
+      "time_sensitivity": "months",
+      "evidence_type": "source_statement"
+    },
+    {
+      "observation": "一線 IDM 若將產能集中於高壓或 AI 伺服器關鍵料件，較低優先級產品可能外溢至二線供應商，形成超出核心缺貨品項的受惠範圍。",
+      "time_sensitivity": "months",
+      "evidence_type": "derived_interpretation"
+    },
+    {
+      "observation": "在修正後尚未形成明確新高與領漲共識前，過早追逐短線動能並頻繁換股可能增加交易摩擦與錯誤成本。",
+      "time_sensitivity": "weeks",
+      "evidence_type": "source_statement"
+    },
+    {
+      "observation": "長期個股持有不能完全依賴市場最終復甦的假設；產業結構改變可能永久淘汰部分公司，因此需要持續汰弱留強。",
+      "time_sensitivity": "structural",
+      "evidence_type": "source_statement"
+    }
+  ],
+  "analysis_meta": {
+    "generated_at": "2026-10-16T14:21:31+08:00",
+    "generator": "ChatGPT",
+    "source_scope": "full_transcript",
+    "review_status": "unreviewed"
+  }
+}
