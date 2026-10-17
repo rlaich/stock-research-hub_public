@@ -1,0 +1,178 @@
+{
+  "schema_version": 1,
+  "episode": {
+    "number": 674,
+    "date": "2026-06-27",
+    "title": "2026-06-27-股癌-EP674-逐字稿"
+  },
+  "source": {
+    "platform": "vocus",
+    "url": "https://vocus.cc/article/6a5bc2c2fd89780001f9e45e",
+    "content_stored": false
+  },
+  "analysis": {
+    "summary": "本集先回顧上半年投資表現與題材輪動，再聚焦六月底市場急跌後的風險管理。主持人認為近期修正較可能與大型資金季度再平衡、獲利回吐及籌碼壓力有關，而非美伊衝突或短期快速升息本身；部分熱門股已跌破季線，使市場廣度縮小，反彈後仍可能面臨解套賣壓。產業面仍未看到 AI 供應鏈需求立即反轉，台系供應鏈拉貨尚無明顯問題，但需留意科技巨頭股東對高額 AI 資本支出與回報的質疑是否升溫。蘋果因記憶體成本上升調高部分產品價格，主持人認為品牌黏性可能支撐漲價，但消費端不像 AI 資料中心客戶能無條件吸收成本，因此後續銷量是驗證需求破壞的關鍵。交易層面強調價格與均線可作為基本面之外的風險訊號，若跌勢持續、反彈無法站回重要均線，應注意槓桿與連鎖賣壓並保留現金水位。",
+    "relevance": "high"
+  },
+  "entities": [
+    {
+      "name": "Apple",
+      "ticker": "AAPL",
+      "market": "US",
+      "entity_type": "company",
+      "mention_context": "節目討論記憶體成本上升後部分產品漲價，認為品牌與客群黏性可能支撐價格，但真正影響仍需由後續銷量驗證。",
+      "stance": "mixed",
+      "confidence": 0.95
+    },
+    {
+      "name": "Google",
+      "ticker": "GOOGL",
+      "market": "US",
+      "entity_type": "company",
+      "mention_context": "主持人認為其降本增效、自研晶片與 AI 應用配置較佳，在科技巨頭走弱時仍是偏好的長期布局方向之一。",
+      "stance": "positive",
+      "confidence": 0.9
+    },
+    {
+      "name": "CrowdStrike",
+      "ticker": "CRWD",
+      "market": "US",
+      "entity_type": "company",
+      "mention_context": "被列為軟體持股中相對強勢的公司，主持人表示表現較好的部位仍會持續增加關注或配置。",
+      "stance": "positive",
+      "confidence": 0.88
+    },
+    {
+      "name": "Palantir",
+      "ticker": "PLTR",
+      "market": "US",
+      "entity_type": "company",
+      "mention_context": "主持人原先認為高估值與市場質疑可能反而支撐動能，但近期表現相對疲弱，因此暫不額外加碼。",
+      "stance": "mixed",
+      "confidence": 0.88
+    },
+    {
+      "name": "SpaceX",
+      "ticker": null,
+      "market": "US",
+      "entity_type": "company",
+      "mention_context": "主持人為建立 SpaceX 部位而調節部分美股持股與 Tesla，將其視為直接押注 Elon Musk 的長期配置。",
+      "stance": "positive",
+      "confidence": 0.9
+    },
+    {
+      "name": "Tesla",
+      "ticker": "TSLA",
+      "market": "US",
+      "entity_type": "company",
+      "mention_context": "主持人表示因可直接投資 SpaceX，已調節部分 Tesla 資金轉往 SpaceX，並非明確表示 Tesla 基本面轉差。",
+      "stance": "neutral",
+      "confidence": 0.86
+    },
+    {
+      "name": "MediaTek",
+      "ticker": "2454",
+      "market": "TW",
+      "entity_type": "company",
+      "mention_context": "QA 中作為台灣高薪科技職涯與公司股票表現的案例，並非本集主要投資 thesis。",
+      "stance": "neutral",
+      "confidence": 0.78
+    },
+    {
+      "name": "Taiwan 50 ETF",
+      "ticker": "0050",
+      "market": "TW",
+      "entity_type": "etf",
+      "mention_context": "用於回顧上半年台股整體強勢與長期投資者的市場參與，主持人指出上半年市場 beta 對績效有明顯助益。",
+      "stance": "positive",
+      "confidence": 0.84
+    },
+    {
+      "name": "AI data-center supply chain",
+      "ticker": null,
+      "market": "OTHER",
+      "entity_type": "industry",
+      "mention_context": "主持人表示台系供應鏈拉貨尚未看到明顯反轉，但高額資本支出與科技巨頭回報落差可能成為後續市場質疑焦點。",
+      "stance": "mixed",
+      "confidence": 0.94
+    },
+    {
+      "name": "Memory industry",
+      "ticker": null,
+      "market": "OTHER",
+      "entity_type": "industry",
+      "mention_context": "AI 伺服器需求推升記憶體成本與供應商獲利，漲價已開始傳導至消費性產品；資料中心需求仍強，但消費端存在需求破壞風險。",
+      "stance": "positive",
+      "confidence": 0.94
+    }
+  ],
+  "topics": [
+    {
+      "topic": "六月底修正與季度再平衡",
+      "summary": "主持人認為近期急跌較合理的解釋是大型資金在科技股大漲後執行季度再平衡，加上獲利回吐與槓桿籌碼壓力，而非單一地緣政治消息。"
+    },
+    {
+      "topic": "市場廣度與季線風險",
+      "summary": "部分熱門股快速跌破季線，使大量近季買盤進入套牢狀態；即使出現反彈，也可能在重要均線遭遇解套賣壓，市場領漲範圍因而縮窄。"
+    },
+    {
+      "topic": "AI 資本支出與回報檢驗",
+      "summary": "AI 供應鏈拉貨尚未明顯轉弱，但科技巨頭承擔高額伺服器與記憶體成本、股價與現金流表現卻不一定同步，後續需觀察股東是否開始要求更清楚的投資回報。"
+    },
+    {
+      "topic": "蘋果漲價與消費需求",
+      "summary": "蘋果因記憶體成本上升調高部分產品價格；品牌黏性可能讓核心客群接受漲價，但消費端的價格彈性高於資料中心客戶，最終應以銷量驗證需求是否受損。"
+    },
+    {
+      "topic": "財富效應與消費遞延",
+      "summary": "主持人認為強勢股市不一定立即刺激消費，投資者可能因機會成本而持續把資金投入市場；當市場震盪增加後，部分資金才可能轉向消費或房地產。"
+    },
+    {
+      "topic": "價格訊號與風險管理",
+      "summary": "即使基本面未立即反轉，持續下跌、均線走平或反彈無法站回關鍵位置都可能領先消息反映風險；主持人建議注意槓桿、型態與現金水位。"
+    }
+  ],
+  "market_observations": [
+    {
+      "observation": "六月底市場修正可能主要由季度再平衡、獲利回吐與槓桿籌碼壓力共同驅動，而非美伊衝突本身。",
+      "time_sensitivity": "weeks",
+      "evidence_type": "source_statement"
+    },
+    {
+      "observation": "熱門股若快速跌破季線，反彈至大型均線附近可能面臨大量解套賣壓，使市場廣度縮小並降低短期再創高的機率。",
+      "time_sensitivity": "weeks",
+      "evidence_type": "source_statement"
+    },
+    {
+      "observation": "台系 AI 伺服器供應鏈拉貨目前未見明顯惡化，產業層面的立即反轉證據仍不足。",
+      "time_sensitivity": "months",
+      "evidence_type": "source_statement"
+    },
+    {
+      "observation": "若科技巨頭持續承擔高額 AI 基礎設施成本而股價、現金流或應用回報落後，股東對資本支出速度的質疑可能成為後續估值風險。",
+      "time_sensitivity": "months",
+      "evidence_type": "derived_interpretation"
+    },
+    {
+      "observation": "AI 資料中心客戶目前對記憶體等零組件漲價的承受力較強，但消費性電子的需求彈性更高，漲價能否成功應以終端銷量驗證。",
+      "time_sensitivity": "months",
+      "evidence_type": "source_statement"
+    },
+    {
+      "observation": "蘋果品牌黏性可能提高漲價接受度，但若後續銷量走弱，將是記憶體成本向消費端傳導造成需求破壞的直接證據。",
+      "time_sensitivity": "months",
+      "evidence_type": "derived_interpretation"
+    },
+    {
+      "observation": "在高波動修正中，價格與均線惡化可能早於基本面消息出現；若跌深後反彈仍無法站回關鍵位置，需提高對連鎖賣壓與槓桿風險的警覺。",
+      "time_sensitivity": "weeks",
+      "evidence_type": "source_statement"
+    }
+  ],
+  "analysis_meta": {
+    "generated_at": "2026-10-17T14:44:24+08:00",
+    "generator": "ChatGPT",
+    "source_scope": "full_transcript",
+    "review_status": "unreviewed"
+  }
+}
