@@ -1,0 +1,164 @@
+{
+  "schema_version": 1,
+  "episode": {
+    "number": 706,
+    "date": "2026-10-17",
+    "title": "2026-10-17-股癌-EP706-逐字稿"
+  },
+  "source": {
+    "platform": "vocus",
+    "url": "https://vocus.cc/article/6ad34d12fd89780001d8c767",
+    "content_stored": false
+  },
+  "analysis": {
+    "summary": "本集投資主軸轉向風險控制與市場領導族群切換。主持人認為台美股近期盤面快速惡化，強勢標的變少、融資在大跌後降幅有限，加上台積電釋出正向展望後股價仍無法有效反彈，均提高短線回調警訊；操作上傾向降低題材與動能部位、保留現金，避免用槓桿搶反彈。產業基本面目前尚未看到 AI 硬體需求明顯轉壞，但硬體、記憶體與光通訊股價已率先走弱，下一波反彈能否恢復領漲將成為重要驗證點。資金若持續轉向 software，可能呈現 AI infrastructure、platform、application 的輪動。個股方面，主持人仍正面看待 Broadcom 的長期基本面與光互聯機會，但因先前高波動經驗而不願積極攤平；對 CoreWeave、Nebius 等 Neocloud 維持高風險評價，雖修正其公司走向完全毀滅的極端情境。抄底方面偏好分批、保留戰略存糧，市場大幅修正時更偏向廣泛指數而非槓桿型主題 ETF。",
+    "relevance": "high"
+  },
+  "entities": [
+    {
+      "name": "TSMC",
+      "ticker": "TSM",
+      "market": "US",
+      "entity_type": "company",
+      "mention_context": "約 16:08–18:41，主持人指出公司與 C.C. Wei 對未來仍偏正向，但利多後股價無法有效反彈，被視為短線市場風險訊號；Q&A 亦提及跌破重要均線。",
+      "stance": "mixed",
+      "confidence": 0.97
+    },
+    {
+      "name": "Broadcom",
+      "ticker": "AVGO",
+      "market": "US",
+      "entity_type": "company",
+      "mention_context": "約 18:41–20:11 與 45:32–48:03，主持人表示部位偏重造成近期績效受壓，但仍認為公司基本面、專案管線、定價能力與光互聯布局良好，估值以未來 EPS 衡量並不昂貴。",
+      "stance": "positive",
+      "confidence": 0.98
+    },
+    {
+      "name": "CoreWeave",
+      "ticker": "CRWV",
+      "market": "US",
+      "entity_type": "company",
+      "mention_context": "約 20:11–24:37，主持人仍認為 Neocloud 商業模式承擔較高風險，但修正原先極端毀滅情境，認為量體有限使其在壓力下可能被大型 CSP 或策略投資者承接。",
+      "stance": "negative",
+      "confidence": 0.97
+    },
+    {
+      "name": "Nebius",
+      "ticker": "NBIS",
+      "market": "US",
+      "entity_type": "company",
+      "mention_context": "約 20:11–24:37，與 CoreWeave 並列為主持人較不偏好的 Neocloud exposure，認為風險高於其他 AI 供應鏈選擇。",
+      "stance": "negative",
+      "confidence": 0.96
+    },
+    {
+      "name": "NVIDIA",
+      "ticker": "NVDA",
+      "market": "US",
+      "entity_type": "company",
+      "mention_context": "約 20:11–25:55，被視為 Neocloud 的策略支持者之一；主持人亦以黃仁勳近期言論佐證 AI 基本面目前仍未出現明顯轉壞。",
+      "stance": "positive",
+      "confidence": 0.93
+    },
+    {
+      "name": "NASDAQ",
+      "ticker": null,
+      "market": "US",
+      "entity_type": "index",
+      "mention_context": "約 18:41–25:55 與 37:09–39:41，主持人關注指數跌破季線與後續反彈強度；若大幅修正需要抄底，偏好廣泛科技指數而非三倍槓桿半導體 ETF。",
+      "stance": "mixed",
+      "confidence": 0.96
+    },
+    {
+      "name": "SOXL",
+      "ticker": "SOXL",
+      "market": "US",
+      "entity_type": "etf",
+      "mention_context": "約 23:11–25:55 與 37:09–39:41，主持人明確提醒在市場狀態未明時用三倍槓桿 ETF 抄底可能面臨巨大回撤與被迫出場風險。",
+      "stance": "negative",
+      "confidence": 0.99
+    },
+    {
+      "name": "Software industry",
+      "ticker": null,
+      "market": "OTHER",
+      "entity_type": "industry",
+      "mention_context": "約 24:38–27:53 與 46:33–48:03，主持人觀察台美資金均往 software 移動；若修正後 software 率先站回，將提高其後續配置權重。",
+      "stance": "positive",
+      "confidence": 0.97
+    },
+    {
+      "name": "Memory industry",
+      "ticker": null,
+      "market": "OTHER",
+      "entity_type": "industry",
+      "mention_context": "約 15:22–16:08 與 46:33–48:03，韓股與記憶體鏈走弱被視為硬體風險警訊；主持人表示自身僅剩 Micron 部位，未參與記憶體後段主要漲幅。",
+      "stance": "mixed",
+      "confidence": 0.95
+    }
+  ],
+  "topics": [
+    {
+      "topic": "市場廣度惡化與風控",
+      "summary": "強勢股票數量快速減少，大型資金可容納的標的更少；主持人因此降低動能與題材部位、保留現金，並避免重演先前大幅 drawdown。"
+    },
+    {
+      "topic": "利多不漲與反彈驗證",
+      "summary": "台積電正向展望後市場仍無法有效反彈，被視為短線警訊；主持人認為下一波反彈能否站回關鍵位置，比替下跌尋找單一故事更重要。"
+    },
+    {
+      "topic": "AI 硬體到軟體輪動",
+      "summary": "產業基本面尚未明顯惡化，但硬體股價先行走弱；若 software 在修正後率先恢復強勢，可能重現 infrastructure、platform、application 的產業與資金輪動。"
+    },
+    {
+      "topic": "Neocloud 風險",
+      "summary": "CoreWeave 與 Nebius 仍被視為高風險 AI exposure；主持人降低對公司完全毀滅的機率判斷，但認為股價仍可能承受巨大下行。"
+    },
+    {
+      "topic": "Broadcom 基本面與估值",
+      "summary": "即使競爭者進入造成市占稀釋，主持人認為不代表 Broadcom 無法成長；其專案管線、定價能力與光互聯布局仍支撐長期基本面，但短線不積極攤平。"
+    },
+    {
+      "topic": "抄底與戰略存糧",
+      "summary": "市場大幅修正時不預設最低點，採分批進場並保留現金；若要承接 beta，偏好廣泛指數而非槓桿型主題 ETF，以降低斷頭與估值區間重定價風險。"
+    }
+  ],
+  "market_observations": [
+    {
+      "observation": "近期台股強勢標的數量下降且大跌後融資減幅有限，主持人將此視為短期市場仍可能進一步清洗槓桿與籌碼的警訊。",
+      "time_sensitivity": "days",
+      "evidence_type": "source_statement"
+    },
+    {
+      "observation": "企業與產業基本面維持正向但股價對利多反應鈍化，顯示估值與籌碼可能先於基本面進入修正階段。",
+      "time_sensitivity": "weeks",
+      "evidence_type": "derived_interpretation"
+    },
+    {
+      "observation": "AI 硬體供應鏈目前尚未看到明顯基本面惡化，但韓股、記憶體及其他硬體標的率先走弱，使下一波反彈的領導族群成為重要驗證訊號。",
+      "time_sensitivity": "weeks",
+      "evidence_type": "source_statement"
+    },
+    {
+      "observation": "若 software 在市場修正後率先恢復強勢，而 hardware 無法重新領漲，資金配置可能進一步由 AI infrastructure 向 application/software 移動。",
+      "time_sensitivity": "months",
+      "evidence_type": "derived_interpretation"
+    },
+    {
+      "observation": "Neocloud 的企業存續風險與股票價格風險並不相同；即使資產最終可能被大型業者承接，股東仍可能承受大幅估值壓縮。",
+      "time_sensitivity": "months",
+      "evidence_type": "derived_interpretation"
+    },
+    {
+      "observation": "大幅回調時使用廣泛指數、分批投入與保留戰略存糧，可降低主題估值區間下修與槓桿產品路徑依賴造成的風險。",
+      "time_sensitivity": "structural",
+      "evidence_type": "derived_interpretation"
+    }
+  ],
+  "analysis_meta": {
+    "generated_at": "2026-10-18T14:23:36+08:00",
+    "generator": "ChatGPT",
+    "source_scope": "full_transcript",
+    "review_status": "unreviewed"
+  }
+}
