@@ -1,0 +1,150 @@
+{
+  "schema_version": 1,
+  "episode": {
+    "number": 673,
+    "date": "2026-06-24",
+    "title": "2026-06-24-股癌-EP673-逐字稿"
+  },
+  "source": {
+    "platform": "vocus",
+    "url": "https://vocus.cc/article/6a5bc298fd89780001f9dc16",
+    "content_stored": false
+  },
+  "analysis": {
+    "summary": "本集將近期台股回檔定性為長多後的休息，而非已有充分證據支持的趨勢反轉；主持人認為短線下跌可能受韓股高槓桿去化與全球風險情緒連動影響，但不主張為每次修正強行尋找單一原因。操作上曾在中小型股與台積電之間調整，但整體水位未大幅下降，並持續觀察被動元件、功率元件等強勢結構。產業面重點包括聯發科漲價對財務表現偏正向、Google Triggerfish 專案仍屬早期但反映聯發科取得更多 ASIC/SoC 機會，以及 Broadcom Whitefish 下一代產品。被動元件方面，電阻供需也開始轉緊，漲價可能由電容擴散至電阻；功率元件則更受 8 吋晶圓與後段產能約束。風控上再次強調避免過度槓桿與被單次極端事件歸零。Q&A 中對光通訊仍偏好 Coherent，並認為 Nokia 因光纖與 CSP 業務具轉機題材。",
+    "relevance": "high"
+  },
+  "entities": [
+    {
+      "name": "TSMC",
+      "ticker": "TSM",
+      "market": "US",
+      "entity_type": "company",
+      "mention_context": "約 15:57–17:44，主持人曾將部分部位轉向台積電以因應盤勢，但看到中小型股未明顯轉弱後又降低配置，等待股價再突破短波段高點作為可能重新介入訊號。",
+      "stance": "positive",
+      "confidence": 0.96
+    },
+    {
+      "name": "MediaTek",
+      "ticker": "2454",
+      "market": "TW",
+      "entity_type": "company",
+      "mention_context": "約 17:44–20:20，漲價信被視為財務正面訊號；Google Triggerfish 專案仍在早期，但額外獲得專案被解讀為開發進展順利並擴大 ASIC/SoC 機會。",
+      "stance": "positive",
+      "confidence": 0.98
+    },
+    {
+      "name": "Broadcom",
+      "ticker": "AVGO",
+      "market": "US",
+      "entity_type": "company",
+      "mention_context": "約 17:44–22:47，主持人提到 Broadcom 在競爭上面臨聯發科、Marvell 等業者取得機會，同時 Whitefish 產品補上先前市場認為缺少的一代產品。",
+      "stance": "positive",
+      "confidence": 0.94
+    },
+    {
+      "name": "Yageo",
+      "ticker": "2327",
+      "market": "TW",
+      "entity_type": "company",
+      "mention_context": "約 15:57–17:44，被動元件在市場回檔中仍相對強勢，國巨被舉例為修正幅度很小的代表。",
+      "stance": "positive",
+      "confidence": 0.93
+    },
+    {
+      "name": "Passive components industry",
+      "ticker": null,
+      "market": "TW",
+      "entity_type": "industry",
+      "mention_context": "約 20:20–25:57，主持人觀察電容漲價已被部分大型客戶接受，電阻供需也開始轉緊，後續漲價主軸可能向 R-Chip 擴散。",
+      "stance": "positive",
+      "confidence": 0.98
+    },
+    {
+      "name": "Power semiconductor industry",
+      "ticker": null,
+      "market": "TW",
+      "entity_type": "industry",
+      "mention_context": "約 20:20–25:57，功率元件需求題材仍在，但能否取得 8 吋晶圓、成熟製程與封測產能可能成為營收獲利能否兌現的限制。",
+      "stance": "positive",
+      "confidence": 0.95
+    },
+    {
+      "name": "Coherent",
+      "ticker": "COHR",
+      "market": "US",
+      "entity_type": "company",
+      "mention_context": "約 45:42–49:26，主持人表示目前美股光通訊配置比例已降低，但在相關標的中仍最喜歡 Coherent。",
+      "stance": "positive",
+      "confidence": 0.98
+    },
+    {
+      "name": "Nokia",
+      "ticker": "NOK",
+      "market": "US",
+      "entity_type": "company",
+      "mention_context": "約 45:42–49:26，主持人認為 Nokia 透過 Infinera 與 CSP 光纖相關業務出現轉機，但近期研究較少，因此未提供深入更新。",
+      "stance": "positive",
+      "confidence": 0.88
+    }
+  ],
+  "topics": [
+    {
+      "topic": "長多回檔與市場結構",
+      "summary": "近期修正尚未破壞主要多頭結構，主持人不認為已有足夠證據將其定義為趨勢反轉，也避免為短線波動過度尋找單一解釋。"
+    },
+    {
+      "topic": "聯發科漲價與 Google 專案",
+      "summary": "漲價能力被視為財務正面訊號；Triggerfish 雖仍在早期，卻顯示聯發科在 Google 客戶端持續取得設計機會。"
+    },
+    {
+      "topic": "被動元件漲價擴散",
+      "summary": "市場原先較不看好的電阻也開始出現供需收緊，顯示缺料與採購提前下單可能讓漲價由電容延伸到 R-Chip。"
+    },
+    {
+      "topic": "功率元件產能約束",
+      "summary": "需求並非唯一關鍵，8 吋晶圓、成熟製程及封測產能的取得能力將影響公司能否把產業景氣轉化為營收獲利。"
+    },
+    {
+      "topic": "槓桿與生存風控",
+      "summary": "主持人認為投資者一生必然遭遇數次突發極端事件，因此不應使用一次大幅波動就可能歸零的槓桿程度。"
+    },
+    {
+      "topic": "光通訊配置",
+      "summary": "光通訊部位相較先前降低，但 Coherent 仍是主持人偏好的純度較高標的；Nokia 則因光纖與 CSP 業務被視為具轉機性。"
+    }
+  ],
+  "market_observations": [
+    {
+      "observation": "台股近期從高點回檔，但主要均線與多頭結構當時尚未明顯破壞，主持人將其視為長多後休息。",
+      "time_sensitivity": "days",
+      "evidence_type": "source_statement"
+    },
+    {
+      "observation": "被動元件漲價若由電容進一步擴散至電阻，可能代表供需緊張已從局部品項擴大到更廣產品線。",
+      "time_sensitivity": "weeks",
+      "evidence_type": "derived_interpretation"
+    },
+    {
+      "observation": "聯發科能對客戶調價並持續取得 Google 新設計案，對中期營收與 ASIC/SoC 業務能見度偏正向，但 Triggerfish 當時仍屬早期專案。",
+      "time_sensitivity": "months",
+      "evidence_type": "derived_interpretation"
+    },
+    {
+      "observation": "功率元件景氣改善若遭 8 吋晶圓與封測產能限制，供應保障能力可能成為公司間營運表現分化的重要因素。",
+      "time_sensitivity": "months",
+      "evidence_type": "derived_interpretation"
+    },
+    {
+      "observation": "避免會在單次極端行情中造成歸零的槓桿，是跨市場週期都適用的生存型風控原則。",
+      "time_sensitivity": "structural",
+      "evidence_type": "derived_interpretation"
+    }
+  ],
+  "analysis_meta": {
+    "generated_at": "2026-10-19T15:18:05+08:00",
+    "generator": "ChatGPT",
+    "source_scope": "full_transcript",
+    "review_status": "unreviewed"
+  }
+}
