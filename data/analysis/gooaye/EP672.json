@@ -1,0 +1,159 @@
+{
+  "schema_version": 1,
+  "episode": {
+    "number": 672,
+    "date": "2026-06-20",
+    "title": "2026-06-20-股癌-EP672-逐字稿"
+  },
+  "source": {
+    "platform": "vocus",
+    "url": "https://vocus.cc/article/6a5bc26dfd89780001f9d15e",
+    "content_stored": false
+  },
+  "analysis": {
+    "summary": "本集確認台股再創歷史新高後，主持人認為前段修正已告一段落，並提醒不要以個人持股強弱代替整體市場判斷。產業主軸由被動元件延伸至功率半導體與 MOSFET：歐美與日系 IDM 的部分料件 lead time 明顯拉長，AI 伺服器需求與高階產能排擠使台灣二供、晶圓代工與封測可能受惠，但真正能否兌現仍取決於產能取得、稼動率與議價權。主持人認為消費性與車用需求偏弱反而延緩全面需求破壞，使 AI 硬體漲價循環可能走得更久。操作方法上強調族群輪動、尊重市場訊號與見招拆招，而不是預測行情位於第幾局。Q&A 另談機器人仍處萌芽期但長期正向、Marvell 曾帶來超預期報酬，以及 AI 對軟體工程師的影響更像組織重整與生產力工具升級，而非整體職業消失。",
+    "relevance": "high"
+  },
+  "entities": [
+    {
+      "name": "TSMC",
+      "ticker": "TSM",
+      "market": "US",
+      "entity_type": "company",
+      "mention_context": "約 10:07–17:09，主持人以台積電 ADR 再度走強說明資金輪動；約 24:11–28:03 又引用台積電產能約束作為 AI 供應鏈不至於過快走向需求破壞的限制器。",
+      "stance": "positive",
+      "confidence": 0.96
+    },
+    {
+      "name": "NVIDIA",
+      "ticker": "NVDA",
+      "market": "US",
+      "entity_type": "company",
+      "mention_context": "約 10:07–24:07，NVIDIA 與 Rubin 被視為 AI 伺服器密集拉貨與零組件需求的重要驅動來源。",
+      "stance": "positive",
+      "confidence": 0.96
+    },
+    {
+      "name": "Yageo",
+      "ticker": "2327",
+      "market": "TW",
+      "entity_type": "company",
+      "mention_context": "約 10:07–17:09，國巨被舉為被動元件族群中大型股仍保持強勢的案例，用來說明族群內部表現可能與直覺上的缺貨排序不同。",
+      "stance": "positive",
+      "confidence": 0.91
+    },
+    {
+      "name": "Vishay",
+      "ticker": "VSH",
+      "market": "US",
+      "entity_type": "company",
+      "mention_context": "約 17:09–24:07，主持人重新檢視 Vishay，認為過去股價表現可能不只反映被動元件，也可能與其功率半導體產品極長 lead time 有關。",
+      "stance": "positive",
+      "confidence": 0.94
+    },
+    {
+      "name": "Marvell",
+      "ticker": "MRVL",
+      "market": "US",
+      "entity_type": "company",
+      "mention_context": "約 46:04–48:12，主持人表示 Marvell 是近期帶來超出原先預期報酬的持股之一，第三次布局後持續持有並加碼。",
+      "stance": "positive",
+      "confidence": 0.98
+    },
+    {
+      "name": "Power semiconductor industry",
+      "ticker": null,
+      "market": "OTHER",
+      "entity_type": "industry",
+      "mention_context": "約 10:07–24:07，歐美日 IDM 部分料件 lead time 拉長至一年以上，AI 伺服器需求與高階產能排擠帶來漲價與二供機會；後續需驗證晶圓、封測產能與議價權。",
+      "stance": "positive",
+      "confidence": 0.99
+    },
+    {
+      "name": "Robotics industry",
+      "ticker": null,
+      "market": "OTHER",
+      "entity_type": "industry",
+      "mention_context": "約 39:33–42:11，主持人認為機器人仍在萌芽階段但中長期方向正向，部分 IPC 與工業零件供應商已開始出現低個位數機器人相關營收占比。",
+      "stance": "positive",
+      "confidence": 0.95
+    },
+    {
+      "name": "Software engineering",
+      "ticker": null,
+      "market": "OTHER",
+      "entity_type": "industry",
+      "mention_context": "約 48:12–53:22，主持人認為 AI 會壓縮冗員並改變工程師工作內容，但能善用 AI 工具的人仍有需求，整體更接近組織重整與生產力提升而非職業末日。",
+      "stance": "positive",
+      "confidence": 0.97
+    }
+  ],
+  "topics": [
+    {
+      "topic": "台股創高與市場判讀",
+      "summary": "台股再創歷史新高被視為前段修正結束的確認訊號；個別持股轉弱不應被誤認為整體市場或經濟同步轉差。"
+    },
+    {
+      "topic": "功率半導體與 MOSFET 供需",
+      "summary": "AI 伺服器需求使部分歐美日 IDM 料件 lead time 極長並推動漲價，台灣二供可能因認證與供應替代而受惠，但產能取得是下一階段驗證重點。"
+    },
+    {
+      "topic": "產能、議價權與族群輪動",
+      "summary": "IDM、fabless、晶圓代工與封測各有不同受惠方式；市場資金會在題材間輪動，因此不能只依當下最缺的產品判定最後股價贏家。"
+    },
+    {
+      "topic": "需求破壞與 AI cycle 延續性",
+      "summary": "消費性與車用需求偏弱，使供應鏈尚未形成多箭頭搶貨，反而可能降低快速需求破壞風險，讓 AI 硬體景氣循環延續更久。"
+    },
+    {
+      "topic": "反預測與動態調整",
+      "summary": "主持人反對以『行情第幾局』預測未來，主張依市場與基本面訊號持續調整，隨機應變比追求預言準確更重要。"
+    },
+    {
+      "topic": "機器人萌芽期",
+      "summary": "機器人題材仍在早期，但部分供應商已開始看到實際營收占比；長期方向偏正向，只是短期更偏好半年到一年內能快速兌現營收的題材。"
+    },
+    {
+      "topic": "AI 與軟體工程師職涯",
+      "summary": "AI 被視為提高生產力並加速組織去除冗員的工具；工程師工作可能從大量 coding 轉向產品思考與 AI 協作，而非整體需求消失。"
+    }
+  ],
+  "market_observations": [
+    {
+      "observation": "台股在本集時點再創歷史新高，主持人據此將先前修正視為已結束。",
+      "time_sensitivity": "days",
+      "evidence_type": "source_statement"
+    },
+    {
+      "observation": "部分功率半導體與 MOSFET 料件 lead time 已顯著拉長，AI 伺服器需求可能透過供應排擠把訂單外溢至台灣二供。",
+      "time_sensitivity": "months",
+      "evidence_type": "derived_interpretation"
+    },
+    {
+      "observation": "功率半導體景氣能否轉化為企業獲利，不只看漲價，也需追蹤晶圓與封測產能取得、稼動率及直接面向客戶的議價權。",
+      "time_sensitivity": "months",
+      "evidence_type": "derived_interpretation"
+    },
+    {
+      "observation": "消費性與車用需求偏弱可能暫時降低全面搶貨造成的需求破壞，讓 AI 驅動的硬體供需循環延長。",
+      "time_sensitivity": "months",
+      "evidence_type": "derived_interpretation"
+    },
+    {
+      "observation": "族群性上漲通常會吸引大量研究資源驗證，因此若基本面無法支持，後續更容易快速反轉；投資判斷應持續依新資訊修正。",
+      "time_sensitivity": "structural",
+      "evidence_type": "derived_interpretation"
+    },
+    {
+      "observation": "AI 對軟體工程就業的影響可能主要表現在組織重整、工作內容改變與生產力提升，而非需求單向消失。",
+      "time_sensitivity": "structural",
+      "evidence_type": "derived_interpretation"
+    }
+  ],
+  "analysis_meta": {
+    "generated_at": "2026-10-20T14:08:20+08:00",
+    "generator": "ChatGPT",
+    "source_scope": "full_transcript",
+    "review_status": "unreviewed"
+  }
+}
