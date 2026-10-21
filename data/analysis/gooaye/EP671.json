@@ -1,0 +1,155 @@
+{
+  "schema_version": 1,
+  "episode": {
+    "number": 671,
+    "date": "2026-06-17",
+    "title": "2026-06-17-股癌-EP671-逐字稿"
+  },
+  "source": {
+    "platform": "vocus",
+    "url": "https://vocus.cc/article/6a5bc243fd89780001f9c78e",
+    "content_stored": false
+  },
+  "analysis": {
+    "summary": "本集在市場百花齊放、被動元件交易日益擁擠的背景下，主持人開始尋找下一批可能受惠的半導體題材。核心研究聚焦功率半導體、PMIC、discrete 與 DrMOS：晶圓代工成本轉嫁、Nexperia 事件與 China+1 供應鏈重組先形成供給缺口，而 AI 伺服器、NVIDIA Rubin 與未來 800V DC 架構則可能進一步提高功率元件的量與價。主持人認為這不像高階被動元件般具有立即斷貨風險，但歐美 IDM 往高階、高毛利產品遷移可能把中低階市場與二供認證機會外溢給台廠。市場操作上，被動元件籌碼轉亂後開始提高技術面權重並尋找新題材，同時把台積電視為主流族群退潮時可能承接資金的避風港；整體仍強調不要用單一持股表現代替整體盤勢。",
+    "relevance": "high"
+  },
+  "entities": [
+    {
+      "name": "TSMC",
+      "ticker": "TSM",
+      "market": "US",
+      "entity_type": "company",
+      "mention_context": "約 13:56–16:26，主持人認為投信法規與內規調整後，資金未來可能提高台積電配置；當其他主流族群轉弱時，台積電可能成為資金回流與避險方向。",
+      "stance": "positive",
+      "confidence": 0.96
+    },
+    {
+      "name": "NVIDIA",
+      "ticker": "NVDA",
+      "market": "US",
+      "entity_type": "company",
+      "mention_context": "約 19:40–30:46，Rubin 被視為 AI 伺服器功率需求的重要增量來源；主持人也認為 NVIDIA 估值相對便宜，但短期資金被其他熱門題材吸引。",
+      "stance": "positive",
+      "confidence": 0.96
+    },
+    {
+      "name": "Nexperia",
+      "ticker": null,
+      "market": "OTHER",
+      "entity_type": "company",
+      "mention_context": "約 18:23–24:57，Nexperia 受制裁與供應控管被視為功率半導體供應鏈重新驗證二供、推動 China+1 的早期事件之一。",
+      "stance": "neutral",
+      "confidence": 0.95
+    },
+    {
+      "name": "Texas Instruments",
+      "ticker": "TXN",
+      "market": "US",
+      "entity_type": "company",
+      "mention_context": "約 16:26–18:23 與 26:26–27:32，德州儀器被列入海外 IDM 集體走強與提前備貨的觀察案例，可能反映車用、工業、機器人及功率元件需求預期。",
+      "stance": "positive",
+      "confidence": 0.9
+    },
+    {
+      "name": "Infineon",
+      "ticker": null,
+      "market": "OTHER",
+      "entity_type": "company",
+      "mention_context": "約 16:26–24:57，英飛凌被列為海外功率半導體 IDM 近期集體走強及掌握高階功率元件供應的代表。",
+      "stance": "positive",
+      "confidence": 0.91
+    },
+    {
+      "name": "ON Semiconductor",
+      "ticker": "ON",
+      "market": "US",
+      "entity_type": "company",
+      "mention_context": "約 16:26–18:23，安森美與其他海外 IDM 一起被列為近兩個月明顯上漲、值得觀察功率半導體供需變化的案例。",
+      "stance": "positive",
+      "confidence": 0.88
+    },
+    {
+      "name": "Power semiconductor industry",
+      "ticker": null,
+      "market": "OTHER",
+      "entity_type": "industry",
+      "mention_context": "約 16:26–27:32，主持人認為成本轉嫁、China+1、AI server、DrMOS 與 800V DC 共同改變功率半導體供需結構，台廠可能取得二供與中低階市場外溢機會。",
+      "stance": "positive",
+      "confidence": 0.99
+    },
+    {
+      "name": "Passive components industry",
+      "ticker": null,
+      "market": "OTHER",
+      "entity_type": "industry",
+      "mention_context": "約 11:54–18:23，被動元件仍是市場最強主流之一，但參與者增加、籌碼轉亂後，主持人開始提高技術面權重並尋找其他題材。",
+      "stance": "mixed",
+      "confidence": 0.98
+    }
+  ],
+  "topics": [
+    {
+      "topic": "被動元件擁擠與題材輪動",
+      "summary": "被動元件由半信半疑走向市場共識後，籌碼開始變亂；基本面仍可能有空間，但新資金的風險報酬下降，促使研究轉向其他族群。"
+    },
+    {
+      "topic": "功率半導體供需重構",
+      "summary": "晶圓代工成本上升、Nexperia 事件與對中國供應商的限制推動 China+1，歐美與台系供應商可能取得重新分配的市場份額。"
+    },
+    {
+      "topic": "AI server、DrMOS 與 800V DC",
+      "summary": "GPU/ASIC 板端空間與功率密度提升推動 DrMOS 等高階元件；即使 800V DC 初期滲透率有限，仍可能帶來功率元件數量與 ASP 的顯著增量。"
+    },
+    {
+      "topic": "台廠二供與產品外溢",
+      "summary": "大型 IDM 往高階、高毛利產品集中後，中低階供給可能外溢；供應不確定性也促使 EMS 與客戶驗證台系二供，形成過去較難取得的新切入機會。"
+    },
+    {
+      "topic": "台積電資金回流假說",
+      "summary": "當市場其他熱門題材仍多時，台積電可能暫時橫盤；若中小型與主流題材退潮，加上投信配置限制放寬，資金可能重新集中至台積電。"
+    },
+    {
+      "topic": "市場廣度與持股偏誤",
+      "summary": "市場同時有被動元件、載板、離散元件、PMIC、power、金融等多族群輪動，單一集中持股的強弱容易扭曲對整體盤勢的判斷。"
+    }
+  ],
+  "market_observations": [
+    {
+      "observation": "被動元件交易已從早期低共識走向高度關注，籌碼波動增加，因此主持人開始提高技術面權重並尋找其他題材。",
+      "time_sensitivity": "weeks",
+      "evidence_type": "source_statement"
+    },
+    {
+      "observation": "功率半導體的機會較不像立即斷貨，而是由成本、供應鏈去中化、產品升級與 AI 需求共同造成供需結構重整。",
+      "time_sensitivity": "months",
+      "evidence_type": "derived_interpretation"
+    },
+    {
+      "observation": "若 800V DC 即使只有低個位數滲透率開始落地，PSU 與板端功率元件密度提升仍可能形成有意義的新增市場。",
+      "time_sensitivity": "months",
+      "evidence_type": "derived_interpretation"
+    },
+    {
+      "observation": "海外 IDM 往 DrMOS、SiC 等較高階產品遷移，可能釋出中低階產品份額並加速客戶驗證台灣二供。",
+      "time_sensitivity": "months",
+      "evidence_type": "derived_interpretation"
+    },
+    {
+      "observation": "市場廣度仍高，資金尚未明顯收斂至單一大型權值股；若主流中小型題材退潮，台積電可能成為資金重新集中的方向。",
+      "time_sensitivity": "weeks",
+      "evidence_type": "derived_interpretation"
+    },
+    {
+      "observation": "集中持有單一族群會放大主觀盤感偏誤，研究應同時觀察其他產業與資金輪動，避免把個人損益誤認為整體市場狀態。",
+      "time_sensitivity": "structural",
+      "evidence_type": "derived_interpretation"
+    }
+  ],
+  "analysis_meta": {
+    "generated_at": "2026-10-21T14:22:46+08:00",
+    "generator": "ChatGPT",
+    "source_scope": "full_transcript",
+    "review_status": "unreviewed"
+  }
+}
