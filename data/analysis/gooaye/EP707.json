@@ -1,0 +1,173 @@
+{
+  "schema_version": 1,
+  "episode": {
+    "number": 707,
+    "date": "2026-10-21",
+    "title": "2026-10-21-股癌-EP707-逐字稿"
+  },
+  "source": {
+    "platform": "vocus",
+    "url": "https://vocus.cc/article/6ad8998cfd89780001dfe00f",
+    "content_stored": false
+  },
+  "analysis": {
+    "summary": "本集延續前一集的風控框架，但強調目前偏保守主要來自盤面與資金行為，而非 AI 基本面明顯惡化。主持人引用 SpaceX／SI 相關營運與算力回收期說法，認為算力需求仍強、供需仍偏緊，融資成本尚不足以直接否定 AI 基礎建設需求；同時提醒其執行力可能顯著優於一般 Neocloud，不宜直接類推。記憶體方面，主持人注意到部分研調對未來一至兩年 NAND EB 需求略為下修，雖供需仍失衡，但漲價速度可能由急升轉為持平或溫和上升。台股方面，OCP、光通訊、TPCA 與載板供應鏈的基本面展望仍佳，高階 PCB、載板上游材料、設備與無塵室均存在供給瓶頸，但股價反應分化，反映資金有限、題材先後與市場可能已提前反映部分利多。操作層面維持減少停滯部位、換向較強新題材並保留現金的思路；若個股連續跌停，除非對公司基本面與路線圖有高度掌握，否則不主張僅因價格下跌而攤平。",
+    "relevance": "high"
+  },
+  "entities": [
+    {
+      "name": "SpaceX",
+      "ticker": null,
+      "market": "US",
+      "entity_type": "company",
+      "mention_context": "約 10:14–15:23，主持人引用其近期營運與電話會議資訊，認為算力需求與回收期展望偏強，並強調其資料中心建置與垂直整合執行力可能優於一般業者。",
+      "stance": "positive",
+      "confidence": 0.96
+    },
+    {
+      "name": "Neocloud industry",
+      "ticker": null,
+      "market": "US",
+      "entity_type": "industry",
+      "mention_context": "約 12:14–15:23，主持人認為若算力回收期維持在合理區間，融資成本上升未必足以破壞需求，但提醒一般業者的回收期與執行力不能直接套用最強業者。",
+      "stance": "mixed",
+      "confidence": 0.93
+    },
+    {
+      "name": "NAND memory",
+      "ticker": null,
+      "market": "OTHER",
+      "entity_type": "industry",
+      "mention_context": "約 15:23–17:23，主持人提到部分海內外研調對未來一至兩年 NAND EB 需求略作下修；供應仍跟不上需求，但記憶體漲價速度可能趨於平坦或溫和。",
+      "stance": "mixed",
+      "confidence": 0.96
+    },
+    {
+      "name": "PCB and substrate industry",
+      "ticker": null,
+      "market": "TW",
+      "entity_type": "industry",
+      "mention_context": "約 17:23–23:47，主持人根據 TPCA 與供應鏈資訊認為載板、高階 PCB 上游原料與設備仍供給吃緊，2027–2028 擴產需求可見，但個股股價反應高度分化。",
+      "stance": "positive",
+      "confidence": 0.97
+    },
+    {
+      "name": "ASML",
+      "ticker": "ASML",
+      "market": "US",
+      "entity_type": "company",
+      "mention_context": "約 20:59–23:47，主持人引用公司對外資訊說明部分產能／營收推進受無塵室建置速度限制，並將其連結到設備進場與擴產瓶頸。",
+      "stance": "neutral",
+      "confidence": 0.9
+    },
+    {
+      "name": "MediaTek",
+      "ticker": "2454",
+      "market": "TW",
+      "entity_type": "company",
+      "mention_context": "約 17:23–23:47，主持人以其及 Broadcom 的次世代 TPU／載板需求為例，討論先進封裝與載板良率、產能擴充的限制。",
+      "stance": "neutral",
+      "confidence": 0.9
+    },
+    {
+      "name": "Broadcom",
+      "ticker": "AVGO",
+      "market": "US",
+      "entity_type": "company",
+      "mention_context": "約 20:59–23:47，與 MediaTek 一同被用來說明次世代 TPU 相關載板與先進封裝需求可能面臨的良率與產能瓶頸。",
+      "stance": "neutral",
+      "confidence": 0.9
+    },
+    {
+      "name": "Ibiden",
+      "ticker": null,
+      "market": "OTHER",
+      "entity_type": "company",
+      "mention_context": "約 20:59–23:47，主持人引用研調與業界資訊討論次世代載板良率，並強調實際良率仍有不確定性。",
+      "stance": "neutral",
+      "confidence": 0.86
+    },
+    {
+      "name": "Unimicron",
+      "ticker": "3037",
+      "market": "TW",
+      "entity_type": "company",
+      "mention_context": "約 20:59–23:47，主持人以欣興為例討論載板良率與擴產限制，指出需求強不等於產能可立即轉化為營收。",
+      "stance": "neutral",
+      "confidence": 0.91
+    },
+    {
+      "name": "TSMC",
+      "ticker": "2330",
+      "market": "TW",
+      "entity_type": "company",
+      "mention_context": "約 31:52–33:54 的 Q&A 中用作長期持有與進場時點差異的例子，重點是高檔買入不必然代表公司基本面錯誤。",
+      "stance": "neutral",
+      "confidence": 0.9
+    }
+  ],
+  "topics": [
+    {
+      "topic": "AI 算力需求與回收期",
+      "summary": "主持人認為近期算力需求仍強，供需仍偏緊；高融資成本需與實際回收期一起評估，而不能單獨視為 AI 基礎建設泡沫破裂證據。"
+    },
+    {
+      "topic": "基本面與市場情緒分離",
+      "summary": "目前降低部位主要源於盤面轉弱與資金行為，而非基本面突然惡化；主持人提醒股價回檔不應被倒因為果地解釋成基本面必然轉壞。"
+    },
+    {
+      "topic": "NAND 需求預期微調",
+      "summary": "部分研調下修未來一至兩年的 NAND EB 需求，但供應仍不足；若需求預估降溫，價格上漲斜率可能由暴增轉向持平或微增。"
+    },
+    {
+      "topic": "載板與 PCB 擴產瓶頸",
+      "summary": "TPCA 與供應鏈訊息仍指向高階載板、PCB 上游材料、設備與無塵室供給吃緊；2027–2028 擴產可見，但建廠、無塵室、設備與良率形成連續瓶頸。"
+    },
+    {
+      "topic": "資金集中與股價分化",
+      "summary": "基本面良好的公司很多，但資金有限，使部分估值較便宜或基本面良好的標的仍可能不漲；動能與資金流向因此仍是題材排序的重要變數。"
+    },
+    {
+      "topic": "風控與換股",
+      "summary": "主持人維持保留現金、調節停滯部位並換向新題材的策略；連續跌停時，若缺乏基本面掌握，不建議單純因跌深而攤平。"
+    }
+  ],
+  "market_observations": [
+    {
+      "observation": "主持人認為 AI 算力需求目前仍供不應求，近期市場轉弱較偏 sentiment 與資金面，而非已確認的基本面崩壞。",
+      "time_sensitivity": "weeks",
+      "evidence_type": "source_statement"
+    },
+    {
+      "observation": "若一般 Neocloud 的資產回收期顯著長於最佳執行者，融資成本上升仍可能放大其商業模式與股權估值風險，因此不能直接以頂尖業者的回收期外推整個產業。",
+      "time_sensitivity": "months",
+      "evidence_type": "derived_interpretation"
+    },
+    {
+      "observation": "部分研調對 NAND 中期需求略微下修，在供需仍緊的前提下，較可能先反映為漲價速度放緩，而非立即轉為供過於求。",
+      "time_sensitivity": "months",
+      "evidence_type": "derived_interpretation"
+    },
+    {
+      "observation": "載板與高階 PCB 的需求展望仍強，但無塵室、設備、良率與擴產時程限制，使不同供應鏈公司的營收兌現時間存在明顯差異。",
+      "time_sensitivity": "months",
+      "evidence_type": "source_statement"
+    },
+    {
+      "observation": "基本面佳但股價不漲的標的增加，可能反映資金集中於少數領先族群；在此環境下，便宜估值本身不足以保證短期超額報酬。",
+      "time_sensitivity": "weeks",
+      "evidence_type": "derived_interpretation"
+    },
+    {
+      "observation": "連續跌停標的若缺乏可驗證的公司基本面與路線圖資訊，單純以跌深作為加碼理由會提高流動性與永久損失風險。",
+      "time_sensitivity": "structural",
+      "evidence_type": "derived_interpretation"
+    }
+  ],
+  "analysis_meta": {
+    "generated_at": "2026-10-22T14:10:46+08:00",
+    "generator": "ChatGPT",
+    "source_scope": "full_transcript",
+    "review_status": "unreviewed"
+  }
+}
