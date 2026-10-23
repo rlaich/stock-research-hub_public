@@ -1,0 +1,191 @@
+{
+  "schema_version": 1,
+  "episode": {
+    "number": 670,
+    "date": "2026-06-13",
+    "title": "2026-06-13-股癌-EP670-逐字稿"
+  },
+  "source": {
+    "platform": "vocus",
+    "url": "https://vocus.cc/article/6a5bc218fd89780001f9c083",
+    "content_stored": false
+  },
+  "analysis": {
+    "summary": "本集在急跌後偏向認為台股修正可能已接近完成，主持人選擇逐步把資金推回市場，但仍把後續是否破底與新事件視為驗證條件。產業面最明確的主線是被動元件：大型 ODM/EMS 已出現漲價成功案例，漲幅速度高於原先預期，且日韓系開始配貨、主要廠商擴產相對節制，主持人因此認為價格仍可能處於上升過程且循環可能拉長。SpaceX 上市後，RKLB、ASTS、Planet Labs 等既有衛星題材股反而轉弱，被解讀為題材實現後的獲利了結風險。AI 方面，Claude 等前沿模型能力提升但成本與監管增加，主持人提出低價模型與地端模型可能承接更多需求、Edge computing 中長期受益的情境。Q&A 另以 800V HVDC 延後、400V、pluggable 光通訊與 Astera Labs 為例，強調研發路線的 delay 不應自動等同長期基本面破壞，短期修正時市場常出現情緒性通殺。",
+    "relevance": "high"
+  },
+  "entities": [
+    {
+      "name": "SpaceX",
+      "ticker": null,
+      "market": "US",
+      "entity_type": "company",
+      "mention_context": "約 12:14–18:31，主持人討論上市後的持有邏輯，將衛星視為現階段主要獲利引擎，火箭與 AI 則帶有較高遠期選擇權性質；並觀察上市後其他衛星題材股的獲利了結。",
+      "stance": "positive",
+      "confidence": 0.95
+    },
+    {
+      "name": "Rocket Lab",
+      "ticker": "RKLB",
+      "market": "US",
+      "entity_type": "company",
+      "mention_context": "約 16:34–18:31，與 AST SpaceMobile、Planet Labs 一同被列為 SpaceX 上市後轉弱的衛星／火箭題材股，主持人提醒題材實現後可能出現資金提款。",
+      "stance": "mixed",
+      "confidence": 0.94
+    },
+    {
+      "name": "AST SpaceMobile",
+      "ticker": "ASTS",
+      "market": "US",
+      "entity_type": "company",
+      "mention_context": "約 16:34–18:31，作為 SpaceX 上市後既有衛星通訊題材股回檔的例子，重點在觀察是否形成持續性獲利了結。",
+      "stance": "mixed",
+      "confidence": 0.94
+    },
+    {
+      "name": "Planet Labs",
+      "ticker": "PL",
+      "market": "US",
+      "entity_type": "company",
+      "mention_context": "約 16:34–18:31，與 RKLB、ASTS 一同用來說明題材正式實現後，先前蹲點資金可能趁事件出貨。",
+      "stance": "mixed",
+      "confidence": 0.93
+    },
+    {
+      "name": "Passive components industry",
+      "ticker": null,
+      "market": "OTHER",
+      "entity_type": "industry",
+      "mention_context": "約 20:10–24:23，主持人表示大型 ODM/EMS 已有漲價成功案例，部分料號漲幅速度高於原先劇本，日韓系開始配貨且大型廠商擴產節制，供需仍值得持續追蹤。",
+      "stance": "positive",
+      "confidence": 0.98
+    },
+    {
+      "name": "Murata Manufacturing",
+      "ticker": null,
+      "market": "OTHER",
+      "entity_type": "company",
+      "mention_context": "約 12:14–16:34，主持人以村田為例說明成長股估值具有前瞻性：若 AI 需求與漲價最終推升 EPS，事後回看估值可能顯著下降。",
+      "stance": "positive",
+      "confidence": 0.9
+    },
+    {
+      "name": "Anthropic",
+      "ticker": null,
+      "market": "US",
+      "entity_type": "company",
+      "mention_context": "約 24:23–28:38，主持人肯定 Claude 模型能力與速度，同時討論出口限制、監管與高 token 成本可能影響市場觸及並促使部分需求轉向低成本或地端模型。",
+      "stance": "mixed",
+      "confidence": 0.96
+    },
+    {
+      "name": "Edge AI / edge computing",
+      "ticker": null,
+      "market": "OTHER",
+      "entity_type": "industry",
+      "mention_context": "約 24:23–28:38，主持人推演當開放模型追上較早期的前沿模型能力後，更多實用 AI 工作可在地端執行，可能使 edge computing 從早期題材逐漸進入需求兌現階段。",
+      "stance": "positive",
+      "confidence": 0.91
+    },
+    {
+      "name": "Delta Electronics",
+      "ticker": "2308",
+      "market": "TW",
+      "entity_type": "company",
+      "mention_context": "約 49:43–52:07 的 Q&A 討論 800V HVDC 延後時，以台達電現階段 400V 產品受益期可能延長作為反例，說明市場下跌並非總能由單一技術新聞合理解釋。",
+      "stance": "positive",
+      "confidence": 0.9
+    },
+    {
+      "name": "BizLink",
+      "ticker": "3665",
+      "market": "TW",
+      "entity_type": "company",
+      "mention_context": "約 49:43–52:07 的聽眾提問提到貿聯-KY 透過 Datacom 補強 connector 與 Power Shelf；主持人主要回應市場定價與研發路線延遲，而未對公司給出明確個別評價。",
+      "stance": "neutral",
+      "confidence": 0.82
+    },
+    {
+      "name": "Astera Labs",
+      "ticker": "ALAB",
+      "market": "US",
+      "entity_type": "company",
+      "mention_context": "約 49:43–52:07，被用作短期敘事與長期基本面可能脫鉤的案例；主持人認為先前股價大跌時的負面故事並未阻止後續基本面與股價恢復。",
+      "stance": "positive",
+      "confidence": 0.94
+    }
+  ],
+  "topics": [
+    {
+      "topic": "急跌後的市場修正判讀",
+      "summary": "主持人傾向認為本輪台股急跌已消化多項壞消息，若後續沒有新事件且不再破底，修正可能接近完成，因此開始逐步增加部位。"
+    },
+    {
+      "topic": "SpaceX 上市與衛星題材 sell-the-news",
+      "summary": "SpaceX 上市後，部分既有衛星與火箭概念股反而快速轉弱；主持人將其視為題材從 rumor 走向實現後，早期資金可能獲利了結的典型情境。"
+    },
+    {
+      "topic": "被動元件漲價與配貨",
+      "summary": "大型 ODM/EMS 已出現漲價成功，部分料號漲幅速度高於預期；配貨與終端客戶驗證將進一步檢驗真實需求與 overbooking，而擴產節制可能拉長景氣循環。"
+    },
+    {
+      "topic": "成長股估值的前瞻性",
+      "summary": "主持人認為估值不應只比較當下絕對倍數，真正重要的是市場是否尚未充分反映未來 EPS、營收與題材；高成長公司在成長兌現後可能從看似昂貴轉為合理。"
+    },
+    {
+      "topic": "前沿模型、監管與 Edge AI",
+      "summary": "前沿模型能力強但成本高且可能面臨更多監管；隨開放模型能力追近，較低成本模型與地端推論可能承接更多工作，Edge computing 因而具中長期需求轉移機會。"
+    },
+    {
+      "topic": "R&D 路線延遲與市場噪音",
+      "summary": "800V HVDC、光互連等仍在研發與導入中的技術可能出現 delay；主持人主張應區分短期路線調整與毀滅性基本面變化，避免把修正期間所有價格波動都歸因於單一報告。"
+    },
+    {
+      "topic": "研究資訊的邊際效益",
+      "summary": "更多券商報告、call memo 與供應鏈數據有價值，但資訊密度過高也會形成 noise；主持人強調抓住產業大方向與受益廠商，有時比頻繁追逐短期數字更重要。"
+    }
+  ],
+  "market_observations": [
+    {
+      "observation": "主持人認為台股急跌已集中反映多項壞消息，若後續沒有新增事件且低點不再被跌破，短期修正可能接近尾聲。",
+      "time_sensitivity": "weeks",
+      "evidence_type": "source_statement"
+    },
+    {
+      "observation": "SpaceX 上市後既有衛星題材股同步轉弱，若弱勢延續數日，可視為早期題材資金利用事件落地進行獲利了結的訊號。",
+      "time_sensitivity": "days",
+      "evidence_type": "derived_interpretation"
+    },
+    {
+      "observation": "被動元件部分料號已成功向大型 ODM/EMS 漲價，且漲價速度超過主持人原先假設；若配貨後真實終端需求仍強，產業獲利預期仍可能上修。",
+      "time_sensitivity": "months",
+      "evidence_type": "source_statement"
+    },
+    {
+      "observation": "主要被動元件廠擴產相對節制，加上日韓供應商採取配貨，若需求沒有因價格上升而快速破壞，本輪供需緊張的持續時間可能長於過往短週期。",
+      "time_sensitivity": "months",
+      "evidence_type": "derived_interpretation"
+    },
+    {
+      "observation": "前沿 AI 模型的高成本與監管摩擦若持續增加，而開放模型維持能力追趕，部分推論需求可能逐步從大型雲端 cluster 轉向較便宜模型與地端裝置。",
+      "time_sensitivity": "structural",
+      "evidence_type": "derived_interpretation"
+    },
+    {
+      "observation": "800V HVDC 等研發路線的時程延後並不必然等同整體 AI 電源需求惡化；若替代路線如 400V 的使用期延長，供應鏈影響可能是重新分配而非需求消失。",
+      "time_sensitivity": "months",
+      "evidence_type": "derived_interpretation"
+    },
+    {
+      "observation": "修正行情中市場可能同時賣出理論上互為替代的技術受益股，這種通殺現象較符合風險偏好下降，而非所有技術路線基本面同時惡化。",
+      "time_sensitivity": "weeks",
+      "evidence_type": "derived_interpretation"
+    }
+  ],
+  "analysis_meta": {
+    "generated_at": "2026-10-23T14:39:59+08:00",
+    "generator": "ChatGPT",
+    "source_scope": "full_transcript",
+    "review_status": "unreviewed"
+  }
+}
