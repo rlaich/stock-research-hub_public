@@ -1,0 +1,169 @@
+{
+  "schema_version": 1,
+  "episode": {
+    "number": 669,
+    "date": "2026-06-10",
+    "title": "2026-06-10-股癌-EP669-逐字稿"
+  },
+  "source": {
+    "platform": "vocus",
+    "url": "https://vocus.cc/article/6a5bc1eefd89780001f9b8d4",
+    "content_stored": false
+  },
+  "analysis": {
+    "summary": "本集把近期劇烈震盪視為多頭路途中的修正，而非已確認的產業趨勢反轉；主持人認為真正值得觀察的是修正後哪些族群率先恢復，以及資金是否轉向大型、高流動性且已有營收獲利數字的公司。台積電營收與潛在溫和漲價被視為正面訊號。針對 SemiAnalysis 對 CPO、800G AEC 與 NVIDIA Rubin 記憶體配置的討論，主持人認為其較像時程與市場預期的 reality check，不代表光通訊或 AI 基礎設施長期方向消失；修正期間連理論上的替代受益者也同步下跌，更像整體風險偏好下降。Apple WWDC 部分則認為 Apple 採自研與 Google 合作並行的折中 AI 路線合理，螢幕感知與 agentic automation 可能提高裝置黏著度，長期仍偏正面。整體策略重點是降低對低流動性與遠期夢想型標的的依賴，等待市場重新確認領漲方向。",
+    "relevance": "high"
+  },
+  "entities": [
+    {
+      "name": "TSMC",
+      "ticker": "TSM",
+      "market": "TW",
+      "entity_type": "company",
+      "mention_context": "約 11:16–12:06，主持人提到台積電月營收仍佳，並認為若採取溫和且可持續的價格調整，有機會支撐後續營收、獲利與估值。",
+      "stance": "positive",
+      "confidence": 0.96
+    },
+    {
+      "name": "NVIDIA",
+      "ticker": "NVDA",
+      "market": "US",
+      "entity_type": "company",
+      "mention_context": "約 12:06–18:36，圍繞 Rubin、CPO 與 800G AEC 的市場討論，主持人認為部分爭議更接近導入時程與供給限制，而非 NVIDIA AI 平台需求或技術方向被否定。",
+      "stance": "positive",
+      "confidence": 0.93
+    },
+    {
+      "name": "SemiAnalysis",
+      "ticker": null,
+      "market": "OTHER",
+      "entity_type": "other",
+      "mention_context": "約 12:06–18:36，其對 CPO、800G AEC 與 Rubin 記憶體配置的內容在市場回檔時被放大；主持人認為報告有合理資訊價值，但不宜直接解讀為產業長期反轉。",
+      "stance": "neutral",
+      "confidence": 0.97
+    },
+    {
+      "name": "Optical networking / CPO",
+      "ticker": null,
+      "market": "OTHER",
+      "entity_type": "industry",
+      "mention_context": "約 14:32–18:36，主持人認為 CPO 的市場量產預期可能曾被喊得過早過大，即使導入延後，研發方向仍會持續，pluggable 等替代方案也可能延長受益期。",
+      "stance": "positive",
+      "confidence": 0.95
+    },
+    {
+      "name": "800G AEC",
+      "ticker": null,
+      "market": "OTHER",
+      "entity_type": "industry",
+      "mention_context": "約 17:44–18:36，主持人表示即使 800G AEC 比原先預期慢數季，也不改變高速互連需求向前推進的大方向。",
+      "stance": "positive",
+      "confidence": 0.94
+    },
+    {
+      "name": "Apple",
+      "ticker": "AAPL",
+      "market": "US",
+      "entity_type": "company",
+      "mention_context": "約 24:56–29:44，主持人認為 WWDC 新意有限，但 Apple 採自研模型與 Google 合作並行的 AI 路線合理；螢幕感知與 agentic automation 被視為提高裝置黏著度的潛在亮點。",
+      "stance": "positive",
+      "confidence": 0.97
+    },
+    {
+      "name": "Google",
+      "ticker": "GOOGL",
+      "market": "US",
+      "entity_type": "company",
+      "mention_context": "約 24:56–29:44，作為 Apple AI 模型合作方被提及；主持人認為 Apple 同時保留自身模型與基礎設施，可避免把全部主控權交給單一外部供應者。",
+      "stance": "neutral",
+      "confidence": 0.9
+    },
+    {
+      "name": "Passive components industry",
+      "ticker": null,
+      "market": "OTHER",
+      "entity_type": "industry",
+      "mention_context": "約 10:46–11:16，主持人觀察修正期間被動元件仍相對強勢，作為後續資金領漲方向的候選之一，但仍等待市場進一步確認。",
+      "stance": "positive",
+      "confidence": 0.88
+    },
+    {
+      "name": "Large-cap liquid equities",
+      "ticker": null,
+      "market": "OTHER",
+      "entity_type": "industry",
+      "mention_context": "約 18:36–24:15，主持人推測劇烈修正與低流動性標的風險可能使資金暫時偏向大型、流動性佳且已有營收獲利數字的公司。",
+      "stance": "positive",
+      "confidence": 0.93
+    }
+  ],
+  "topics": [
+    {
+      "topic": "震盪修正與下一波領漲辨識",
+      "summary": "市場連續出現跌停、漲停與創高後回落，但拉長三日觀察並未形成明確趨勢破壞；主持人等待修正後率先走出的族群來辨識下一波資金方向。"
+    },
+    {
+      "topic": "流動性與資金風格轉換",
+      "summary": "低流動性、處置股與遠期故事型標的在修正時暴露退出風險；主持人推測資金可能暫時偏向大型、流動性佳且短期已有財務數字可驗證的公司。"
+    },
+    {
+      "topic": "台積電營收與潛在漲價",
+      "summary": "台積電近期營收仍佳，若未來採取溫和而非激進的漲價方式，可能在維持客戶關係的同時推升營收獲利與估值支撐。"
+    },
+    {
+      "topic": "CPO、800G AEC 與市場 reality check",
+      "summary": "SemiAnalysis 的相關內容被視為對過度樂觀量產時程與數量預期的修正；主持人區分研發路線延遲與長期需求消失，認為高速互連趨勢本身未被推翻。"
+    },
+    {
+      "topic": "修正行情中的鬼故事與基本面",
+      "summary": "市場下跌時容易把負面報告放大成單一解釋；若理論上的替代受益股也同步被賣出，較可能反映整體風險偏好下降，而非所有產業基本面同時惡化。"
+    },
+    {
+      "topic": "Apple AI 路線與 agentic automation",
+      "summary": "Apple 選擇自研與外部模型合作並行，主持人認為是兼顧成本與控制權的折中方案；螢幕感知若能串接 agentic AI，可能進一步強化 iPhone 的個人化與使用者黏著度。"
+    }
+  ],
+  "market_observations": [
+    {
+      "observation": "主持人將近期劇烈波動暫時視為多頭中的修正，並認為是否再破前低、是否出現大量融資減少，以及哪些族群率先反彈，是判斷修正結束的重要訊號。",
+      "time_sensitivity": "weeks",
+      "evidence_type": "source_statement"
+    },
+    {
+      "observation": "若修正使投資人重新重視退出能力，資金可能從低流動性與遠期故事型標的轉向大型、高流動性且近期已有營收獲利可驗證的公司。",
+      "time_sensitivity": "weeks",
+      "evidence_type": "derived_interpretation"
+    },
+    {
+      "observation": "台積電若在需求仍強的環境下進行溫和漲價，可能同時改善獲利預期並強化市場對其議價能力的評價。",
+      "time_sensitivity": "months",
+      "evidence_type": "derived_interpretation"
+    },
+    {
+      "observation": "CPO 或 800G AEC 的量產時程即使比投資圈原先假設延後數季，也不等同高速互連需求消失；影響更可能落在受益時間點與技術方案間的重新分配。",
+      "time_sensitivity": "months",
+      "evidence_type": "derived_interpretation"
+    },
+    {
+      "observation": "修正期間連理論上受益於 CPO 延後的 pluggable 光通訊標的也同步下跌，主持人據此傾向把當時行情解讀為整體市場去風險，而非單一技術路線崩壞。",
+      "time_sensitivity": "weeks",
+      "evidence_type": "source_statement"
+    },
+    {
+      "observation": "Apple 的自研與外部模型混合策略若能配合螢幕感知與 agentic automation 落地，可能提高裝置黏著度，而不必完全依賴前沿模型能力差異來建立競爭優勢。",
+      "time_sensitivity": "structural",
+      "evidence_type": "derived_interpretation"
+    },
+    {
+      "observation": "主持人認為市場真正需要警戒的階段，是缺乏近期財務數字支撐的衛星、AI data center 或機器人等遠期題材全面成為市場主軸；目前尚未判定已到該狀態。",
+      "time_sensitivity": "months",
+      "evidence_type": "source_statement"
+    }
+  ],
+  "analysis_meta": {
+    "generated_at": "2026-10-24T06:09:11Z",
+    "generator": "ChatGPT scheduled P1.7-4A single-episode analysis",
+    "source_scope": "full_transcript",
+    "review_status": "unreviewed"
+  }
+}
