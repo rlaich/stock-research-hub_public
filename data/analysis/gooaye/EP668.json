@@ -1,0 +1,160 @@
+{
+  "schema_version": 1,
+  "episode": {
+    "number": 668,
+    "date": "2026-06-06",
+    "title": "2026-06-06-股癌-EP668-逐字稿"
+  },
+  "source": {
+    "platform": "vocus",
+    "url": "https://vocus.cc/article/6a5bc1c3fd89780001f9af83",
+    "content_stored": false
+  },
+  "analysis": {
+    "summary": "本集以 COMPUTEX 現場觀察為主軸，主持人認為 2026 年展示重心已從偏概念式的 AI 願景，轉向可直接改善工作、創作、遊戲與 IT 維運的實際產品與工作流。NVIDIA enterprise 展示中，CPU rack 被連結到 agentic AI workflow 的大量 CPU 協調需求；即使未來軟體效率提高，主持人仍以使用者與應用擴張的角度看待總需求。消費端則聚焦 NVIDIA 與 Adobe 的軟硬體協作、unified memory、AI 輔助渲染與本地模型，並對 MediaTek 相關 RTX AI 筆電的高階配置較為看好，理由是更大的記憶體池更能支撐 local agentic AI 與生產力應用。ASUS ROG 與私展則強化了高階消費硬體、輕量化 AR/VR 眼鏡及 AI 輔助伺服器管理的實用化印象。市場面上，主持人預期台股在海外急跌後可能面臨槓桿清洗，但認為當時產業端尚未看到明顯基本面惡化，應區分市場去槓桿與產業趨勢反轉。",
+    "relevance": "high"
+  },
+  "entities": [
+    {
+      "name": "NVIDIA",
+      "ticker": "NVDA",
+      "market": "US",
+      "entity_type": "company",
+      "mention_context": "約 06:42–20:25，主持人從 enterprise 與消費端展示討論 CPU rack、NVLink、switch、RTX、unified memory、AI 輔助創作與遊戲工作流，整體對實際落地程度持正面看法。",
+      "stance": "positive",
+      "confidence": 0.98
+    },
+    {
+      "name": "MediaTek",
+      "ticker": "2454",
+      "market": "TW",
+      "entity_type": "company",
+      "mention_context": "約 20:25–25:54，主持人在聯發科展示區討論 NVIDIA/MediaTek 相關 RTX AI 筆電的 N1X、N1 定位，認為高階配置的大記憶體池更適合 local agentic AI、剪輯、渲染與遊戲。",
+      "stance": "positive",
+      "confidence": 0.94
+    },
+    {
+      "name": "Adobe",
+      "ticker": "ADBE",
+      "market": "US",
+      "entity_type": "company",
+      "mention_context": "約 12:47–20:25，主持人注意到 NVIDIA 展示 Adobe Premiere、Photoshop 等軟體在 RTX 硬體上的加速，認為市場把 Adobe 單純視為 AI 淘汰對象可能忽略其與 AI 硬體生態合作的可能性。",
+      "stance": "positive",
+      "confidence": 0.94
+    },
+    {
+      "name": "ASUS",
+      "ticker": "2357",
+      "market": "TW",
+      "entity_type": "company",
+      "mention_context": "約 25:54–31:37，ROG 與 ASUS 私展中的高階消費硬體、輕量化眼鏡與伺服器管理軟體令主持人印象正面，並被視為消費需求疲弱下廠商提升產品差異化的例子。",
+      "stance": "positive",
+      "confidence": 0.97
+    },
+    {
+      "name": "AMD",
+      "ticker": "AMD",
+      "market": "US",
+      "entity_type": "company",
+      "mention_context": "約 48:11–49:27，主持人在 QA 中提到本次未看到 AMD 展示，並表示未來若有具吸引力的新內容會想參觀其私展；本集未形成具體基本面判斷。",
+      "stance": "neutral",
+      "confidence": 0.91
+    },
+    {
+      "name": "AI PC / local AI",
+      "ticker": null,
+      "market": "OTHER",
+      "entity_type": "industry",
+      "mention_context": "約 18:34–25:54，主持人認為 unified memory、大容量記憶體與足夠 GPU 算力可讓更多模型與 agentic 工作負載在本地執行，若能節省持續性的雲端 AI 費用，硬體升級可能具經濟誘因。",
+      "stance": "positive",
+      "confidence": 0.96
+    },
+    {
+      "name": "Taiwan equities",
+      "ticker": null,
+      "market": "TW",
+      "entity_type": "index",
+      "mention_context": "約 31:37–33:04，主持人面對台指夜盤急跌，預期後續可能需要數日清理融資與股期槓桿，但當時從產業端尚未觀察到相稱的基本面惡化。",
+      "stance": "mixed",
+      "confidence": 0.96
+    }
+  ],
+  "topics": [
+    {
+      "topic": "COMPUTEX 從 AI 概念走向實際工作流",
+      "summary": "主持人認為本屆展示較少停留在機械狗或抽象未來敘事，而是集中在能直接改善創作、遊戲、IT 維運與日常工作效率的產品，實用性明顯提升。"
+    },
+    {
+      "topic": "Agentic AI 與 CPU 基礎設施需求",
+      "summary": "NVIDIA CPU rack 被連結到 agentic workflow 的協調、派遣與反覆探索需求；即使單一使用者的 CPU 消耗可因軟體優化下降，主持人認為更廣泛採用可能讓總體需求繼續成長。"
+    },
+    {
+      "topic": "NVIDIA 與 Adobe 的軟硬體協作",
+      "summary": "RTX 加速 Premiere、Photoshop 等生產力工具的展示，被主持人解讀為 AI 不必然直接取代既有軟體，反而可能透過硬體與軟體共同優化提升既有工具價值。"
+    },
+    {
+      "topic": "Unified memory 與高階 AI 筆電",
+      "summary": "大記憶體池被視為 local LLM、agentic AI、剪輯、渲染與遊戲的重要條件；主持人因此偏好高階配置，並認為若本地運算可替代部分昂貴雲端 token 使用，可能提高消費者購買動機。"
+    },
+    {
+      "topic": "ASUS ROG、輕量化眼鏡與產品差異化",
+      "summary": "消費電子需求不強促使廠商投入更明顯的設計與功能差異化；ROG 高階周邊、輕量化眼鏡及 ASUS 的 AI 輔助伺服器管理軟體被視為較具實際使用價值的展示。"
+    },
+    {
+      "topic": "AI 自動化與人類創作價值",
+      "summary": "主持人支持 AI 自動化重複性工作，但不認為具有個人風格的創作應被全面自動化；其較看好人機協作、可視化與 no-code 式工作流，而非完全無人的內容生產。"
+    },
+    {
+      "topic": "台股急跌與槓桿清洗",
+      "summary": "面對台指夜盤大幅下跌，主持人預期融資與高槓桿股期部位可能遭清洗，但同時指出 COMPUTEX 與產業端觀察仍具信心，暫未把價格急跌等同基本面反轉。"
+    }
+  ],
+  "market_observations": [
+    {
+      "observation": "主持人認為 2026 COMPUTEX 的 AI 展示比過去一兩年更接近可立即使用的產品與工作流，產業敘事正由概念驗證轉向生產力與使用者體驗。",
+      "time_sensitivity": "months",
+      "evidence_type": "source_statement"
+    },
+    {
+      "observation": "若 agentic AI 的單位運算成本因軟體優化下降，但同時帶動更多使用者與應用採用，CPU 與相關基礎設施的總需求未必隨單位效率改善而下降。",
+      "time_sensitivity": "structural",
+      "evidence_type": "derived_interpretation"
+    },
+    {
+      "observation": "NVIDIA 與 Adobe 類型的軟硬體協作顯示，生成式 AI 對既有應用軟體的影響可能不是單純替代，而是部分產品透過 AI 加速與工作流整合重新建立價值。",
+      "time_sensitivity": "structural",
+      "evidence_type": "derived_interpretation"
+    },
+    {
+      "observation": "大容量 unified memory 若能讓更多 agentic AI 與大型模型在本地執行，AI PC 的投資回收邏輯可能從嚐鮮轉向節省雲端推理費用與提升生產力。",
+      "time_sensitivity": "months",
+      "evidence_type": "derived_interpretation"
+    },
+    {
+      "observation": "主持人對高階 RTX AI 筆電的需求前景比入門配置樂觀，主要依據是高階記憶體與算力更能展現 local AI、生產力軟體與遊戲整合的差異化。",
+      "time_sensitivity": "months",
+      "evidence_type": "source_statement"
+    },
+    {
+      "observation": "消費電子市場偏弱時，廠商透過外觀、周邊、生產力功能與新型態裝置提高差異化，可能是維持高階 ASP 與刺激換機需求的重要方式。",
+      "time_sensitivity": "months",
+      "evidence_type": "derived_interpretation"
+    },
+    {
+      "observation": "主持人預期台股急跌後可能先經歷數日槓桿清洗；由於當時產業端未看到明顯惡化，他傾向先將價格衝擊與基本面趨勢分開判讀。",
+      "time_sensitivity": "days",
+      "evidence_type": "source_statement"
+    },
+    {
+      "observation": "對於缺乏基本面理解、僅因價格上漲而追入的交易，主持人認為期望值偏低；若採技術面進場，至少應維持一致的技術面退出邏輯。",
+      "time_sensitivity": "structural",
+      "evidence_type": "source_statement"
+    }
+  ],
+  "analysis_meta": {
+    "generated_at": "2026-10-26T06:16:06Z",
+    "generator": "ChatGPT scheduled P1.7-4A single-episode analysis",
+    "source_scope": "full_transcript",
+    "review_status": "unreviewed"
+  }
+}
