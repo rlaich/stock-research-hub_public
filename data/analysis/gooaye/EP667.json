@@ -1,0 +1,178 @@
+{
+  "schema_version": 1,
+  "episode": {
+    "number": 667,
+    "date": "2026-06-03",
+    "title": "2026-06-03-股癌-EP667-逐字稿"
+  },
+  "source": {
+    "platform": "vocus",
+    "url": "https://vocus.cc/article/6a5bc198fd89780001f9a6b9",
+    "content_stored": false
+  },
+  "analysis": {
+    "summary": "本集市場主軸圍繞 COMPUTEX 後的 AI 基礎設施與終端運算機會。主持人認為 Marvell 在 NVIDIA 黃仁勳點名後的強勢反應超出原先基本面預期，但光通訊由 pluggable 向 CPO、跨 rack 與跨資料中心連線擴張已形成更強產業共識；同時 NVIDIA 從 GPU 供應商逐步延伸為 full-rack 與整體 AI infrastructure solution provider。另一條重要研究線是 AI PC 與地端 AI：若開源模型能力逐步接近多數企業與個人需求的實用門檻，部分工作負載可能由雲端移往本地端，降低 token 與傳輸成本，並帶動較高 ASP、較高規格元件的 AI PC。這不代表 data center 需求消失，而可能形成雲端高階運算與 edge/local inference 並行。市場面上，主持人認為目前多頭結構仍在，但部分熱門題材開始橫盤整理反而健康；功率半導體基本面正在改善，但尚未看到像 CPU 或被動元件般全面缺貨。操作與風控方面，持股再平衡應有資金用途或估值理由，而非機械式減碼；對強勢持股則以成本位置與月線等趨勢訊號作為較重要的降槓桿參考。",
+    "relevance": "high"
+  },
+  "entities": [
+    {
+      "name": "Marvell Technology",
+      "ticker": "MRVL",
+      "market": "US",
+      "entity_type": "company",
+      "mention_context": "約 11:47–14:34，主持人討論 COMPUTEX 後 Marvell 因黃仁勳點名而大幅上漲；認為其 DSP 能力明確，但 ASIC 發展相較 MediaTek、Broadcom 仍較不明確，股價反應已超出原先預期。",
+      "stance": "mixed",
+      "confidence": 0.96
+    },
+    {
+      "name": "NVIDIA",
+      "ticker": "NVDA",
+      "market": "US",
+      "entity_type": "company",
+      "mention_context": "約 14:34–24:28，主持人討論 Rubin、DGX Spark、AI PC 與 NVIDIA 從 GPU、full rack solution 擴展到整體 AI infrastructure supplier 的產品與敘事演進。",
+      "stance": "positive",
+      "confidence": 0.98
+    },
+    {
+      "name": "Optical communication industry",
+      "ticker": null,
+      "market": "OTHER",
+      "entity_type": "industry",
+      "mention_context": "約 13:08–14:34 與 22:58–24:28，光連線從 rack 內、跨 rack 到跨 data center 的需求被視為長期主軸，pluggable 到 CPO 的方向已形成更強產業共識。",
+      "stance": "positive",
+      "confidence": 0.97
+    },
+    {
+      "name": "Snowflake",
+      "ticker": "SNOW",
+      "market": "US",
+      "entity_type": "company",
+      "mention_context": "約 15:37–19:07，主持人引用 Snowflake 員工交流，討論企業資料與軟體層如何搭配外部大型模型，以及未來開源模型與地端推論可能降低部分模型使用成本。",
+      "stance": "positive",
+      "confidence": 0.9
+    },
+    {
+      "name": "AI PC industry",
+      "ticker": null,
+      "market": "OTHER",
+      "entity_type": "industry",
+      "mention_context": "約 14:34–26:01，主持人將新一代 AI PC 視為地端開源模型與 edge computing 的第二次重要嘗試；若實際銷量改善，較高 ASP 與較高規格元件可能部分抵銷傳統 PC 弱勢。",
+      "stance": "positive",
+      "confidence": 0.95
+    },
+    {
+      "name": "MediaTek",
+      "ticker": "2454",
+      "market": "TW",
+      "entity_type": "company",
+      "mention_context": "約 17:45–19:07，MediaTek 與 NVIDIA 被列為 AI PC 晶片設計相關受益方向，但實際 OEM 銷售拉動仍需觀察產品落地。",
+      "stance": "positive",
+      "confidence": 0.9
+    },
+    {
+      "name": "TSMC",
+      "ticker": "2330",
+      "market": "TW",
+      "entity_type": "company",
+      "mention_context": "約 20:23–21:56 與 28:29–30:00，主持人認為 TSMC 與 NVIDIA 都是 AI 大型龍頭但估值相對其他熱門題材不昂貴，近期 TSMC 型態轉強並存在資金回流可能。",
+      "stance": "positive",
+      "confidence": 0.94
+    },
+    {
+      "name": "Power semiconductor industry",
+      "ticker": null,
+      "market": "OTHER",
+      "entity_type": "industry",
+      "mention_context": "約 28:29–30:00，主持人指出功率元件與功率半導體基本面顯著改善且已有漲價，但目前尚未出現全面缺貨，若電源需求持續強勁可能成為下一波題材。",
+      "stance": "positive",
+      "confidence": 0.93
+    },
+    {
+      "name": "Passive components industry",
+      "ticker": null,
+      "market": "TW",
+      "entity_type": "industry",
+      "mention_context": "約 21:56–22:58 與 46:57–48:02，熱門被動元件開始橫盤整理；主持人認為整理有助降低過熱風險，對既有低成本持股仍傾向以較長趨勢訊號管理部位。",
+      "stance": "mixed",
+      "confidence": 0.94
+    }
+  ],
+  "topics": [
+    {
+      "topic": "COMPUTEX 與 AI Infrastructure",
+      "summary": "NVIDIA 與 Marvell 的演說再次強化 AI infrastructure 從單一晶片競爭走向 total solution 的方向，資料中心互連與光通訊的重要性持續提高。"
+    },
+    {
+      "topic": "光通訊與 CPO",
+      "summary": "隨 rack 內、跨 rack 與跨資料中心頻寬需求提高，光連線成長速度可能高於銅線；CPO 等技術雖尚未大量貢獻營收，但產業共識正在增強。"
+    },
+    {
+      "topic": "AI PC 與地端模型",
+      "summary": "開源模型若達到多數使用者所需的實用能力門檻，部分推論與 agentic workload 可移往本地端，降低 token 與傳輸成本，為 AI PC 與 edge computing 帶來新的產品週期可能。"
+    },
+    {
+      "topic": "雲端與 Edge 並行",
+      "summary": "地端 AI 的成長不等同 data center 衰退；高階模型與複雜服務仍需要雲端算力，較一般的工作負載則可能分流至本地設備，兩者可同步擴張。"
+    },
+    {
+      "topic": "AI PC 元件價值提升",
+      "summary": "AI PC 的晶片、板材與被動元件規格普遍較高；即使總體 PC 銷量偏弱，只要 AI PC 滲透率提高，較高 ASP 與 BOM value 仍可能改善供應鏈產品組合。"
+    },
+    {
+      "topic": "多頭整理與題材輪動",
+      "summary": "熱門題材開始橫盤不一定是多頭結束，反而可消化過熱與處置壓力；主持人仍偏向全年多頭，但認為估值擴張已多於新的基本面上修動能。"
+    },
+    {
+      "topic": "再平衡與風控",
+      "summary": "持股再平衡應有明確目的，例如籌措新投資資金或處理估值過熱；強勢持股的降槓桿則可結合成本位置、月線與跌破後能否快速站回等趨勢訊號。"
+    }
+  ],
+  "market_observations": [
+    {
+      "observation": "光通訊在 AI 資料中心的應用由 rack 內延伸至跨 rack 與跨 data center，產業共識正在增強，但 CPO 的大規模實際營收貢獻仍需時間驗證。",
+      "time_sensitivity": "months",
+      "evidence_type": "source_statement"
+    },
+    {
+      "observation": "Marvell 的短期股價反應包含黃仁勳點名帶來的題材與估值重估成分，不能直接等同 ASIC 基本面已出現同等幅度的上修。",
+      "time_sensitivity": "weeks",
+      "evidence_type": "derived_interpretation"
+    },
+    {
+      "observation": "若開源模型逐步達到一般企業與個人需求的能力門檻，本地 AI 推論可降低部分 token 與資料傳輸成本，形成 AI PC 與 edge computing 的結構性需求來源。",
+      "time_sensitivity": "structural",
+      "evidence_type": "derived_interpretation"
+    },
+    {
+      "observation": "地端推論增加不必然削弱 data center 市場，高階 agentic service 與 cutting-edge workload 仍可能持續擴大雲端算力需求。",
+      "time_sensitivity": "structural",
+      "evidence_type": "source_statement"
+    },
+    {
+      "observation": "AI PC 較高 ASP 與較高規格 BOM 可能使供應鏈在出貨量沒有大幅增加時仍獲得較好的產品組合，但前提是實際終端銷售與滲透率改善。",
+      "time_sensitivity": "months",
+      "evidence_type": "derived_interpretation"
+    },
+    {
+      "observation": "功率半導體基本面與價格已有改善跡象，但本集尚未確認全面缺貨，因此題材強度仍弱於先前 CPU 或被動元件的供需行情。",
+      "time_sensitivity": "months",
+      "evidence_type": "source_statement"
+    },
+    {
+      "observation": "主持人認為目前指數多頭趨勢尚未終結，但近期上漲較偏向流動性與估值擴張，而非新的獲利預期全面上修，因此熱門族群整理屬正常且健康的風險釋放。",
+      "time_sensitivity": "weeks",
+      "evidence_type": "source_statement"
+    },
+    {
+      "observation": "對已有較大利潤墊的強勢持股，主持人的風控門檻較一般情況寬鬆；若跌至月線後數日仍無法站回，才更可能觸發減碼。",
+      "time_sensitivity": "weeks",
+      "evidence_type": "source_statement"
+    }
+  ],
+  "analysis_meta": {
+    "generated_at": "2026-10-27T06:10:10Z",
+    "generator": "ChatGPT scheduled P1.7-4A orchestration",
+    "source_scope": "full_transcript",
+    "review_status": "unreviewed"
+  }
+}
