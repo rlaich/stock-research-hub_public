@@ -1,0 +1,187 @@
+{
+  "schema_version": 1,
+  "episode": {
+    "number": 666,
+    "date": "2026-05-30",
+    "title": "2026-05-30-股癌-EP666-逐字稿"
+  },
+  "source": {
+    "platform": "vocus",
+    "url": "https://vocus.cc/article/6a5bc16efd89780001f99c3a",
+    "content_stored": false
+  },
+  "analysis": {
+    "summary": "本集市場主軸是多頭環境下的資金輪動、被動元件供需，以及 AI 從基礎設施走向軟體與企業應用。主持人認為被動元件漲價正在由成本驅動轉向需求驅動，除 MLCC 外，鋁電容、電感等部分品項的供需缺口可能更值得追蹤；擴產本身不是反轉訊號，必須結合產品別、供需位置與擴產時點判讀。AI 方面，老 AI/ODM/EMS 與軟體股同步復甦，被解讀為資金在強勢多頭中的輪動，而非單一題材取代另一題材。軟體與企業 AI 的長期價值可能逐步從通用模型能力轉向專有資料、商務拓展、系統整合、資安法遵與可歸責性；能取得企業私有資料並完成 tailor-made deployment 的 SI 或軟體服務商可能建立差異化。市場風險面則需留意融資快速增加、熱門股處置造成的流動性限制，以及槓桿在回檔時放大損失。",
+    "relevance": "high"
+  },
+  "entities": [
+    {
+      "name": "Passive components industry",
+      "ticker": null,
+      "market": "TW",
+      "entity_type": "industry",
+      "mention_context": "約 11:46–15:34 與 20:29–25:33，主持人認為被動元件漲價正由成本驅動轉向需求驅動；市場高度關注 MLCC，但鋁電容、電感等部分品項可能存在更明顯供需缺口。",
+      "stance": "positive",
+      "confidence": 0.98
+    },
+    {
+      "name": "Dell Technologies",
+      "ticker": "DELL",
+      "market": "US",
+      "entity_type": "company",
+      "mention_context": "約 15:34–20:29，Dell 的營運成績與 AI 相關論述被用來討論老 AI、ODM/EMS 類股重新獲得資金關注。",
+      "stance": "positive",
+      "confidence": 0.92
+    },
+    {
+      "name": "Salesforce",
+      "ticker": "CRM",
+      "market": "US",
+      "entity_type": "company",
+      "mention_context": "約 15:34–20:29，主持人以大型庫藏股計畫作為管理層對公司價值與 AI 時代軟體競爭力展現信心的例子。",
+      "stance": "positive",
+      "confidence": 0.94
+    },
+    {
+      "name": "ServiceNow",
+      "ticker": "NOW",
+      "market": "US",
+      "entity_type": "company",
+      "mention_context": "約 15:34–20:29，被列為軟體公司利用實際營運成績反駁 AI 將全面侵蝕既有軟體價值的案例。",
+      "stance": "positive",
+      "confidence": 0.93
+    },
+    {
+      "name": "Snowflake",
+      "ticker": "SNOW",
+      "market": "US",
+      "entity_type": "company",
+      "mention_context": "約 15:34–30:28，主持人提到近期營運成績改善，並將其置於 AI 應用層與軟體股重新獲得市場認可的脈絡。",
+      "stance": "positive",
+      "confidence": 0.94
+    },
+    {
+      "name": "Palantir Technologies",
+      "ticker": "PLTR",
+      "market": "US",
+      "entity_type": "company",
+      "mention_context": "約 20:29–30:28，被視為先行轉強的 AI 軟體代表，之後其他軟體公司陸續接棒，形成應用層資金輪動。",
+      "stance": "positive",
+      "confidence": 0.93
+    },
+    {
+      "name": "OpenAI",
+      "ticker": null,
+      "market": "US",
+      "entity_type": "company",
+      "mention_context": "約 25:33–36:21，主持人認為 OpenAI 等新型 AI 軟體公司的高速 ARR 顯示應用層能捕捉大量價值，同時通用模型能力長期可能因資料同質性而降低差異化。",
+      "stance": "positive",
+      "confidence": 0.91
+    },
+    {
+      "name": "Anthropic",
+      "ticker": null,
+      "market": "US",
+      "entity_type": "company",
+      "mention_context": "約 25:33–36:21，與 OpenAI 一同被視為 AI 應用層新玩家，主持人認為其價值捕捉能力可能改變傳統軟體 portfolio 的組成。",
+      "stance": "positive",
+      "confidence": 0.9
+    },
+    {
+      "name": "Enterprise AI software and system integration",
+      "ticker": null,
+      "market": "OTHER",
+      "entity_type": "industry",
+      "mention_context": "約 30:35–38:08，主持人認為企業 AI 下一階段的鑑別度將來自專有資料、業務能力、tailor-made deployment、資安法遵與可歸責性，而非只比較底層模型。",
+      "stance": "positive",
+      "confidence": 0.98
+    },
+    {
+      "name": "TSMC",
+      "ticker": "2330",
+      "market": "TW",
+      "entity_type": "company",
+      "mention_context": "約 38:08–40:58 的風控討論中，主持人以台積電為例，說明停損規則不應機械套用於所有標的，應依公司品質與持有邏輯調整。",
+      "stance": "positive",
+      "confidence": 0.88
+    }
+  ],
+  "topics": [
+    {
+      "topic": "被動元件需求驅動漲價",
+      "summary": "供應商論述由成本推升逐步轉為需求驅動，MLCC 之外的鋁電容、電感與其他品項可能存在更明顯缺口；市場關注度與實際缺貨程度未必一致。"
+    },
+    {
+      "topic": "擴產訊號的情境判讀",
+      "summary": "擴產不能直接等同景氣反轉。供需剛轉緊時擴產可能讓供應商在缺貨期取得更多銷售，而高檔、全面缺貨已成共識後的大規模擴產才更值得警戒。"
+    },
+    {
+      "topic": "老 AI 與軟體股輪動",
+      "summary": "ODM、EMS、傳統 AI 硬體與軟體股重新轉強，被解讀為多頭資金從先前熱門光通訊等方向輪動，而非基本面突然從壞轉好。"
+    },
+    {
+      "topic": "AI Infrastructure 到 Application",
+      "summary": "AI 投資週期可能由硬體基礎設施逐步擴散至應用層；既有軟體公司若能完成商業模式與 AI 收費方式轉換，仍可能受惠。"
+    },
+    {
+      "topic": "專有資料成為 AI 差異化資產",
+      "summary": "通用網路資料逐漸同質化後，專家資料、企業私有資料、付費資料與無法公開取得的資料可能成為模型與應用服務的重要差異化來源。"
+    },
+    {
+      "topic": "企業 AI 的商務能力與可歸責性",
+      "summary": "企業部署重點可能從模型 benchmark 轉向誰能真正取得訂單、完成客製化整合、處理資安與法遵，並提供明確的責任承擔。"
+    },
+    {
+      "topic": "多頭槓桿與流動性風險",
+      "summary": "市場資金充沛且熱門股持續上漲，但融資快速增加與處置股交易限制提高了回檔時的流動性風險；券商額度限制也被主持人視為被動風控。"
+    }
+  ],
+  "market_observations": [
+    {
+      "observation": "被動元件供應商的論述正在由成本驅動漲價轉向需求驅動漲價，顯示供需改善可能比先前預期更持久。",
+      "time_sensitivity": "months",
+      "evidence_type": "source_statement"
+    },
+    {
+      "observation": "市場對 MLCC 的注意度高於部分缺口可能更大的鋁電容與電感，若後續訂單與漲價得到驗證，資金可能向較低關注度品項輪動。",
+      "time_sensitivity": "months",
+      "evidence_type": "derived_interpretation"
+    },
+    {
+      "observation": "老 AI、ODM/EMS 與軟體股同步轉強，較像強勢多頭中的估值與資金輪動，而不是單一產業基本面突然反轉。",
+      "time_sensitivity": "weeks",
+      "evidence_type": "derived_interpretation"
+    },
+    {
+      "observation": "軟體公司若能證明 AI 提升產品價值並完成從 seat-based 到更符合 AI 使用量的收費模式轉換，AI 不必然是既有軟體產業的負面因素。",
+      "time_sensitivity": "structural",
+      "evidence_type": "source_statement"
+    },
+    {
+      "observation": "企業 AI 的長期護城河可能更多來自專有資料、客戶關係、部署能力、資安法遵與責任承擔，而非單純依賴底層模型性能差異。",
+      "time_sensitivity": "structural",
+      "evidence_type": "derived_interpretation"
+    },
+    {
+      "observation": "融資餘額快速增加意味市場槓桿正在升高，即使基本面與流動性仍支持多頭，未來回檔時的部位去槓桿速度可能加快。",
+      "time_sensitivity": "weeks",
+      "evidence_type": "derived_interpretation"
+    },
+    {
+      "observation": "擴產必須依產品與週期位置判讀；供需剛轉緊時的擴產可能強化盈利能力，而在市場已充分認知缺貨後的大規模擴產才可能提高供給反轉風險。",
+      "time_sensitivity": "months",
+      "evidence_type": "source_statement"
+    },
+    {
+      "observation": "風控規則不宜對所有股票機械套用固定停損比例，標的品質、基本面與持有邏輯會影響合理的退出條件。",
+      "time_sensitivity": "structural",
+      "evidence_type": "source_statement"
+    }
+  ],
+  "analysis_meta": {
+    "generated_at": "2026-10-30T06:24:48Z",
+    "generator": "ChatGPT scheduled P1.7-4A orchestration",
+    "source_scope": "full_transcript",
+    "review_status": "unreviewed"
+  }
+}
