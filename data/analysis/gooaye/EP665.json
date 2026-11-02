@@ -1,0 +1,178 @@
+{
+  "schema_version": 1,
+  "episode": {
+    "number": 665,
+    "date": "2026-05-27",
+    "title": "2026-05-27-股癌-EP665-逐字稿"
+  },
+  "source": {
+    "platform": "vocus",
+    "url": "https://vocus.cc/article/6a16da32fd89780001c8d2ab",
+    "content_stored": false
+  },
+  "analysis": {
+    "summary": "The episode describes a strong risk-on Taiwan market led by passive components and other thematic groups, with the speaker using 2018 cycle economics as a reference for estimating upside while stressing that cycle speed and fundamentals still matter. SpaceX is framed as a long-term platform whose future valuation could extend beyond Starlink into orbital AI compute or infrastructure, while Taiwan suppliers could benefit if satellite AI becomes an investable theme before physical deployment reaches scale. The episode also emphasizes process discipline: investment decisions always involve uncertainty, leverage should follow demonstrated skill rather than precede it, and a repeatable trading method should not be abandoned because of a single missed gain or loss.",
+    "relevance": "high"
+  },
+  "entities": [
+    {
+      "name": "Yageo",
+      "ticker": "2327",
+      "market": "TW",
+      "entity_type": "company",
+      "mention_context": "Used as a key passive-component cycle example, with improving book-to-bill and high utilization cited as evidence that industry conditions were strengthening.",
+      "stance": "positive",
+      "confidence": 0.98
+    },
+    {
+      "name": "TSMC",
+      "ticker": "2330",
+      "market": "TW",
+      "entity_type": "company",
+      "mention_context": "Discussed around employee profit sharing; the speaker acknowledges worker disappointment but treats the change as potentially temporary within a strong long-term company context.",
+      "stance": "mixed",
+      "confidence": 0.9
+    },
+    {
+      "name": "MediaTek",
+      "ticker": "2454",
+      "market": "TW",
+      "entity_type": "company",
+      "mention_context": "Cited as an example of a company that endured weaker years before AI-related momentum improved its narrative and market performance.",
+      "stance": "positive",
+      "confidence": 0.9
+    },
+    {
+      "name": "SpaceX",
+      "ticker": null,
+      "market": "US",
+      "entity_type": "company",
+      "mention_context": "Presented as a company the speaker intends to own around an eventual IPO, with Starlink as the current earnings engine and orbital AI compute or infrastructure as a speculative future valuation driver.",
+      "stance": "positive",
+      "confidence": 0.99
+    },
+    {
+      "name": "Tesla",
+      "ticker": "TSLA",
+      "market": "US",
+      "entity_type": "company",
+      "mention_context": "Used to illustrate how a long-term investment thesis can evolve from vehicle deliveries toward energy, autonomy and Optimus; the speaker may reduce Tesla exposure to fund SpaceX while retaining conviction in Musk-led optionality.",
+      "stance": "positive",
+      "confidence": 0.94
+    },
+    {
+      "name": "NVIDIA",
+      "ticker": "NVDA",
+      "market": "US",
+      "entity_type": "company",
+      "mention_context": "Used as an example of a company whose investment narrative expanded far beyond its original graphics-card identity and whose difficult AI server transitions were ultimately pushed through with capital and engineering effort.",
+      "stance": "positive",
+      "confidence": 0.95
+    },
+    {
+      "name": "Palantir",
+      "ticker": "PLTR",
+      "market": "US",
+      "entity_type": "company",
+      "mention_context": "Referenced as precedent for establishing an initial position early and then using subsequent price and fundamental developments to decide how much more to add.",
+      "stance": "positive",
+      "confidence": 0.85
+    },
+    {
+      "name": "Taiwan passive components industry",
+      "ticker": null,
+      "market": "TW",
+      "entity_type": "industry",
+      "mention_context": "Characterized as a strong global upcycle supported by rising utilization and broad international price and demand signals rather than merely a localized speculative shortage.",
+      "stance": "positive",
+      "confidence": 0.97
+    },
+    {
+      "name": "Satellite AI computing supply chain",
+      "ticker": null,
+      "market": "OTHER",
+      "entity_type": "industry",
+      "mention_context": "Identified as an early-stage thematic opportunity spanning launch payloads, orbital compute, thermal solutions, materials and related Taiwan suppliers, with valuation potentially moving before large-scale deployment.",
+      "stance": "positive",
+      "confidence": 0.92
+    },
+    {
+      "name": "Taiwan robotics industry",
+      "ticker": null,
+      "market": "TW",
+      "entity_type": "industry",
+      "mention_context": "Used as an example of a market willing to assign large valuation premiums to small but rapidly growing future revenue contributions, supporting the argument that satellite AI themes could re-rate early as well.",
+      "stance": "positive",
+      "confidence": 0.88
+    }
+  ],
+  "topics": [
+    {
+      "topic": "Passive-component cycle and valuation",
+      "summary": "The speaker sees improving utilization and book-to-bill data plus similar global supplier trends as confirmation that passive components are in a genuine upcycle. The 2018 cycle is proposed as a reference point for estimating margins, earnings and valuation, adjusted for how quickly the current pricing cycle develops."
+    },
+    {
+      "topic": "SpaceX IPO positioning and evolving investment theses",
+      "summary": "The speaker expects to establish an initial SpaceX position around an IPO and potentially add over time. SpaceX, Tesla and NVIDIA illustrate the broader principle that long-term holdings require repeated reassessment because the business and the reason for owning it can change substantially."
+    },
+    {
+      "topic": "Orbital AI compute as a future theme",
+      "summary": "Beyond Starlink and direct-to-cell connectivity, the speaker speculates that SpaceX could become an orbital-compute infrastructure provider or transport platform for AI payloads. Thermal management, specialized materials, solar power and related supply-chain technologies could become investable subthemes before meaningful revenue appears."
+    },
+    {
+      "topic": "Theme investing and early positioning",
+      "summary": "Robotics and satellite-related equities are used to illustrate how markets can price future growth long before current revenue becomes material. The speaker favors finding credible incremental markets early while accepting that such positioning includes substantial uncertainty."
+    },
+    {
+      "topic": "Leverage and investment process discipline",
+      "summary": "A listener's leveraged trading losses are used to argue that investors should first demonstrate repeatable success without leverage before increasing risk. Leverage magnifies both errors and financing costs and should follow evidence of skill rather than serve as the initial strategy."
+    },
+    {
+      "topic": "Consistency versus outcome bias",
+      "summary": "The speaker warns against changing a trading system solely because a recent exit missed further upside. A method should be evaluated over repeated outcomes and adapted carefully to market regimes rather than judged by one trade."
+    }
+  ],
+  "market_observations": [
+    {
+      "observation": "The source reports improving passive-component book-to-bill and high utilization, and interprets similar trends among international suppliers as evidence of a broad industry upcycle.",
+      "time_sensitivity": "months",
+      "evidence_type": "source_statement"
+    },
+    {
+      "observation": "Using the 2018 passive-component cycle as a reference can provide a scenario framework for future margins and earnings, but the current cycle's pricing velocity must be compared rather than assumed identical.",
+      "time_sensitivity": "months",
+      "evidence_type": "derived_interpretation"
+    },
+    {
+      "observation": "The source expects SpaceX's eventual public-market story to extend beyond Starlink, with orbital AI computing or compute-infrastructure services potentially becoming an important future valuation narrative.",
+      "time_sensitivity": "structural",
+      "evidence_type": "source_statement"
+    },
+    {
+      "observation": "If orbital AI infrastructure becomes credible, Taiwan suppliers tied to thermal management, specialized materials, server components and satellite payloads could re-rate before large-scale commercial deployment because thematic markets often price future revenue early.",
+      "time_sensitivity": "structural",
+      "evidence_type": "derived_interpretation"
+    },
+    {
+      "observation": "The source treats the current Taiwan market as strongly risk-on across passive components, substrates, robotics and other thematic groups, while explicitly acknowledging that holding through volatility is a probabilistic decision rather than a guaranteed outcome.",
+      "time_sensitivity": "weeks",
+      "evidence_type": "source_statement"
+    },
+    {
+      "observation": "A repeatable unlevered investment process should be established before leverage is introduced, because leverage and financing costs can turn timing errors into forced exits even when the broader thesis later recovers.",
+      "time_sensitivity": "structural",
+      "evidence_type": "derived_interpretation"
+    },
+    {
+      "observation": "A trading rule should not be abandoned merely because one exit is followed by further upside; its effectiveness should be assessed across multiple market regimes and outcomes.",
+      "time_sensitivity": "structural",
+      "evidence_type": "derived_interpretation"
+    }
+  ],
+  "analysis_meta": {
+    "generated_at": "2026-11-02T06:20:00+00:00",
+    "generator": "ChatGPT",
+    "source_scope": "full_transcript",
+    "review_status": "unreviewed"
+  }
+}
