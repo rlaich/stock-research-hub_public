@@ -5,9 +5,16 @@
     "platform": "vocus",
     "room_url": "https://vocus.cc/salon/6908b98efd89780001cb1d32/room/6908c04d5ed52e53fa5821e4"
   },
-  "generated_at": "2026-11-02T01:05:52+00:00",
-  "episode_count": 65,
+  "generated_at": "2026-11-05T01:52:29+00:00",
+  "episode_count": 66,
   "episodes": [
+    {
+      "episode": 711,
+      "date": "2026-11-04",
+      "title": "2026-11-04-股癌-EP711-逐字稿",
+      "source": "vocus",
+      "source_url": "https://vocus.cc/article/6aeb00b9fd8978000165a9c0"
+    },
     {
       "episode": 710,
       "date": "2026-10-31",
