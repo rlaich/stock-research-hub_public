@@ -1,0 +1,137 @@
+{
+  "schema_version": 1,
+  "episode": {
+    "number": 712,
+    "date": "2026-11-07",
+    "title": "2026-11-07-股癌-EP712-逐字稿"
+  },
+  "source": {
+    "platform": "vocus",
+    "url": "https://vocus.cc/article/6aeed767fd89780001efdc38",
+    "content_stored": false
+  },
+  "analysis": {
+    "summary": "本集聚焦台美股急跌後的風險管理。講者認為先前逢低買進未必是錯誤決策，但跌勢超出預期、融資去槓桿及市場情緒波動，促使他限制後續加碼額度並保留現金；反彈能否重新站穩季線是重要觀察點。對美國選舉後部分地方政治人物反對 AI 資料中心的言論，講者更關注新建案許可是否實際受阻，因這可能影響 2028–2029 年供應鏈營收。另轉述馬斯克對 SoftBank 發電設備渦輪訂單的說法，認為單一消息尚不足以證明產業需求反轉，應觀察是否擴散至其他供應商。問答部分談 Netflix 的用戶體驗、0050 指數配置及新手應建立投資期望值與研究優勢。另包含跑步、家庭與生活話題。",
+    "relevance": "high"
+  },
+  "entities": [
+    {
+      "name": "SoftBank Group",
+      "ticker": "9984",
+      "market": "OTHER",
+      "entity_type": "company",
+      "mention_context": "講者轉述馬斯克對 SoftBank 發電設備渦輪訂單可能違約或取消的說法，強調消息依據不明，需觀察是否擴散。",
+      "stance": "unclear",
+      "confidence": 0.88
+    },
+    {
+      "name": "Taiwan Semiconductor Manufacturing Company",
+      "ticker": "TSM",
+      "market": "US",
+      "entity_type": "company",
+      "mention_context": "講者以台積電為例，說明晶圓代工訂單取消的合約及未來產能配置代價，通常高於周邊一般零組件。",
+      "stance": "neutral",
+      "confidence": 0.96
+    },
+    {
+      "name": "NVIDIA",
+      "ticker": "NVDA",
+      "market": "US",
+      "entity_type": "company",
+      "mention_context": "講者提及黃仁勳對歐洲政策環境的評論，作為 AI 創新與政治管制的背景，非本集 NVIDIA 財務分析。",
+      "stance": "neutral",
+      "confidence": 0.82
+    },
+    {
+      "name": "Netflix",
+      "ticker": "NFLX",
+      "market": "US",
+      "entity_type": "company",
+      "mention_context": "講者坦言多年未追蹤基本面，但仍喜歡 Netflix 服務且未曾想取消家中訂閱，屬個人使用體驗而非估值結論。",
+      "stance": "positive",
+      "confidence": 0.96
+    },
+    {
+      "name": "元大台灣50",
+      "ticker": "0050",
+      "market": "TW",
+      "entity_type": "etf",
+      "mention_context": "聽眾分享轉入 0050 後在市場急跌時較能承受波動；講者建議缺乏交易優勢的新手可從指數投資開始。",
+      "stance": "positive",
+      "confidence": 0.93
+    },
+    {
+      "name": "AI data center industry",
+      "ticker": null,
+      "market": "OTHER",
+      "entity_type": "industry",
+      "mention_context": "講者關注美國地方政治與資料中心新建許可，認為實際核准是否停滯比政治口號更值得追蹤。",
+      "stance": "mixed",
+      "confidence": 0.98
+    }
+  ],
+  "topics": [
+    {
+      "topic": "急跌後的部位管理與心理韌性",
+      "summary": "講者分享急跌期間仍有逢低買進，但因跌勢超出預期而設定剩餘加碼上限，若反彈則可能提高現金比重，避免高波動中反覆改寫交易劇本。"
+    },
+    {
+      "topic": "融資去槓桿與籌碼波動",
+      "summary": "講者認為融資較高的股票在市場波動擴大時，因投資人被迫減倉而容易出現更劇烈跌幅。"
+    },
+    {
+      "topic": "季線、VIX 與反彈確認",
+      "summary": "講者預期大跌後可能有短線反彈，但觀察重點是能否回到季線上方並站穩；若反彈失敗則傾向提高現金。"
+    },
+    {
+      "topic": "美國政治與 AI 資料中心建置許可",
+      "summary": "講者擔心部分美國政治人物反對 AI 資料中心可能影響未來建案，但認為應以新建許可是否實際受阻為驗證訊號。"
+    },
+    {
+      "topic": "SoftBank 設備訂單傳聞與供應鏈警訊",
+      "summary": "講者轉述馬斯克對發電設備渦輪訂單的說法，提醒若多家客戶陸續取消周邊零件訂單，可能值得提高警覺；單一傳聞不足以證明 AI 泡沫。"
+    },
+    {
+      "topic": "Netflix、0050 與新手投資方法",
+      "summary": "講者未提供 Netflix 最新財務判斷，只表達用戶體驗偏好；對新手則強調報酬期望值不等於勝率，應辨識自身資訊或產業優勢。"
+    }
+  ],
+  "market_observations": [
+    {
+      "observation": "講者認為大跌後可能出現技術性反彈，但若無法重新站穩季線，反彈可能只是降低曝險的機會。",
+      "time_sensitivity": "days",
+      "evidence_type": "source_statement"
+    },
+    {
+      "observation": "高融資標的在波動放大時容易因被迫賣出而加劇跌幅，籌碼結構會放大市場風險。",
+      "time_sensitivity": "weeks",
+      "evidence_type": "source_statement"
+    },
+    {
+      "observation": "講者將美國 AI 資料中心新建許可是否被實際延宕視為重要追蹤指標，因新增建案受阻的營收影響可能落在 2028–2029 年。",
+      "time_sensitivity": "structural",
+      "evidence_type": "source_statement"
+    },
+    {
+      "observation": "SoftBank 渦輪設備可能取消訂單的說法尚未獨立查證，不能據此認定 AI 需求已普遍惡化；若類似取消逐步擴散才可能形成較有力的風險訊號。",
+      "time_sensitivity": "weeks",
+      "evidence_type": "derived_interpretation"
+    },
+    {
+      "observation": "講者區分短期恐慌時的反彈交易與長期持有，認為 VIX 上升可能帶來短線機會，但仍需界定持有期限。",
+      "time_sensitivity": "days",
+      "evidence_type": "source_statement"
+    },
+    {
+      "observation": "講者認為投資績效取決於策略期望值與自身可重複的優勢，缺乏個股研究優勢者可從指數投資開始。",
+      "time_sensitivity": "structural",
+      "evidence_type": "source_statement"
+    }
+  ],
+  "analysis_meta": {
+    "generated_at": "2026-11-08T06:25:10Z",
+    "generator": "ChatGPT Scheduled Task / GPT-6; Vocus public article rendered full-body acquisition (00:00–54:35); API word-count unavailable",
+    "source_scope": "full_transcript",
+    "review_status": "unreviewed"
+  }
+}
