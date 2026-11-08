@@ -1,0 +1,146 @@
+{
+  "schema_version": 1,
+  "episode": {
+    "number": 711,
+    "date": "2026-11-04",
+    "title": "2026-11-04-股癌-EP711-逐字稿"
+  },
+  "source": {
+    "platform": "vocus",
+    "url": "https://vocus.cc/article/6aeb00b9fd8978000165a9c0",
+    "content_stored": false
+  },
+  "analysis": {
+    "summary": "The speaker sees intraday selloffs followed by volume-backed lower-wick recoveries as potentially constructive, but prefers building index exposure before aggressively buying individual stocks while Taiwan margin financing remains elevated. Palantir's quarterly results and examples of customer-owned data, post-trained open-weight models and system integration are interpreted as evidence of a growing enterprise market for sovereign AI, specialized edge inference and implementation services. The speaker distinguishes attractive business fundamentals from Palantir's demanding valuation, and argues that open and closed models can both expand as total AI demand grows. AMD's reported data-center and CPU strength supports a favorable server-CPU outlook despite softer consumer PC demand. In Q&A, TSMC is treated as a long-term growth business rather than a conventional cyclical value trap, while historical trough valuation multiples are discussed as scenarios rather than price targets. The remainder includes personal running and health experiences and listener questions.",
+    "relevance": "high"
+  },
+  "entities": [
+    {
+      "name": "Palantir Technologies",
+      "ticker": "PLTR",
+      "market": "US",
+      "entity_type": "company",
+      "mention_context": "Q3 earnings and enterprise examples of sovereign AI, ontology-based workflows, fine-tuned open models and SI-led deployment are viewed favorably; valuation is described as expensive.",
+      "stance": "mixed",
+      "confidence": 0.99
+    },
+    {
+      "name": "Advanced Micro Devices",
+      "ticker": "AMD",
+      "market": "US",
+      "entity_type": "company",
+      "mention_context": "Speaker cites strong Q3 data-center growth, EPYC performance and MI450 shipment discussion while noting weaker consumer PC demand.",
+      "stance": "positive",
+      "confidence": 0.99
+    },
+    {
+      "name": "Intel",
+      "ticker": "INTC",
+      "market": "US",
+      "entity_type": "company",
+      "mention_context": "Mentioned as a comparison for the strength of server CPU demand and relative PC weakness.",
+      "stance": "neutral",
+      "confidence": 0.89
+    },
+    {
+      "name": "Taiwan Semiconductor Manufacturing Company",
+      "ticker": "TSM",
+      "market": "US",
+      "entity_type": "company",
+      "mention_context": "In listener Q&A, the speaker rejects a simplistic value-trap label and discusses potential earnings multiples under a severe market downturn; Taiwanese listing is also referenced.",
+      "stance": "positive",
+      "confidence": 0.97
+    },
+    {
+      "name": "NVIDIA",
+      "ticker": "NVDA",
+      "market": "US",
+      "entity_type": "company",
+      "mention_context": "Used as an analogy for a category leader validating an AI investment theme and providing a valuation anchor for other suppliers.",
+      "stance": "positive",
+      "confidence": 0.91
+    },
+    {
+      "name": "L3Harris Technologies",
+      "ticker": "LHX",
+      "market": "US",
+      "entity_type": "company",
+      "mention_context": "Cited as an example from Palantir's earnings discussion of fine-tuning an open model with proprietary data and claimed cost reductions; not independently verified.",
+      "stance": "neutral",
+      "confidence": 0.87
+    },
+    {
+      "name": "New Balance",
+      "ticker": null,
+      "market": "OTHER",
+      "entity_type": "company",
+      "mention_context": "Sponsor-related running discussion; not presented as an investable thesis.",
+      "stance": "neutral",
+      "confidence": 0.99
+    }
+  ],
+  "topics": [
+    {
+      "topic": "Market timing and leverage",
+      "summary": "The speaker prefers capitulation-like intraday selloffs with recovery and volume, monitors margin-financing liquidation, and favors index exposure before individual-stock bottom fishing."
+    },
+    {
+      "topic": "Sovereign AI and enterprise system integration",
+      "summary": "Customer data ownership, tailored open models, governance, security, maintenance and contractual accountability are framed as potential drivers of demand for SI providers."
+    },
+    {
+      "topic": "Edge AI and open-weight models",
+      "summary": "Specialized smaller models deployed on local devices are viewed as a developing use case; the speaker does not assume closed-model providers must lose absolute revenue."
+    },
+    {
+      "topic": "Palantir earnings and valuation",
+      "summary": "The speaker praises operating growth and examples of AI deployment but regards the stock's valuation as demanding."
+    },
+    {
+      "topic": "AMD and server CPUs",
+      "summary": "Data-center and EPYC demand are seen as resilient despite weakness in consumer PC demand."
+    },
+    {
+      "topic": "TSMC valuation and value traps",
+      "summary": "The speaker contrasts structural growth companies with cyclical firms where low trailing multiples can coincide with peak earnings."
+    }
+  ],
+  "market_observations": [
+    {
+      "observation": "Source speaker treats a sharp intraday decline followed by a high-volume recovery as a possible entry-timing signal, conditional on broader market context.",
+      "time_sensitivity": "days",
+      "evidence_type": "source_statement"
+    },
+    {
+      "observation": "Persistent margin financing may delay a cleaner washout and supports a preference for index-first exposure rather than aggressive single-name accumulation.",
+      "time_sensitivity": "weeks",
+      "evidence_type": "derived_interpretation"
+    },
+    {
+      "observation": "The speaker cites Palantir's reported enterprise open-model deployments and claimed large cost savings as evidence for SI and edge-AI commercialization; the reported figures are not independently verified in this artifact.",
+      "time_sensitivity": "months",
+      "evidence_type": "source_statement"
+    },
+    {
+      "observation": "The speaker expects enterprise adoption of specialized local AI and system integration to become more visible over roughly six to twelve months.",
+      "time_sensitivity": "months",
+      "evidence_type": "source_statement"
+    },
+    {
+      "observation": "The speaker reports strong AMD data-center performance and regards server CPU fundamentals favorably, while flagging softer consumer PC demand.",
+      "time_sensitivity": "months",
+      "evidence_type": "source_statement"
+    },
+    {
+      "observation": "A low-teens earnings multiple for TSMC is presented as a historical stress scenario, not a guaranteed floor or executable price recommendation.",
+      "time_sensitivity": "structural",
+      "evidence_type": "derived_interpretation"
+    }
+  ],
+  "analysis_meta": {
+    "generated_at": "2026-11-08T03:50:00Z",
+    "generator": "ChatGPT semi-automated transient-file handoff; GPT-6",
+    "source_scope": "full_transcript",
+    "review_status": "unreviewed"
+  }
+}
