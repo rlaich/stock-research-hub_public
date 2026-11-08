@@ -5,9 +5,16 @@
     "platform": "vocus",
     "room_url": "https://vocus.cc/salon/6908b98efd89780001cb1d32/room/6908c04d5ed52e53fa5821e4"
   },
-  "generated_at": "2026-11-05T01:52:29+00:00",
-  "episode_count": 66,
+  "generated_at": "2026-11-08T00:57:18+00:00",
+  "episode_count": 68,
   "episodes": [
+    {
+      "episode": 712,
+      "date": "2026-11-07",
+      "title": "2026-11-07-股癌-EP712-逐字稿",
+      "source": "vocus",
+      "source_url": "https://vocus.cc/article/6aeed767fd89780001efdc38"
+    },
     {
       "episode": 711,
       "date": "2026-11-04",
@@ -469,6 +476,13 @@
       "title": "2026-03-21-股癌-EP646-逐字稿",
       "source": "vocus",
       "source_url": "https://vocus.cc/article/6a5bbe17fd89780001f8fe55"
+    },
+    {
+      "episode": 232,
+      "date": "2022-04-02",
+      "title": "2022-04-02-股癌-EP232-逐字稿",
+      "source": "vocus",
+      "source_url": "https://vocus.cc/article/6aefc4dbfd89780001124944"
     }
   ]
 }
