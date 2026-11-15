@@ -1,0 +1,178 @@
+{
+  "schema_version": 1,
+  "episode": {
+    "number": 713,
+    "date": "2026-11-11",
+    "title": "2026-11-11-股癌-EP713-逐字稿"
+  },
+  "source": {
+    "platform": "vocus",
+    "url": "https://vocus.cc/article/6af42d37fd89780001501fc5",
+    "content_stored": false
+  },
+  "analysis": {
+    "summary": "本集先介紹金松基金成立及臺灣遊戲投資生態系的發展，提到與文策院、GameWorks、G-EIGHT合作，目標提供遊戲開發者資金、法遵、行銷與國際通路支援。市場主題則圍繞黃仁勳相關私人爭議及可能的國安疑慮；講者認為不應把傳聞直接推導成 NVIDIA 產品競爭力下降或供應鏈全面重組，應觀察中國終端需求、公司後續財測與供應鏈主管是否實際變動。講者也注意到部分市場報告討論 AI 伺服器需求遞延而非取消，可能壓抑高毛利與漲價缺貨題材；資金或重新評估 ASIC、AMD、二線供應商，以及 SpaceX 太空 AI 伺服器等新敘事。操作方面強調修正後反彈不等於重返前高，觀察季線、相對強弱、營收兌現及真正創新高的族群，並在事先研究且估值合理的股票池中順勢反應。問答補充最大回撤、槓桿與流動性管理、主動式 ETF 申贖套利、CSP／軟體相對半導體的配置思路，另有跑步、家庭及聽眾生活話題。",
+    "relevance": "high"
+  },
+  "entities": [
+    {
+      "name": "NVIDIA",
+      "ticker": "NVDA",
+      "market": "US",
+      "entity_type": "company",
+      "mention_context": "講者討論黃仁勳相關私人爭議與國安傳聞，區分個人事件、對中國終端營收的潛在限制、供應鏈決策和 GPU 產品本身的需求與效能。",
+      "stance": "mixed",
+      "confidence": 0.99
+    },
+    {
+      "name": "Advanced Micro Devices",
+      "ticker": "AMD",
+      "market": "US",
+      "entity_type": "company",
+      "mention_context": "講者認為市場在 NVIDIA 主導的供應鏈之外，可能重新研究 AMD 相關供應鏈，但未提供 AMD 訂單或估值數字。",
+      "stance": "neutral",
+      "confidence": 0.94
+    },
+    {
+      "name": "SpaceX",
+      "ticker": null,
+      "market": "US",
+      "entity_type": "company",
+      "mention_context": "講者轉述市場對 SpaceX 太空 AI 伺服器及與 NVIDIA 合作的討論，將其視為可能的新供應鏈題材；具體規格與合作狀態未在節目中獨立驗證。",
+      "stance": "unclear",
+      "confidence": 0.93
+    },
+    {
+      "name": "AI server supply chain",
+      "ticker": null,
+      "market": "OTHER",
+      "entity_type": "industry",
+      "mention_context": "講者談到部分報告對未來一至兩年伺服器需求遞延約兩成的說法，並推演高毛利、漲價缺貨與二線供應商的潛在變化。",
+      "stance": "mixed",
+      "confidence": 0.98
+    },
+    {
+      "name": "Cloud Service Providers",
+      "ticker": null,
+      "market": "US",
+      "entity_type": "industry",
+      "mention_context": "問答中講者表示 CSP 與軟體值得提高研究或配置關注，但未點名具體標的與目標比重。",
+      "stance": "positive",
+      "confidence": 0.95
+    },
+    {
+      "name": "台灣遊戲開發產業",
+      "ticker": null,
+      "market": "TW",
+      "entity_type": "industry",
+      "mention_context": "講者介紹金松基金、遊戲團隊投資與行銷通路支持，希望促進臺灣遊戲走向全球市場。",
+      "stance": "positive",
+      "confidence": 0.99
+    },
+    {
+      "name": "主動式 ETF",
+      "ticker": null,
+      "market": "TW",
+      "entity_type": "etf",
+      "mention_context": "講者指出外資與投信間看似對作的交易，可能與 ETF 申購贖回及價差套利機制有關，不能單憑交易表象認定倒貨。",
+      "stance": "neutral",
+      "confidence": 0.94
+    },
+    {
+      "name": "玻璃纖維布產業",
+      "ticker": null,
+      "market": "TW",
+      "entity_type": "industry",
+      "mention_context": "講者觀察玻纖布族群在反彈中仍強勢，但個人傾向尋找不同於過去一年漲價缺貨題材的新跑道。",
+      "stance": "mixed",
+      "confidence": 0.96
+    }
+  ],
+  "topics": [
+    {
+      "topic": "金松基金與臺灣遊戲投資生態系",
+      "summary": "講者宣布金松基金成立，說明與既有公司架構的區別及 AUM 朝新臺幣三億元以上發展的期待，並介紹文策院、GameWorks 與 G-EIGHT 在資金、孵化、策展及國際推廣方面的合作。"
+    },
+    {
+      "topic": "NVIDIA 領導人爭議與中美科技供應鏈",
+      "summary": "講者將私人爭議與公司基本面分開，認為中國對國產替代已有自身誘因，對 NVIDIA 中國終端營收的市場估算存在不確定性；若公司強化終端客戶控管，可能影響後續財測，但全面換供應商並非必然。"
+    },
+    {
+      "topic": "AI 伺服器需求遞延與漲價題材",
+      "summary": "講者轉述部分市場報告對伺服器需求延後的討論，強調 push out 不等於取消訂單；若採購壓力緩和，原本依賴缺貨漲價的高毛利供應鏈可能面臨評價修正，二線供應商則可能取得重新競爭的機會。"
+    },
+    {
+      "topic": "太空 AI 伺服器與新供應鏈敘事",
+      "summary": "講者提及市場研究 SpaceX 太空 AI 伺服器及 NVIDIA 合作的傳聞，認為與傳統 AI 伺服器部分重疊、部分不同的供應鏈可能帶來新題材，但仍須以實際股價與資訊驗證。"
+    },
+    {
+      "topic": "反彈、季線與新主流族群識別",
+      "summary": "講者認為大幅反彈後將遭遇上方均線尤其季線壓力；比較本次與七月低點、觀察相對強弱、量價及資金流向，並等待真正創新高的標的確認市場偏好。"
+    },
+    {
+      "topic": "預先研究股票池與順勢交易",
+      "summary": "講者主張先建立基本面與估值均可接受的候選股票池，再依市場表態快速反應；即使股價已上漲，只要仍符合估值判斷也不排斥買進，但反對沒有研究就追逐漲停。"
+    },
+    {
+      "topic": "回撤、流動性與配置管理",
+      "summary": "講者表示這波個人最大回撤一度約 17%，指出槓桿、持股流動性及提早調整的重要性；大型部位不能假設可一鍵出清，且抄大盤不等於已全面換成大盤部位。"
+    },
+    {
+      "topic": "CSP、軟體與半導體配置",
+      "summary": "問答中講者認為 CSP、軟體值得研究；半導體急跌後仍可能有反彈或便宜的優質公司，但不能假設一定回到前高，當前更需要觀察營收兌現。"
+    }
+  ],
+  "market_observations": [
+    {
+      "observation": "講者認為黃仁勳相關傳聞不應直接推論 NVIDIA 產品效能、需求或供應鏈立即受損；真正需要追蹤的是合規控管、財測及供應鏈管理人事是否改變。",
+      "time_sensitivity": "weeks",
+      "evidence_type": "source_statement"
+    },
+    {
+      "observation": "節目提及市場對 NVIDIA 中國終端需求占比約一至兩成的估算，但講者承認難以核實；此數字不是已確認的公司揭露資料。",
+      "time_sensitivity": "months",
+      "evidence_type": "source_statement"
+    },
+    {
+      "observation": "部分市場報告據講者轉述提及未來一至兩年 AI 伺服器需求可能有約兩成遞延；應以實際客戶指引與訂單驗證，不能視為已發生的砍單。",
+      "time_sensitivity": "months",
+      "evidence_type": "derived_interpretation"
+    },
+    {
+      "observation": "若 AI 伺服器採購短暫放緩，原有缺貨漲價題材可能承壓，採購方也可能有時間開發二線供應商；此為條件式供應鏈推演。",
+      "time_sensitivity": "months",
+      "evidence_type": "derived_interpretation"
+    },
+    {
+      "observation": "SpaceX 太空 AI 伺服器與 NVIDIA 合作為節目轉述的市場題材，相關產品規格、訂單及商業化進度未經獨立查證。",
+      "time_sensitivity": "structural",
+      "evidence_type": "derived_interpretation"
+    },
+    {
+      "observation": "講者將反彈能否克服季線及相對於七月低點的強弱，視為辨識下一波主流的重要市場觀察，而非保證性的技術訊號。",
+      "time_sensitivity": "weeks",
+      "evidence_type": "source_statement"
+    },
+    {
+      "observation": "講者主張在已完成基本面與估值研究的候選池中，透過相對強弱、量價與資金流向觀察市場表態，不追求在上漲前精準預知飆股。",
+      "time_sensitivity": "structural",
+      "evidence_type": "source_statement"
+    },
+    {
+      "observation": "講者表示自己這波最大回撤約 17%，並強調大型持股流動性限制使得調整必須提前進行；這是個人經驗，不能直接外推為一般投資人績效。",
+      "time_sensitivity": "structural",
+      "evidence_type": "source_statement"
+    },
+    {
+      "observation": "講者認為 CSP、軟體值得關注，半導體反彈不等於必然重返前高；應檢查企業營收是否兌現先前市場敘事。",
+      "time_sensitivity": "months",
+      "evidence_type": "source_statement"
+    }
+  ],
+  "analysis_meta": {
+    "generated_at": "2026-11-15T15:04:00Z",
+    "generator": "ChatGPT manual full-transcript handoff / GPT-6; user-supplied Vocus API extractor output; 00:00–52:13; metadata words_count=23004 extracted_chars=23004",
+    "source_scope": "full_transcript",
+    "review_status": "unreviewed"
+  }
+}
