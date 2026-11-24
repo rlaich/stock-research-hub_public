@@ -1,7 +1,27 @@
 {
   "schema_version": 1,
-  "analysis_count": 49,
+  "analysis_count": 51,
   "episodes": [
+    {
+      "episode": 716,
+      "date": "2026-11-21",
+      "title": "2026-11-21-股癌-EP716-逐字稿",
+      "path": "data/analysis/gooaye/EP716.json",
+      "relevance": "high",
+      "source_scope": "full_transcript",
+      "review_status": "unreviewed",
+      "generated_at": "2026-11-24T14:53:07.679Z"
+    },
+    {
+      "episode": 714,
+      "date": "2026-11-14",
+      "title": "2026-11-14-股癌-EP714-逐字稿",
+      "path": "data/analysis/gooaye/EP714.json",
+      "relevance": "high",
+      "source_scope": "full_transcript",
+      "review_status": "unreviewed",
+      "generated_at": "2026-11-24T15:09:35.352Z"
+    },
     {
       "episode": 713,
       "date": "2026-11-11",

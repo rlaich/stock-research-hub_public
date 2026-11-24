@@ -1,0 +1,132 @@
+{
+  "schema_version": 1,
+  "episode": {
+    "number": 714,
+    "date": "2026-11-14",
+    "title": "2026-11-14-股癌-EP714-逐字稿"
+  },
+  "source": {
+    "platform": "vocus",
+    "url": "https://vocus.cc/article/6af83a49fd89780001e8ce24",
+    "content_stored": false
+  },
+  "analysis": {
+    "summary": "本集探討 NVIDIA 創辦人依賴與接班不確定性如何影響 AI 伺服器、晶片競爭及臺灣供應鏈。主持人以 Vera Rubin、液冷與銅箔基板規格提升為例，認為 NVIDIA 能協調資本、產能及供應商，加快產品迭代。談及市場上的接班說法時，他用不同情境推演研發速度與供應商議價，並指出臺灣供應鏈也受採購移出中國的政策趨勢支撐。問答補充，解讀外資買賣 ETF 必須辨識交易主體，因為彙總數字可能混合不同策略。節目中的人事、回購與訂單說法僅作為情境背景。",
+    "relevance": "high"
+  },
+  "entities": [
+    {
+      "name": "NVIDIA",
+      "ticker": "NVDA",
+      "market": "US",
+      "entity_type": "company",
+      "mention_context": "主持人以產品規格、供應商協調與產能掌握說明創辦人影響力，同時區分短期價格波動與接班對長期執行的可能影響。",
+      "stance": "mixed",
+      "confidence": 0.98
+    },
+    {
+      "name": "AMD",
+      "ticker": "AMD",
+      "market": "US",
+      "entity_type": "company",
+      "mention_context": "主持人觀察 NVIDIA 相關消息出現時，AMD 與 ASIC 題材受到短期資金關注，並認為持續受益仍取決於競爭格局及需求轉移。",
+      "stance": "mixed",
+      "confidence": 0.97
+    },
+    {
+      "name": "Google",
+      "ticker": null,
+      "market": "US",
+      "entity_type": "company",
+      "mention_context": "主持人以 Google 為例，說明其他大型業者可能參考領先平台的規格來發展自有方案。",
+      "stance": "neutral",
+      "confidence": 0.94
+    },
+    {
+      "name": "Apple",
+      "ticker": "AAPL",
+      "market": "US",
+      "entity_type": "company",
+      "mention_context": "主持人以 Apple 的供應鏈管理與伺服器設計舉例，討論標準化、成本效率及供應商議價之間的關係。",
+      "stance": "neutral",
+      "confidence": 0.95
+    },
+    {
+      "name": "SpaceX",
+      "ticker": null,
+      "market": "US",
+      "entity_type": "company",
+      "mention_context": "主持人提到與 NVIDIA 相關的太空伺服器構想，認為現階段量體有限，所受短期晶片競爭消息影響可能不同。",
+      "stance": "neutral",
+      "confidence": 0.91
+    },
+    {
+      "name": "AI 伺服器供應鏈",
+      "ticker": null,
+      "market": null,
+      "entity_type": "industry",
+      "mention_context": "主持人以液冷與銅箔基板討論快速升級帶來的機會，並推演標準化及價格競爭可能如何改變供應商的獲利空間。",
+      "stance": "mixed",
+      "confidence": 0.98
+    },
+    {
+      "name": "客製化加速晶片",
+      "ticker": null,
+      "market": null,
+      "entity_type": "industry",
+      "mention_context": "主持人將 ASIC 題材的短期上漲解讀為市場預期部分需求可能轉移，持續性仍取決於後續產品與訂單。",
+      "stance": "mixed",
+      "confidence": 0.95
+    }
+  ],
+  "topics": [
+    {
+      "topic": "創辦人依賴與接班風險",
+      "summary": "節目用產品路線、技術決策與產能協調三個面向分析關鍵人物風險。主持人討論內部執行延續及治理變動等情境，其影響可能隨人才與產能分配改變。"
+    },
+    {
+      "topic": "伺服器規格升級與標準化",
+      "summary": "主持人以 Vera Rubin 的液冷與銅箔基板升級為例，指出新規格可能帶來溢價。當產品與製造流程逐步標準化，供應商獲利則可能受到議價及價格競爭影響。"
+    },
+    {
+      "topic": "供應鏈移出中國的影響",
+      "summary": "主持人認為臺灣、韓國與日本的部分訂單能見度也來自全球採購配置與政策，供應鏈地域布局與個別客戶的領導變動需要各自評估。"
+    },
+    {
+      "topic": "GPU 與 ASIC 的短期資金輪動",
+      "summary": "主持人認為，股價對消息的反應可能先於事件明朗。他把 AMD 與 ASIC 題材的反應視為短期市場預期，並提及自己在波動升高時降低部分晶片曝險。"
+    },
+    {
+      "topic": "外資與 ETF 籌碼解讀",
+      "summary": "問答指出，外資統計可能來自多類帳戶及交易策略。相鄰交易日方向不同時，彙總數據只能提供參考，難以推導單一機構的交易意圖。"
+    }
+  ],
+  "market_observations": [
+    {
+      "observation": "主持人認為，領先平台的技術升級曾讓部分伺服器供應商獲得較高規格溢價，而接班與標準化的速度會影響原有估值假設。",
+      "time_sensitivity": "months",
+      "evidence_type": "source_statement"
+    },
+    {
+      "observation": "主持人將 AMD 和 ASIC 題材的短期反應連結到市場對 GPU 供給與訂單轉移的預期，並認為其延續需要更多條件。",
+      "time_sensitivity": "weeks",
+      "evidence_type": "source_statement"
+    },
+    {
+      "observation": "評估臺灣 AI 供應商時，可分別追蹤營收對個別平台的依賴、產品認證與採購地區，檢驗技術升級和供應鏈重配置的實際影響。",
+      "time_sensitivity": "months",
+      "evidence_type": "derived_interpretation"
+    },
+    {
+      "observation": "辨識 GPU 與 ASIC 之間是否出現持續需求轉移，可以交叉檢查平台交付、產能分配與客戶部署，補足短期股價訊號。",
+      "time_sensitivity": "months",
+      "evidence_type": "derived_interpretation"
+    }
+  ],
+  "analysis_meta": {
+    "generated_at": "2026-11-24T15:09:35.352Z",
+    "generator": "ChatGPT Work interactive manual run / EP714",
+    "source_scope": "full_transcript",
+    "review_status": "unreviewed"
+  }
+}

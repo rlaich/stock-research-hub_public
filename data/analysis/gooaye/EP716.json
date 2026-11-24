@@ -1,0 +1,164 @@
+{
+  "schema_version": 1,
+  "episode": {
+    "number": 716,
+    "date": "2026-11-21",
+    "title": "2026-11-21-股癌-EP716-逐字稿"
+  },
+  "source": {
+    "platform": "vocus",
+    "url": "https://vocus.cc/article/6b016f8dfd89780001cf7b37",
+    "content_stored": false
+  },
+  "analysis": {
+    "summary": "本集以臺股急跌期間的流動性與強制去槓桿為主軸。主持人觀察熱門股跌停時成交量不足、部分可轉債跌破發行價，並以過去籌措現金及本次過早承接臺指期與美股的經驗，說明帳面資產、可動用現金與實際可成交部位的差異。他傾向把 AI 股下跌理解為融資收縮與預期修正，同時指出供應鏈訪談仍反映部分零組件短缺。其看法是 2027 年需求能見度較高，2028 年則可能受產品路線、接班與訂單時點影響。問答補充指數配置承受回撤、AAOI 擴產籌資，以及券商提前調整除息擔保品估值的風險。節目提到的監管、融資與訂單消息均屬主持人轉述或判斷。",
+    "relevance": "high"
+  },
+  "entities": [
+    {
+      "name": "臺灣加權股價指數期貨",
+      "ticker": null,
+      "market": "TW",
+      "entity_type": "other",
+      "mention_context": "主持人回顧在跌勢初期承接臺指期過早，後續跌幅超出預期而暫停加碼。",
+      "stance": "mixed",
+      "confidence": 0.98
+    },
+    {
+      "name": "臺灣可轉換公司債",
+      "ticker": null,
+      "market": "TW",
+      "entity_type": "other",
+      "mention_context": "主持人觀察部分可轉債跌破發行價，並轉述新發行融資成本上升的說法，將其視為流動性吃緊的訊號。",
+      "stance": "mixed",
+      "confidence": 0.94
+    },
+    {
+      "name": "NVIDIA",
+      "ticker": "NVDA",
+      "market": "US",
+      "entity_type": "company",
+      "mention_context": "主持人認為股價修正後評價下降，同時關注節目轉述的監管消息、接班、Vera Rubin 路線與後續訂單能見度。",
+      "stance": "mixed",
+      "confidence": 0.97
+    },
+    {
+      "name": "台積電",
+      "ticker": "TSM",
+      "market": "US",
+      "entity_type": "company",
+      "mention_context": "主持人以台積電 2022 至 2023 年的修正說明，即使獲利下修幅度有限，估值收縮仍可造成較大股價跌幅。",
+      "stance": "neutral",
+      "confidence": 0.97
+    },
+    {
+      "name": "Oracle",
+      "ticker": "ORCL",
+      "market": "US",
+      "entity_type": "company",
+      "mention_context": "主持人解讀 Oracle 就資料中心建置與融資傳聞的公開回應，並把後續融資消息列為觀察項目。",
+      "stance": "mixed",
+      "confidence": 0.92
+    },
+    {
+      "name": "SoftBank Group",
+      "ticker": null,
+      "market": "OTHER",
+      "entity_type": "company",
+      "mention_context": "主持人認為軟銀在 AI 投資上的槓桿曝險偏高，並推測市場流動性轉弱可能使融資更受關注。",
+      "stance": "negative",
+      "confidence": 0.94
+    },
+    {
+      "name": "Google",
+      "ticker": null,
+      "market": "US",
+      "entity_type": "company",
+      "mention_context": "主持人以 Google 與其他 ASIC 業者為例，說明主要 GPU 供應商若出現產品或訂單空窗，仍有其他業者尋求取得需求。",
+      "stance": "neutral",
+      "confidence": 0.94
+    },
+    {
+      "name": "NAND 快閃記憶體",
+      "ticker": null,
+      "market": null,
+      "entity_type": "industry",
+      "mention_context": "節目提到中國雲端業者調整採購後，NAND 現貨出現轉折。主持人探討 GPU 與 ASIC 供應受限對記憶體訂單的影響，以及其他需求能否承接。",
+      "stance": "mixed",
+      "confidence": 0.97
+    },
+    {
+      "name": "Applied Optoelectronics",
+      "ticker": "AAOI",
+      "market": "US",
+      "entity_type": "company",
+      "mention_context": "聽眾詢問公司對債務與市價增發的取捨。主持人表示自己已退出，並認為強勁需求可解釋擴產籌資動機，同時承認持股人可能在意稀釋及融資風險。",
+      "stance": "mixed",
+      "confidence": 0.98
+    },
+    {
+      "name": "元大台灣50",
+      "ticker": "0050",
+      "market": "TW",
+      "entity_type": "etf",
+      "mention_context": "聽眾回顧疫情時期停損的經驗。主持人藉此討論長期大盤或全球指數配置遇到大幅回撤時的心理與執行難度。",
+      "stance": "positive",
+      "confidence": 0.96
+    }
+  ],
+  "topics": [
+    {
+      "topic": "跌停、處置與市場流動性",
+      "summary": "節目以跌停排隊量、成交量與跌停打開的情況觀察被迫賣壓是否逐步消化。主持人提議以要求備妥資金的當日交割安排，降低限制撮合頻率對流動性的影響。"
+    },
+    {
+      "topic": "現金緩衝與擔保品維持率",
+      "summary": "主持人回顧過往市場急挫時難以變現籌錢，以及單一帳戶遭遇提前按除息參考價重估擔保品的經驗。兩者都突顯資金需求可能早於原先規劃。"
+    },
+    {
+      "topic": "AI 資本支出與融資風險",
+      "summary": "主持人將 Oracle、軟銀與可轉債市場的線索放在信用成本與抵押品縮水的脈絡，並區分融資壓力、股價修正與產業需求本身。"
+    },
+    {
+      "topic": "AI 零組件、出口限制與 2028 年能見度",
+      "summary": "主持人轉述供應鏈訪談所見的零組件短缺、NAND 現貨變化與說法不一的 Blackwell 訂單傳聞，並討論先進晶片出口限制可能帶來的供應鏈重新配置，以及 2028 年產品與訂單銜接的風險。"
+    },
+    {
+      "topic": "短期反彈與長期指數配置",
+      "summary": "節目區分短線流動性修復與後續獲利及估值趨勢。問答以疫情期間的 0050 持有經驗說明，大盤配置也會遇到足以考驗執行紀律的回撤。"
+    }
+  ],
+  "market_observations": [
+    {
+      "observation": "主持人將熱門股低成交量跌停、部分可轉債破發及被迫減倉視為市場壓力，並關注成交量回升和跌停打開後的承接。",
+      "time_sensitivity": "days",
+      "evidence_type": "source_statement"
+    },
+    {
+      "observation": "主持人留意節目所述的 NVIDIA 監管消息、Oracle 融資傳聞，以及美元、利率與油價變化，將其列為可能影響短期風險偏好的因素。",
+      "time_sensitivity": "weeks",
+      "evidence_type": "source_statement"
+    },
+    {
+      "observation": "主持人轉述的訪談仍指向部分關鍵零件短缺，並認為 2027 年需求相對清楚、2028 年較可能出現訂單空窗。Blackwell 訂單傳聞在節目中沒有一致結論。",
+      "time_sensitivity": "months",
+      "evidence_type": "source_statement"
+    },
+    {
+      "observation": "量價回穩可用於追蹤被迫賣壓的消化。評估 AI 需求能否延續時，仍需以實際交付、訂單與資本支出核對供應鏈說法。",
+      "time_sensitivity": "months",
+      "evidence_type": "derived_interpretation"
+    },
+    {
+      "observation": "AAOI 的產能擴張可同時帶來營收機會與股東稀釋風險。後續可用擴產進度、融資組合與現金流檢驗兩者的相對影響。",
+      "time_sensitivity": "months",
+      "evidence_type": "derived_interpretation"
+    }
+  ],
+  "analysis_meta": {
+    "generated_at": "2026-11-24T14:53:07.679Z",
+    "generator": "ChatGPT Work interactive manual run / P1.7-4A-R8",
+    "source_scope": "full_transcript",
+    "review_status": "unreviewed"
+  }
+}
