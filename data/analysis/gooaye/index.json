@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "analysis_count": 51,
+  "analysis_count": 52,
   "episodes": [
     {
       "episode": 716,
@@ -11,6 +11,16 @@
       "source_scope": "full_transcript",
       "review_status": "unreviewed",
       "generated_at": "2026-11-24T14:53:07.679Z"
+    },
+    {
+      "episode": 715,
+      "date": "2026-11-18",
+      "title": "2026-11-18-股癌-EP715-逐字稿",
+      "path": "data/analysis/gooaye/EP715.json",
+      "relevance": "high",
+      "source_scope": "full_transcript",
+      "review_status": "unreviewed",
+      "generated_at": "2026-11-25T06:08:38Z"
     },
     {
       "episode": 714,

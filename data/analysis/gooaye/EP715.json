@@ -1,0 +1,156 @@
+{
+  "schema_version": 1,
+  "episode": {
+    "number": 715,
+    "date": "2026-11-18",
+    "title": "2026-11-18-股癌-EP715-逐字稿"
+  },
+  "source": {
+    "platform": "vocus",
+    "url": "https://vocus.cc/article/6afd812afd897800019b2559",
+    "content_stored": false
+  },
+  "analysis": {
+    "summary": "本集以市場回檔與 NVIDIA 管理層變動的節目敘事為背景，討論 AI 基礎建設的下單節奏、資本配置與供應鏈急單。主持人認為長期 AI 需求與短期建置延後可以並存，並以其他加速器業者能否接續投資，以及衛星發射能否提供獨立增量，建立不同情境。問答補充弱勢盤的融資與賣壓觀察，以及以年報辨識股權集中、流動性與產品組合風險。涉及公司人事、財報與外部預測的內容屬節目轉述或情境假設，仍待原始公告或報告確認。",
+    "relevance": "high"
+  },
+  "entities": [
+    {
+      "name": "NVIDIA",
+      "ticker": "NVDA",
+      "market": "US",
+      "entity_type": "company",
+      "mention_context": "主持人以法說、庫藏股與客戶融資討論資本配置，並推測管理層若調整策略，供應鏈迭代與採購可能延後數季才反映在基本面。",
+      "stance": "mixed",
+      "confidence": 0.99
+    },
+    {
+      "name": "Google",
+      "ticker": null,
+      "market": "US",
+      "entity_type": "company",
+      "mention_context": "主持人把 Google 列為可能帶動客製化加速器及基礎建設投入的業者之一，對短期銜接速度持保留態度。",
+      "stance": "mixed",
+      "confidence": 0.96
+    },
+    {
+      "name": "AMD",
+      "ticker": "AMD",
+      "market": "US",
+      "entity_type": "company",
+      "mention_context": "主持人把 AMD 列為可能接續部分加速器需求的業者，並指出市場能否平順銜接仍有變數。",
+      "stance": "mixed",
+      "confidence": 0.95
+    },
+    {
+      "name": "SemiAnalysis",
+      "ticker": null,
+      "market": null,
+      "entity_type": "company",
+      "mention_context": "主持人轉述其大幅調低 AI 建置預估，同時認為調整後的預估仍處於市場相對高端。",
+      "stance": "mixed",
+      "confidence": 0.97
+    },
+    {
+      "name": "低軌衛星與發射產業",
+      "ticker": null,
+      "market": null,
+      "entity_type": "industry",
+      "mention_context": "主持人把持續發射視為獨立於 AI 治理變動的需求來源，並指出大盤下跌時，相對強勢的族群仍可能同步回檔。",
+      "stance": "mixed",
+      "confidence": 0.97
+    },
+    {
+      "name": "AI 加速器供應鏈",
+      "ticker": null,
+      "market": null,
+      "entity_type": "industry",
+      "mention_context": "主持人以記憶體與光通訊元件為例，推估搶料減弱後，急單與短期漲價可能降溫。",
+      "stance": "mixed",
+      "confidence": 0.98
+    },
+    {
+      "name": "Anthropic",
+      "ticker": null,
+      "market": "US",
+      "entity_type": "company",
+      "mention_context": "主持人在問答將 Anthropic 用作競爭格局與市場信心的情境案例，討論假設上市後的價格反應。",
+      "stance": "mixed",
+      "confidence": 0.92
+    },
+    {
+      "name": "Cboe 波動率指數",
+      "ticker": "VIX",
+      "market": "US",
+      "entity_type": "index",
+      "mention_context": "主持人將波動率上升視為觀察市場恐慌的線索，同時提到空頭延續時，現金與槓桿會影響承受波動的能力。",
+      "stance": "mixed",
+      "confidence": 0.96
+    }
+  ],
+  "topics": [
+    {
+      "topic": "管理層情境與資本配置",
+      "summary": "主持人認為，現階段法說仍可能反映先前決策。後續數季可觀察庫藏股、對客戶的融資與供應商管理，評估資本配置及產品迭代有無改變。"
+    },
+    {
+      "topic": "AI 建置節奏與供應鏈急單",
+      "summary": "主持人較擔心訂單或部署遞延。他認為記憶體和光通訊的短期搶料可能緩和，急單依賴度高的供應商較易面對營收或獲利波動。"
+    },
+    {
+      "topic": "衛星發射的獨立需求",
+      "summary": "主持人把衛星發射與部署視為值得觀察的增量來源，同時提醒需求成長與股價抗跌能力需要分開評估。"
+    },
+    {
+      "topic": "市場回檔、槓桿與籌碼",
+      "summary": "主持人談到回檔時提高現金比重、控制曝險的做法。問答說明，在弱勢盤中會提高對融資部位與分點變動的關注，作為估計被動賣壓的線索。"
+    },
+    {
+      "topic": "年報中的股權、流動性與產品組合",
+      "summary": "主持人偏重股東結構、研發方向、營收組合和風險揭露，並把小型公司的持股集中程度與部位進出難度納入考量。"
+    }
+  ],
+  "market_observations": [
+    {
+      "observation": "主持人把庫藏股、客戶融資與持續投入 AI 的資金配置視為觀察 NVIDIA 策略的線索，認為新管理決策的營運影響可能在數季後才顯現。",
+      "time_sensitivity": "months",
+      "evidence_type": "source_statement"
+    },
+    {
+      "observation": "主持人轉述 SemiAnalysis 下修 AI 建置預估，並認為短期訂單遞延比長期總需求下滑更值得關注。",
+      "time_sensitivity": "months",
+      "evidence_type": "source_statement"
+    },
+    {
+      "observation": "主持人觀察到衛星族群近期相對強勢，並指出整體市場急跌時，這類標的仍容易受到共同賣壓影響。",
+      "time_sensitivity": "weeks",
+      "evidence_type": "source_statement"
+    },
+    {
+      "observation": "主持人表示，槓桿部位承壓時會更留意融資與分點，因為被動平倉可能放大短期波動。",
+      "time_sensitivity": "days",
+      "evidence_type": "source_statement"
+    },
+    {
+      "observation": "可用交貨時程、訂單取消率、客戶資本支出及供應商交期交叉檢驗，區分部署遞延、急單溢價消退與需求縮減。",
+      "time_sensitivity": "months",
+      "evidence_type": "derived_interpretation"
+    },
+    {
+      "observation": "檢視衛星題材時，可分別追蹤發射頻率、實際部署量與供應商訂單，區分產業成長是否轉化成個別公司營收。",
+      "time_sensitivity": "months",
+      "evidence_type": "derived_interpretation"
+    },
+    {
+      "observation": "分點與融資資料可與成交量及流動性一起讀取。個別大跌或急彈的成因仍需其他證據支持。",
+      "time_sensitivity": "weeks",
+      "evidence_type": "derived_interpretation"
+    }
+  ],
+  "analysis_meta": {
+    "generated_at": "2026-11-25T06:08:38Z",
+    "generator": "ChatGPT Work / scheduled single-episode run / repository Vocus HTTPS extractor",
+    "source_scope": "full_transcript",
+    "review_status": "unreviewed"
+  }
+}
