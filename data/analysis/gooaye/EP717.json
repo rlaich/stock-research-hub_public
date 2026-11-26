@@ -1,0 +1,183 @@
+{
+  "schema_version": 1,
+  "episode": {
+    "number": 717,
+    "date": "2026-11-25",
+    "title": "2026-11-25-股癌-EP717-逐字稿"
+  },
+  "source": {
+    "platform": "vocus",
+    "url": "https://vocus.cc/article/6b06bbcbfd897800019e95da",
+    "content_stored": false
+  },
+  "analysis": {
+    "relevance": "high",
+    "summary": "本集討論 AI 資料中心建置遞延對零組件議價與估值的影響。主持人把光通訊、先進散熱與銅箔基板的規格升級，與仰賴短缺漲價的零組件分開評估，也用 NAND 現貨與 DRAM 報價討論供需緊張程度。節目另外探討 GPU 算力租價下跌對高負債雲端業者的影響，以及衛星、資安和機器人能否承接資金。主持人以槓桿風險、熟悉領域與部位上限說明回檔時的應對。公司人事、政策範圍、合併與租價消息依節目脈絡列為轉述或假設，確切情況仍待原始資料確認。"
+  },
+  "entities": [
+    {
+      "name": "NVIDIA",
+      "ticker": "NVDA",
+      "market": "US",
+      "entity_type": "company",
+      "mention_context": "主持人以領導層情境討論光通訊、散熱與板材升級的推進速度，並把供應鏈規格迭代和資料中心建置量視為兩個不同變數。",
+      "stance": "mixed",
+      "confidence": 0.99
+    },
+    {
+      "name": "NAND 與 DRAM",
+      "ticker": null,
+      "market": null,
+      "entity_type": "industry",
+      "mention_context": "主持人轉述中國 NAND 現貨走弱，並認為 DRAM 報價暫時可能較具支撐。節目提出採購延後與原先需求高估兩種可能原因。",
+      "stance": "mixed",
+      "confidence": 0.98
+    },
+    {
+      "name": "光通訊、先進散熱與銅箔基板",
+      "ticker": null,
+      "market": null,
+      "entity_type": "industry",
+      "mention_context": "主持人認為，若技術路線照常執行，規格升級有機會支撐單機價值，但產品認證與營收實現仍有時間差。",
+      "stance": "mixed",
+      "confidence": 0.97
+    },
+    {
+      "name": "SpaceX",
+      "ticker": null,
+      "market": "US",
+      "entity_type": "company",
+      "mention_context": "主持人把衛星與發射計畫視為潛在增量，並將與 Tesla 整合的說法放在市場傳聞及情境推演中。",
+      "stance": "mixed",
+      "confidence": 0.96
+    },
+    {
+      "name": "Tesla",
+      "ticker": "TSLA",
+      "market": "US",
+      "entity_type": "company",
+      "mention_context": "節目將 Tesla 放在馬斯克旗下事業整合與機器人放量的假設中討論，認為題材兌現仍取決於時程。",
+      "stance": "mixed",
+      "confidence": 0.95
+    },
+    {
+      "name": "xAI",
+      "ticker": null,
+      "market": "US",
+      "entity_type": "company",
+      "mention_context": "主持人轉述市場有算力租價下調的說法，並認為高價供應商調整報價可能反映自身定價，需觀察是否擴散。",
+      "stance": "mixed",
+      "confidence": 0.96
+    },
+    {
+      "name": "GPU 算力租賃業者",
+      "ticker": null,
+      "market": null,
+      "entity_type": "industry",
+      "mention_context": "主持人推演，若 GPU 租金持續下滑，借款擴張的業者可能較早遇到還本付息與再融資壓力。",
+      "stance": "mixed",
+      "confidence": 0.97
+    },
+    {
+      "name": "SoftBank Group",
+      "ticker": null,
+      "market": "OTHER",
+      "entity_type": "company",
+      "mention_context": "主持人用 SoftBank 的資產價值與借款比例作類比，說明抵押資產估值下滑時，債務管理可能限制資產配置。",
+      "stance": "mixed",
+      "confidence": 0.96
+    },
+    {
+      "name": "Cloudflare",
+      "ticker": "NET",
+      "market": "US",
+      "entity_type": "company",
+      "mention_context": "主持人以 Cloudflare 為例，說明美股全球資安服務業者與部分臺灣系統整合商的業務模式不同。",
+      "stance": "neutral",
+      "confidence": 0.97
+    },
+    {
+      "name": "CrowdStrike",
+      "ticker": "CRWD",
+      "market": "US",
+      "entity_type": "company",
+      "mention_context": "主持人將 CrowdStrike 與 Cloudflare 並列為美股資安公司，用來比較全球化產品和在地整合服務。",
+      "stance": "neutral",
+      "confidence": 0.97
+    }
+  ],
+  "topics": [
+    {
+      "topic": "資料中心遞延與採購議價",
+      "summary": "主持人推演，建置時程後移會給採購更多等待時間。供應較寬鬆且交期較短的零件，漲價溢價可能先收斂。記憶體仍可短缺，但搶料意願下降也可能削弱報價動能。"
+    },
+    {
+      "topic": "規格升級與供應商估值",
+      "summary": "節目討論光通訊、散熱與銅箔基板的規格升級。主持人區分技術變更帶來的單機價值提升與缺貨帶來的漲價，並指出股價大跌後仍需重估平均售價與獲利。"
+    },
+    {
+      "topic": "海外算力限制的訂單影響",
+      "summary": "主持人以美國可能收緊中國客戶海外算力使用為情境，指出訂單取消與美系客戶補單之間可能有時間差，進而改變交期及價格預期。"
+    },
+    {
+      "topic": "算力租價與雲端業者負債",
+      "summary": "節目把個別業者降價與整體 GPU 租價下滑分開討論。持續降價的情境下，高負債業者對利用率、回收期與再融資條件更敏感。"
+    },
+    {
+      "topic": "衛星、資安與機器人的承接條件",
+      "summary": "主持人觀察衛星股仍受回檔影響，認為臺灣資安族群的市值規模有限，並質疑市場是否有足夠動能提前反映機器人的放量預期。"
+    },
+    {
+      "topic": "回檔風險與資訊可信度",
+      "summary": "主持人分享回到熟悉標的、設定部位上限及留意斷頭風險的做法。問答釐清部分市場質性看法來自歷史經驗、人脈轉述及研調資訊，可信度隨證據來源而異。"
+    }
+  ],
+  "market_observations": [
+    {
+      "observation": "主持人認為建置遞延可能先壓縮供應充足零件的漲價空間，即使部分訂單仍會在後續期間交付。",
+      "time_sensitivity": "months",
+      "evidence_type": "source_statement"
+    },
+    {
+      "observation": "主持人轉述中國 NAND 現貨報價已有回落，對 DRAM 短期支撐較有信心。節目對需求下修與採購遞延各自的影響保留判斷。",
+      "time_sensitivity": "weeks",
+      "evidence_type": "source_statement"
+    },
+    {
+      "observation": "主持人認為較能反映技術升級的供應商值得重新評估，也指出先前以逐季漲價推算的每股盈餘可能偏高。",
+      "time_sensitivity": "months",
+      "evidence_type": "source_statement"
+    },
+    {
+      "observation": "主持人以算力租金持續下跌為假設，推演負債較重的 GPU 雲端業者可能出現現金流及融資壓力。節目提及的租價門檻屬情境估算。",
+      "time_sensitivity": "months",
+      "evidence_type": "source_statement"
+    },
+    {
+      "observation": "主持人指出，衛星相關股票在臺美股市仍受賣壓，臺股資安股轉強也可能因族群權重有限而難以帶動指數。",
+      "time_sensitivity": "weeks",
+      "evidence_type": "source_statement"
+    },
+    {
+      "observation": "研究供應商時可拆分出貨量、平均售價與產品組合的貢獻，再用交期、認證及量產進度檢驗遞延與升級情境。",
+      "time_sensitivity": "months",
+      "evidence_type": "derived_interpretation"
+    },
+    {
+      "observation": "評估 GPU 租賃業者的價格壓力，可交叉比對同規格租價、GPU 利用率、長約覆蓋、債務到期與資本支出承諾。",
+      "time_sensitivity": "months",
+      "evidence_type": "derived_interpretation"
+    },
+    {
+      "observation": "檢驗資金是否持續流向替代題材，可同時觀察族群相對強弱與成交廣度，再用發射、部署或產品量產進展確認產業面的變化。",
+      "time_sensitivity": "weeks",
+      "evidence_type": "derived_interpretation"
+    }
+  ],
+  "analysis_meta": {
+    "generated_at": "2026-11-26T06:18:31Z",
+    "generator": "ChatGPT Work / scheduled single-episode run / repository Vocus HTTPS extractor",
+    "source_scope": "full_transcript",
+    "review_status": "unreviewed"
+  }
+}

@@ -1,7 +1,17 @@
 {
   "schema_version": 1,
-  "analysis_count": 52,
+  "analysis_count": 53,
   "episodes": [
+    {
+      "episode": 717,
+      "date": "2026-11-25",
+      "title": "2026-11-25-股癌-EP717-逐字稿",
+      "path": "data/analysis/gooaye/EP717.json",
+      "relevance": "high",
+      "source_scope": "full_transcript",
+      "review_status": "unreviewed",
+      "generated_at": "2026-11-26T06:18:31Z"
+    },
     {
       "episode": 716,
       "date": "2026-11-21",
