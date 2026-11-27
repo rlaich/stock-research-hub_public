@@ -1,0 +1,187 @@
+{
+  "schema_version": 1,
+  "episode": {
+    "number": 664,
+    "date": "2026-05-23",
+    "title": "2026-05-23-股癌-EP664-逐字稿"
+  },
+  "source": {
+    "platform": "vocus",
+    "url": "https://vocus.cc/article/6a5bc119fd89780001f98ad8",
+    "content_stored": false
+  },
+  "analysis": {
+    "summary": "本集以 2026 年 5 月的市場為背景，從 Anthropic 獲利消息及 Colossus 1 算力出租的回收期估計，討論模型服務與算力租賃能否支撐 AI 硬體投資。主持人把 Google 與 Blackstone 的 TPU 雲端合作視為擴大對外供應的途徑，推演先進製程、封裝、記憶體及光通訊產能競爭。被動元件部分聚焦高密度機櫃的供電需求，以及高壓 MLCC、鋁電容和功率半導體從規格升級受惠的可能性。主持人也提醒，族群全面上漲時仍須區分實際短缺、產能排擠與提前備貨。節目中的獲利、回收期及 TPU 分配估計均為當時轉述或推算。",
+    "relevance": "high"
+  },
+  "entities": [
+    {
+      "name": "Anthropic",
+      "ticker": null,
+      "market": "US",
+      "entity_type": "company",
+      "mention_context": "主持人將當時的獲利消息視為模型服務具備變現能力的訊號，並提到市場對上市前數字呈現方式的疑問。",
+      "stance": "positive",
+      "confidence": 0.99
+    },
+    {
+      "name": "xAI",
+      "ticker": null,
+      "market": "US",
+      "entity_type": "company",
+      "mention_context": "主持人用 Colossus 1 的算力出租及投入回收期估計，討論自建算力在外部需求強勁時如何變現。",
+      "stance": "positive",
+      "confidence": 0.98
+    },
+    {
+      "name": "Google",
+      "ticker": null,
+      "market": "US",
+      "entity_type": "company",
+      "mention_context": "主持人認為，與 Blackstone 合作提供 TPU 雲端服務可能擴大外部客戶採用。他以產品生命週期估算自用與對外分配，並指出逐年占比仍有變數。",
+      "stance": "positive",
+      "confidence": 0.99
+    },
+    {
+      "name": "Blackstone",
+      "ticker": "BX",
+      "market": "US",
+      "entity_type": "company",
+      "mention_context": "節目將 Blackstone 視為 TPU 雲端合作的資本夥伴，討論由第三方承接部署是否能降低部分模型廠的採用顧慮。",
+      "stance": "neutral",
+      "confidence": 0.97
+    },
+    {
+      "name": "NVIDIA",
+      "ticker": "NVDA",
+      "market": "US",
+      "entity_type": "company",
+      "mention_context": "主持人認為整體需求成長與競爭加劇可以並存，並以 Blackwell 平台和光通訊雷射產能說明供電規格提升及關鍵供應的競爭。",
+      "stance": "mixed",
+      "confidence": 0.99
+    },
+    {
+      "name": "台積電",
+      "ticker": "2330",
+      "market": "TW",
+      "entity_type": "company",
+      "mention_context": "主持人把先進製程產能視為晶片供給的限制，並推演客戶可能以長約或預留產線爭取資源。",
+      "stance": "positive",
+      "confidence": 0.98
+    },
+    {
+      "name": "Intel",
+      "ticker": "INTC",
+      "market": "US",
+      "entity_type": "company",
+      "mention_context": "主持人將 Intel 列為可能分擔代工壓力的業者，並區分前段製程的不確定性與後段能力受到關注的情境。",
+      "stance": "mixed",
+      "confidence": 0.96
+    },
+    {
+      "name": "村田製作所",
+      "ticker": null,
+      "market": "OTHER",
+      "entity_type": "company",
+      "mention_context": "主持人以村田和 TDK 為例，提到部分 47 µF 和 22 µF 積層陶瓷電容規格的供應緊張程度。",
+      "stance": "positive",
+      "confidence": 0.97
+    },
+    {
+      "name": "TDK",
+      "ticker": null,
+      "market": "OTHER",
+      "entity_type": "company",
+      "mention_context": "主持人將 TDK 納入高階 MLCC 的供需討論，說明短缺可能集中於特定規格。",
+      "stance": "positive",
+      "confidence": 0.97
+    },
+    {
+      "name": "日本貴彌功（Chemi-Con）",
+      "ticker": null,
+      "market": "OTHER",
+      "entity_type": "company",
+      "mention_context": "主持人以日本電容廠的股價反應說明市場關注度升高，並將股價動能與實際需求分開討論。",
+      "stance": "mixed",
+      "confidence": 0.93
+    },
+    {
+      "name": "被動元件與功率半導體",
+      "ticker": null,
+      "market": null,
+      "entity_type": "industry",
+      "mention_context": "主持人把高密度機櫃的供電櫃列為需求來源，關注高壓 MLCC、牛角型鋁電容、聚合物電容與功率元件的規格和用量。",
+      "stance": "positive",
+      "confidence": 0.99
+    }
+  ],
+  "topics": [
+    {
+      "topic": "模型服務與算力出租的變現路徑",
+      "summary": "主持人從模型廠的獲利消息與算力租賃回收期估計，推演兩種收入來源如何影響硬體投資意願。"
+    },
+    {
+      "topic": "TPU 對外供應與平台競爭",
+      "summary": "主持人認為第三方雲端形式可降低部分客戶的採用顧慮。TPU 對外供應增加，可能加劇加速器平台及上游產能競爭。"
+    },
+    {
+      "topic": "加速器產能從晶圓延伸到封裝與零組件",
+      "summary": "節目討論預留先進製程、封裝、記憶體及光通訊產能的誘因。主持人以光通訊雷射供應為例，推演長期產能承諾如何影響競爭者的交付能力。"
+    },
+    {
+      "topic": "高密度機櫃的供電與被動元件",
+      "summary": "主持人把研究範圍延伸到獨立供電櫃，認為機櫃用電提升可能拉動部分高壓電容、功率半導體及其他供電零件的用量和規格。"
+    },
+    {
+      "topic": "短缺、產能排擠與提前備貨",
+      "summary": "主持人區分需求直接增加的規格、因產線轉移而短缺的成熟規格，以及可能短期備貨的消費級零件，並指出股價上漲可能領先實際量產。"
+    },
+    {
+      "topic": "處置股流動性與供應商協作",
+      "summary": "問答提到處置會改變成交條件及部位進出的難度。另有聽眾反映設備商取得工程資訊更受限制，主持人討論企業保密需求升高對協作的影響。"
+    }
+  ],
+  "market_observations": [
+    {
+      "observation": "主持人將 Anthropic 的獲利消息與 Colossus 1 的出租回收期估計視為當時 AI 硬體投資意願的支撐。",
+      "time_sensitivity": "months",
+      "evidence_type": "source_statement"
+    },
+    {
+      "observation": "主持人以產品生命週期估算 TPU 自用與對外供應約為三比一，並預期外部部署增加會讓加速器業者更積極爭取先進產能。",
+      "time_sensitivity": "months",
+      "evidence_type": "source_statement"
+    },
+    {
+      "observation": "主持人指出高壓 MLCC、牛角型鋁電容及部分功率元件可能隨供電櫃規格升級受惠，同時提到部分廠商當時尚未全面漲價。",
+      "time_sensitivity": "months",
+      "evidence_type": "source_statement"
+    },
+    {
+      "observation": "主持人認為族群股價漲勢提前反映下半年量產預期，並指出提前備貨、終端需求偏弱及量產前空窗可能影響行情。",
+      "time_sensitivity": "weeks",
+      "evidence_type": "source_statement"
+    },
+    {
+      "observation": "可用部署量、租賃利用率、合約期限與折舊假設檢驗算力投資回收期，再用晶圓與封裝交付量核對 TPU 對外供應是否跟上。",
+      "time_sensitivity": "months",
+      "evidence_type": "derived_interpretation"
+    },
+    {
+      "observation": "可按機櫃平台與元件規格比對認證、實際用量、交期與成交報價，區分供電升級形成的持續需求、產能排擠及提前備貨。",
+      "time_sensitivity": "months",
+      "evidence_type": "derived_interpretation"
+    },
+    {
+      "observation": "觀察被動元件漲勢能否轉化為獲利時，可同步檢視訂單兌現、客戶庫存及報價傳導。處置措施也可能讓成交量訊號較難解讀。",
+      "time_sensitivity": "weeks",
+      "evidence_type": "derived_interpretation"
+    }
+  ],
+  "analysis_meta": {
+    "generated_at": "2026-11-27T06:29:17Z",
+    "generator": "ChatGPT Work / scheduled single-episode run / repository Vocus HTTPS extractor",
+    "source_scope": "full_transcript",
+    "review_status": "unreviewed"
+  }
+}
