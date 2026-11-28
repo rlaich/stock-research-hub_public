@@ -1,0 +1,174 @@
+{
+  "schema_version": 1,
+  "episode": {
+    "number": 663,
+    "date": "2026-05-20",
+    "title": "2026-05-20-股癌-EP663-逐字稿"
+  },
+  "source": {
+    "platform": "vocus",
+    "url": "https://vocus.cc/article/6a5bc0eefd89780001f97f7d",
+    "content_stored": false
+  },
+  "analysis": {
+    "relevance": "high",
+    "summary": "本集回顧 2026 年 5 月被動元件報價、產能配置與 AI 題材輪動。主持人以 Panasonic 對部分客戶調價的轉述、現貨採購及高階料交期拉長，推演漲價可能向替代料傳導，並把普遍擴產或 AI 投資放慢列為反轉條件。節目也比較外部研調與主持人對 Google TPU、Broadcom 晶片世代及雙晶粒載板方案的不同推測。問答以台積電技術論壇與光通訊為例，討論股價回檔如何與技術路線並存，以及如何用產業資料和市場反應檢驗消息。客戶調價、供應鏈細節與產品時程均依節目當時的轉述或研判呈現。"
+  },
+  "entities": [
+    {
+      "name": "Panasonic",
+      "ticker": null,
+      "market": "OTHER",
+      "entity_type": "company",
+      "mention_context": "主持人轉述部分客戶收到調價通知，並推測高階需求使廠商有空間減少一般料產量、提高報價。",
+      "stance": "mixed",
+      "confidence": 0.99
+    },
+    {
+      "name": "被動元件",
+      "ticker": null,
+      "market": null,
+      "entity_type": "industry",
+      "mention_context": "主持人追蹤 MLCC、鋁電容、電感及電阻，提到高階料號交期拉長或暫停報價，並以其他廠商是否大幅擴產判斷循環的延續性。",
+      "stance": "positive",
+      "confidence": 0.99
+    },
+    {
+      "name": "台積電",
+      "ticker": "2330",
+      "market": "TW",
+      "entity_type": "company",
+      "mention_context": "主持人用台積電說明有節奏的擴產如何限制供應增加。問答亦談到技術論壇引起的光通訊競爭疑慮。",
+      "stance": "positive",
+      "confidence": 0.98
+    },
+    {
+      "name": "Google",
+      "ticker": null,
+      "market": "US",
+      "entity_type": "company",
+      "mention_context": "主持人以 Google TPU 產品世代討論協力廠分工與封裝設計，將雙晶粒方案列為待確認的供應鏈假設。",
+      "stance": "neutral",
+      "confidence": 0.98
+    },
+    {
+      "name": "Broadcom",
+      "ticker": "AVGO",
+      "market": "US",
+      "entity_type": "company",
+      "mention_context": "主持人認為 Broadcom 在個別 TPU 世代的產品可能有缺口，並推測另有放大規模的雙晶粒方案，其判斷與外部研調存在差異。",
+      "stance": "mixed",
+      "confidence": 0.98
+    },
+    {
+      "name": "聯發科",
+      "ticker": "2454",
+      "market": "TW",
+      "entity_type": "company",
+      "mention_context": "主持人將聯發科與 Broadcom 並列討論數代 TPU 的分工，相關配置屬於節目掌握的供應鏈線索。",
+      "stance": "neutral",
+      "confidence": 0.96
+    },
+    {
+      "name": "SemiAnalysis",
+      "ticker": null,
+      "market": null,
+      "entity_type": "company",
+      "mention_context": "節目提到其報告提出 TPU 晶片世代缺口及可能提前完成設計定案的判斷。主持人表示，對下一步安排看到不同版本。",
+      "stance": "neutral",
+      "confidence": 0.98
+    },
+    {
+      "name": "愛普（AP Memory）",
+      "ticker": null,
+      "market": "TW",
+      "entity_type": "company",
+      "mention_context": "主持人以愛普為例，談到 TPU 曝光提高後，市場重新關注載板內的整合式被動元件。",
+      "stance": "positive",
+      "confidence": 0.96
+    },
+    {
+      "name": "NVIDIA",
+      "ticker": "NVDA",
+      "market": "US",
+      "entity_type": "company",
+      "mention_context": "主持人提出產品路線可能仍按原方向推進，量產配置變化及毛利率低點也可能只是階段性現象。",
+      "stance": "mixed",
+      "confidence": 0.97
+    },
+    {
+      "name": "光通訊供應鏈",
+      "ticker": null,
+      "market": null,
+      "entity_type": "industry",
+      "mention_context": "主持人認為，股價修正與技術論壇引發的競爭疑慮，需要對照產業長期成長及各環節分工。",
+      "stance": "positive",
+      "confidence": 0.98
+    }
+  ],
+  "topics": [
+    {
+      "topic": "被動元件調價與現貨補庫",
+      "summary": "節目以部分客戶收到的調價通知、現貨掃貨與高階料號交期為線索，討論補庫和供不應求如何影響報價、產品搭售及替代料價格。"
+    },
+    {
+      "topic": "產能轉向高階料與循環反轉條件",
+      "summary": "主持人認為高階雲端需求可能讓供應商減少低毛利料號排產，並指出多家廠商同步擴產或 AI 投資降溫會改變供需。"
+    },
+    {
+      "topic": "TPU 世代分工、雙晶粒與載板需求",
+      "summary": "節目比較外部研調的產品時程說法和主持人的雙晶粒載板假設，並提到載板與整合式被動元件的潛在需求。"
+    },
+    {
+      "topic": "AI 族群輪動與光通訊展望",
+      "summary": "主持人把既有 AI 題材走弱放在資金輪動中理解，並以台積電技術論壇討論光通訊供應商的成長及競爭空間。"
+    },
+    {
+      "topic": "市場廣度、處置與研究訊號",
+      "summary": "主持人觀察同族群強弱分化及部分個股進入處置。問答提到，可用廣度與價格對消息的反應對照主觀盤感，並在有財報或事件時集中蒐集資料。"
+    }
+  ],
+  "market_observations": [
+    {
+      "observation": "主持人轉述 Panasonic 對部分客戶發出調價通知，並提到部分高階被動元件的交期拉長或停止報價。",
+      "time_sensitivity": "weeks",
+      "evidence_type": "source_statement"
+    },
+    {
+      "observation": "主持人認為高階雲端訂單會改變一般料的產能配置，若供應商普遍追加產能，漲價與高毛利維持的期間可能縮短。",
+      "time_sensitivity": "months",
+      "evidence_type": "source_statement"
+    },
+    {
+      "observation": "主持人表示，對 Broadcom 接續世代的判斷與 SemiAnalysis 的描述有出入，並提出在載板上整合雙晶粒的可能性。",
+      "time_sensitivity": "months",
+      "evidence_type": "source_statement"
+    },
+    {
+      "observation": "主持人將當時的回檔視為可能的資金輪動，並留意仍有強勢族群及處置對持股流動性的影響。",
+      "time_sensitivity": "weeks",
+      "evidence_type": "source_statement"
+    },
+    {
+      "observation": "可按料號與終端客戶比對成交報價、交期、現貨量及新增產能，分辨持續消耗與短期補庫對供需的貢獻。",
+      "time_sensitivity": "months",
+      "evidence_type": "derived_interpretation"
+    },
+    {
+      "observation": "評估 TPU 封裝方案時，可按世代核對設計定案、封裝驗證與量產進度，再估算載板面積及每顆所需元件的變化。",
+      "time_sensitivity": "months",
+      "evidence_type": "derived_interpretation"
+    },
+    {
+      "observation": "研究族群輪動時，可把同族群成交廣度、處置後成交條件及營收修正放在一起看，辨識價量變化是否伴隨基本面訊號。",
+      "time_sensitivity": "weeks",
+      "evidence_type": "derived_interpretation"
+    }
+  ],
+  "analysis_meta": {
+    "generated_at": "2026-11-28T06:13:49Z",
+    "generator": "ChatGPT Work / scheduled single-episode run / repository Vocus HTTPS extractor",
+    "source_scope": "full_transcript",
+    "review_status": "unreviewed"
+  }
+}
